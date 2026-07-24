@@ -37,6 +37,7 @@ See [`research/09-recommended-stack.md`](research/09-recommended-stack.md) for t
 | [research/07-guest-analytics.md](research/07-guest-analytics.md) | Demographic capture + privacy stance |
 | [research/08-deep-dive-top-5.md](research/08-deep-dive-top-5.md) | Top 5 fork candidates — verdict each |
 | [research/09-recommended-stack.md](research/09-recommended-stack.md) | **Architecture sketch + DDL** |
+| [research/10-async-supplement.md](research/10-async-supplement.md) | 5 additional projects from the async subagent (chefcito, satisfecho, Umi-OCR, AstrBot, Tip_Reconciliation) + refined gaps list |
 
 ---
 
