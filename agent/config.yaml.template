@@ -1,0 +1,24 @@
+# ⚠️  REDACTED COPY — secrets removed
+# ─────────────────────────────────────────────────────────────────────
+# This is a TEMPLATE of the live ~/config.yaml on the agent's host.
+# Real API keys and tokens have been stripped. Never paste secrets into
+# this file — it is committed to a public GitHub repo.
+#
+# The live file (~/config.yaml) contains the actual:
+#   - minimax base_url
+#   - active model identifier
+#   - onboarding flags
+# See the agent's host machine for the real values.
+# ─────────────────────────────────────────────────────────────────────
+
+model:
+  default: MiniMax-M3          # active model identifier (see model provider)
+  provider: minimax            # provider key
+  base_url: https://api.minimax.io/anthropic   # API endpoint
+
+_config_version: 33           # config schema version
+
+onboarding:
+  seen:
+    profile_build_offered: true
+    busy_input_prompt: true

@@ -134,3 +134,4 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 - `docs/PROJECT_CHARTER.md` — full project brief (scope, goals, deliverables, quality bar, risks). Read first.
 - `index.html` (root) — the working mock-up (4 views, mobile-responsive, no build).
 - `backend/` — FastAPI app skeleton (see `backend/README.md`).
+- `agent/` — snapshots of the agent's runtime files (SOUL.md, config.yaml.template, USER.md, MEMORY.md). See [`agent/README.md`](agent/README.md).

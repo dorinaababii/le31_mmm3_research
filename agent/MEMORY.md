@@ -1,0 +1,3 @@
+Collaboration style: prefers the simplest path over the most secure-correct path. Will explicitly push back when overcomplicating (e.g. "you overcomplicate the access"). Match their simplification without adding ceremony, but note security trade-offs briefly.
+§
+Hermes operational fact: this machine has GitHub PAT in ~/.env (HERMES_GITHUB_TOKEN), README.md/.gitignore at ~/le31_mmm3_research/, git identity set to "Hermes Agent <hermes-agent@nousresearch.local>". Use the existing token via x-access-token clone URL for write access; don't ask again unless the token expires.

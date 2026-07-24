@@ -3,6 +3,15 @@
 *.pem
 *.key
 
+# Agent live config (host-only; template is in agent/config.yaml.template)
+# If the agent ever writes a live config or env into this folder by accident,
+# these rules catch it. The committed snapshots have different names (USER.md,
+# MEMORY.md, SOUL.md, *.template).
+agent/config.yaml
+agent/config.yml
+agent/.env
+agent/*.secret
+
 # Python
 __pycache__/
 *.pyc

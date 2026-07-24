@@ -1,0 +1,5 @@
+Writing style: non-native English speaker, occasional typos and German-flavored phrasing. Direct, low tolerance for ceremony. Prefers step-by-step commands over prose explanations.
+§
+Workflow preference: for multi-step work, wants GitHub repo as the source of truth, Markdown files for research/design, and push-to-git as progress happens so they can see state. Prefers index.html mock-ups before writing backend code.
+§
+User is dorinaababii (GitHub), works on restaurant-tech / restaurant apps. Speaks fluent English but with European phrasing (uses "alright", "solved"). Owns a small restaurant project (le31_mmm3_research on GitHub, MiniMax class M3). French/European context — chose Paris-time scheduling, EU-style features (no service charge decision pending, EUR currency). Comfortable with technical detail (asked for subagent delegation, branching, PAT auth). Prefers terse explanations, dislikes menus/lists of options to pick from.
