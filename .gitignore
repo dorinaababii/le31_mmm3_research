@@ -1,0 +1,19 @@
+# .env (GitHub PAT, API keys) — NEVER commit
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
