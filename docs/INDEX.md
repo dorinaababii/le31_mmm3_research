@@ -40,6 +40,7 @@ See [`research/09-recommended-stack.md`](research/09-recommended-stack.md) for t
 | [research/09-recommended-stack.md](research/09-recommended-stack.md) | **Architecture sketch + DDL** |
 | [research/10-async-supplement.md](research/10-async-supplement.md) | 5 additional projects from the async subagent (chefcito, satisfecho, Umi-OCR, AstrBot, Tip_Reconciliation) + refined gaps list |
 | [research/11-adjacent-categories-summary.md](research/11-adjacent-categories-summary.md) | v2 feature ideas — 10 new feature specs driven by owner-pains + AI/ML + adjacent OSS research |
+| [research/12-ai-ml-summary.md](research/12-ai-ml-summary.md) | AI/ML extensions — menu engineering, waste prediction, recipe generation, sentiment analysis |
 
 ---
 
@@ -72,6 +73,15 @@ Priority: 🟢 high, 🟡 medium, ⚪ low.
 | 16 | Supplier orders & receiving | [features/16-supplier-orders.md](features/16-supplier-orders.md) | ⚪ | Closes the inventory loop |
 | 17 | ML demand forecasting | [features/17-demand-forecasting-ml.md](features/17-demand-forecasting-ml.md) | ⚪ | Prophet / NeuralForecast — needs 4+ weeks history |
 | 18 | Gift cards & store credit | [features/18-gift-cards.md](features/18-gift-cards.md) | ⚪ | Append-only ledger pattern |
+
+**v2 AI/ML features (research complete):**
+
+| # | Feature | File | Priority | Notes |
+|---|---|---|---|---|
+| 19 | Menu engineering (Kasavana-Smith) | [features/19-menu-engineering.md](features/19-menu-engineering.md) | 🟡 | **Top AI/ML pick** — 2-3 days, pure SQL |
+| 20 | Waste prediction | [features/20-waste-prediction.md](features/20-waste-prediction.md) | 🟡 | Uses prepared-item ledger; 5-10% food cost reduction |
+| 21 | Recipe generation from leftovers | [features/21-recipe-generation.md](features/21-recipe-generation.md) | 🟡 | Local Qwen2.5-3B; "wow" demo |
+| 22 | Sentiment analysis of reviews | [features/22-sentiment-analysis.md](features/22-sentiment-analysis.md) | ⚪ | "Weekend polish" — defer |
 
 ---
 
