@@ -2,7 +2,7 @@
 
 > **Status**: Research phase complete. Mock-up built. Backend skeleton in place.
 > **Next**: Implementation phase — features 02 → 07 in `docs/INDEX.md` order.
-> **Hand-off**: see [`HANDOFF.md`](HANDOFF.md) and the ready-to-paste [`KIMI_K5_PROMPT.md`](KIMI_K5_PROMPT.md).
+> **Start here** (if you're the next agent): [`PROJECT_CHARTER.md`](PROJECT_CHARTER.md) → [`HANDOFF.md`](HANDOFF.md) → [`KIMI_K5_PROMPT.md`](KIMI_K5_PROMPT.md).
 
 ---
 
@@ -93,5 +93,6 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 - `docs/features/` — one file per feature with Goal / Scope / Description / Data Model / Dependencies / Open Questions.
 - `docs/HANDOFF.md` — repo tour + build order + constraints (read this if picking up).
 - `docs/KIMI_K5_PROMPT.md` — ready-to-paste prompt for the next coding agent.
+- `docs/PROJECT_CHARTER.md` — full project brief (scope, goals, deliverables, quality bar, risks). Read first.
 - `index.html` (root) — the working mock-up (4 views, mobile-responsive, no build).
 - `backend/` — FastAPI app skeleton (see `backend/README.md`).
