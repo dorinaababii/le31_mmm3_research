@@ -14,32 +14,38 @@ A `index.html` mock-up comes first; the real app follows.
 ## Folder layout
 
 ```
-docs/
-├── INDEX.md              ← you are here (start)
-├── research/             ← broad survey of existing projects
-│   ├── pos-systems.md
-│   ├── kitchen-display.md
-│   ├── inventory-stock.md
-│   ├── menu-ocr.md
-│   ├── telegram-bots.md
-│   ├── payments-tips.md
-│   └── guest-analytics.md
-└── features/             ← one .md per feature/extension we could build
-    ├── 01-table-management.md
-    ├── 02-order-taking.md
-    ├── 03-kitchen-stock-tracker.md
-    ├── 04-menu-photo-bot.md
-    ├── 05-payment-tip-reconciliation.md
-    ├── 06-guest-demographics.md
-    ├── 07-demand-estimation.md
-    └── 08-index-mockup.md
-scripts/                  ← helper scripts (build, lint, etc.)
+.
+├── README.md                       ← this file
+├── index.html                      ← ⭐ working mock-up (open in browser)
+├── docs/
+│   ├── INDEX.md                    ← master index + build order
+│   ├── HANDOFF.md                  ← repo tour + what to build next
+│   ├── KIMI_K5_PROMPT.md           ← ready-to-paste prompt for the next agent
+│   ├── research/   (11 files)      ← broad survey + deep-dive + supplement
+│   └── features/   (8 files)       ← one per feature: Goal / Scope / Data Model
+├── backend/                        ← ⭐ FastAPI + SQLModel + aiogram skeleton
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── .env.example
+│   └── app/
+│       ├── main.py / config.py / db.py / models.py
+│       ├── routers/tables.py       ← Feature 01 (working)
+│       └── bot/cook_bot.py         ← Feature 04 (stub)
+└── scripts/                        ← helper scripts (add as needed)
 ```
 
 ## Status
 
-- [ ] Broad sweep research (running)
-- [ ] Deep-dive on top 3–5 open-source projects to fork/extend
-- [ ] Per-feature Markdown files with Goal / Scope / Description / Data Model / Dependencies / Open Questions
-- [ ] `INDEX.md` with priority ranking
-- [ ] First commit & push
+- [x] Broad sweep research (11 files in `docs/research/`)
+- [x] Deep-dive on top 5 open-source projects
+- [x] Per-feature Markdown files (8 files in `docs/features/`)
+- [x] `INDEX.md` with priority ranking + build order
+- [x] `HANDOFF.md` for the next agent
+- [x] `index.html` mock-up (4 views, mobile-responsive)
+- [x] Backend skeleton (FastAPI + SQLModel + aiogram stub)
+- [ ] Feature 02 — Order router
+- [ ] Feature 03 — Stock tracker
+- [ ] Feature 04 — Menu photo OCR
+- [ ] Feature 05 — Payment + tip
+- [ ] Feature 06 — Reports
+- [ ] Feature 07 — Demand estimation

@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlmodel>=0.0.22
+pydantic-settings>=2.5
+aiogram>=3.13
+aiosqlite>=0.20           # for SQLite dev mode
+psycopg[binary]>=3.2      # for Postgres prod
+alembic>=1.13             # DB migrations
+python-multipart>=0.0.18  # file uploads
+Pillow>=10.4              # image preprocessing for OCR
+rapidocr-onnxruntime>=1.3 # menu photo OCR
+httpx>=0.27               # LLM API calls
