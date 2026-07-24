@@ -39,6 +39,7 @@ See [`research/09-recommended-stack.md`](research/09-recommended-stack.md) for t
 | [research/08-deep-dive-top-5.md](research/08-deep-dive-top-5.md) | Top 5 fork candidates — verdict each |
 | [research/09-recommended-stack.md](research/09-recommended-stack.md) | **Architecture sketch + DDL** |
 | [research/10-async-supplement.md](research/10-async-supplement.md) | 5 additional projects from the async subagent (chefcito, satisfecho, Umi-OCR, AstrBot, Tip_Reconciliation) + refined gaps list |
+| [research/11-adjacent-categories-summary.md](research/11-adjacent-categories-summary.md) | v2 feature ideas — 10 new feature specs driven by owner-pains + AI/ML + adjacent OSS research |
 
 ---
 
@@ -57,6 +58,21 @@ Priority: 🟢 high, 🟡 medium, ⚪ low.
 | 07 | Demand estimation | [features/07-demand-estimation.md](features/07-demand-estimation.md) | 🟡 | Simple 14-day average + 10 % buffer |
 | 08 | index.html mock-up | [features/08-index-mockup.md](features/08-index-mockup.md) | 🟢 | **Build this first** — visualizes 01–03 + 06 |
 
+**v2 features (research complete, awaiting build decision):**
+
+| # | Feature | File | Priority | Notes |
+|---|---|---|---|---|
+| 09 | Kitchen delay visibility | [features/09-kitchen-delay-visibility.md](features/09-kitchen-delay-visibility.md) | 🟢 | **Top v2 pick** — uses existing timestamps, no new deps |
+| 10 | Allergen & dietary tracking | [features/10-allergen-tracking.md](features/10-allergen-tracking.md) | 🟢 | EUFIC 14-allergen standard |
+| 11 | QR customer menu | [features/11-customer-qr-menu.md](features/11-customer-qr-menu.md) | 🟢 | Live stock display = differentiator |
+| 12 | Pre-shift briefing | [features/12-pre-shift-briefing.md](features/12-pre-shift-briefing.md) | ⚪ | Cheapest feature in backlog (1–3 days) |
+| 13 | Reservations & deposits | [features/13-reservations-deposits.md](features/13-reservations-deposits.md) | ⚪ | First feature touching real money (Stripe) |
+| 14 | Split bills | [features/14-split-bills.md](features/14-split-bills.md) | 🟢 | #2 most-requested owner feature |
+| 15 | Inventory variance | [features/15-inventory-variance.md](features/15-inventory-variance.md) | ⚪ | Builds on feature 03 ledger; data-discipline heavy |
+| 16 | Supplier orders & receiving | [features/16-supplier-orders.md](features/16-supplier-orders.md) | ⚪ | Closes the inventory loop |
+| 17 | ML demand forecasting | [features/17-demand-forecasting-ml.md](features/17-demand-forecasting-ml.md) | ⚪ | Prophet / NeuralForecast — needs 4+ weeks history |
+| 18 | Gift cards & store credit | [features/18-gift-cards.md](features/18-gift-cards.md) | ⚪ | Append-only ledger pattern |
+
 ---
 
 ## Suggested build order
@@ -70,6 +86,18 @@ Priority: 🟢 high, 🟡 medium, ⚪ low.
 6. **Payment + tip** (05) — bill, derived tip, shift close.
 7. **Reports** (06) — manager dashboard.
 8. **Demand estimation** (07) — once we have 14 days of data.
+
+**v2 build order (after v1 ships):**
+
+1. **Kitchen delay visibility** (09) — 5 days, no new deps. Uses existing timestamps.
+2. **Pre-shift briefing** (12) — 2 days, Telegram-native. Cheapest win.
+3. **Split bills** (14) — 5 days for ledger + UI; defer terminal integration.
+4. **Allergen tracking** (10) — 4 days; needed before customer-facing menu.
+5. **QR customer menu** (11) — 5 days; builds on allergen + stock display.
+6. **Reservations** (13) — 7 days; first feature touching real money (Stripe).
+7. **ML forecasting** (17) — 2 days to integrate Prophet; needs 4+ weeks of data first.
+8. **Inventory variance** (15) + **Supplier orders** (16) — build together, ~3 weeks.
+9. **Gift cards** (18) — 1 week. Append-only ledger pattern.
 
 ---
 
