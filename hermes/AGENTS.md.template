@@ -1,0 +1,43 @@
+# Project Context
+
+> Copy this file to the root of a project as `AGENTS.md` and fill in the
+> bracketed sections. It loads automatically whenever you work in this
+> directory. Global rules that apply everywhere already live in `SOUL.md` —
+> don't repeat them here, only add what's specific to this project.
+
+## What this project is
+
+[One or two sentences: what it does, who it's for.]
+
+## Structure
+
+[Where the main pieces live — e.g. "API in /backend, UI in /frontend,
+migrations in /backend/migrations".]
+
+## Stack
+
+[Languages, frameworks, key libraries, database.]
+
+## Conventions
+
+[Anything a generic rule wouldn't tell you: naming, testing patterns, how
+this project's CI is wired up, deploy targets.]
+
+## Workflow for this project
+
+Follow the `development` skill for all code changes in this repo. That skill
+routes through specify → plan → tasks → implement → `pre-merge-review`, sized
+to how big the change actually is.
+
+- Spec/plan/task storage for this project: [Linear project name, or a local
+  `specs/` directory if Linear isn't wired up here — say which.]
+- Pre-merge review requirement: [green CI + independent review before merge
+  to main, per SOUL.md — note any project-specific exception here, or leave
+  as default.]
+- Migrations: [if this project has a database, note whether migrations need
+  manual application after merge and how to apply them.]
+
+## Important notes
+
+[Anything that would surprise a new contributor — a footgun, a non-obvious
+constraint, a thing that looks like a bug but isn't.]
