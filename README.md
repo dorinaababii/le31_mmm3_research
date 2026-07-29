@@ -36,9 +36,9 @@ A `index.html` mock-up comes first; the real app follows.
 
 ## Status
 
-- [x] Broad sweep research (11 files in `docs/research/`)
+- [x] Broad sweep research (11 files in `research/`)
 - [x] Deep-dive on top 5 open-source projects
-- [x] Per-feature Markdown files (8 files in `docs/features/`)
+- [x] Per-feature Markdown files (8 files in `features/`)
 - [x] `INDEX.md` with priority ranking + build order
 - [x] `HANDOFF.md` for the next agent
 - [x] `index.html` mock-up (4 views, mobile-responsive)
