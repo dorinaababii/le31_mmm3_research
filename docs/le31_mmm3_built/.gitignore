@@ -1,0 +1,26 @@
+# Recommended gitignore when staging files into the new repo
+# This file is only a reference; the actual gitignore lives in the new repo.
+
+# environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# data and caches
+*.db
+*.sqlite3
+/tmp/le31-*/
+
+# IDE
+.vscode/
+.idea/
+
+# Hermes runtime
+hermes-cache/
+logs/
+
+# skill pack artefacts loaded from research repo, do not commit twice in build repo
+/coding-agent/skills/
