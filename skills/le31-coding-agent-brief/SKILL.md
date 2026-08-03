@@ -68,14 +68,14 @@ Load the LE31 build package before any code.
 
 You are building slice <id> for the LE31 restaurant app.
 Package: <repo-path>/<slug>-HANDOFF.md
-Feature contract: <repo-path>/docs/features/<file>.md
+Feature contract: <repo-path>/features/<file>.md
 
 Read first, in this order:
-1. <repo-path>/docs/PROJECT_CHARTER.md
-2. <repo-path>/docs/HANDOFF.md
-3. <repo-path>/docs/features/<file>.md
-4. <repo-path>/hermes/skills/le31/le31-conventions/SKILL.md
-5. <repo-path>/hermes/skills/le31/le31-v1-feature-pattern/SKILL.md
+1. <repo-path>/PROJECT_CHARTER.md
+2. <repo-path>/HANDOFF.md
+3. <repo-path>/features/<file>.md
+4. <repo-path>/skills/le31-conventions/SKILL.md
+5. <repo-path>/skills/le31-v1-feature-pattern/SKILL.md
 6. Add only the LE31 skills named in <slug>-HANDOFF.md.
 7. <repo-path>/<slug>-HANDOFF.md
 

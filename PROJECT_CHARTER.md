@@ -89,7 +89,7 @@ These were considered and **deliberately excluded** to keep v1 shippable:
 
 ### 3.3 Open scope questions (blockers for some features)
 
-These are listed in `docs/INDEX.md`. Decisions needed before code starts:
+These are listed in `INDEX.md`. Decisions needed before code starts:
 
 1. **Menu language** — drives OCR engine (PaddleOCR for CJK, RapidOCR for EU).
 2. **Currency** — EUR / USD / other? Affects display formatting.
@@ -116,7 +116,7 @@ Defaults if user doesn't answer: English menus, EUR, flat 10% tax, tablet UI, no
 
 ### 4.2 Schema overview
 
-See [`docs/research/09-recommended-stack.md`](research/09-recommended-stack.md)
+See [`research/09-recommended-stack.md`](research/09-recommended-stack.md)
 for the full DDL sketch. The SQLModel classes already exist in
 [`backend/app/models.py`](../backend/app/models.py). Tables:
 
@@ -217,7 +217,7 @@ When you say "done", the repo must contain:
 
 1. **All P0 features** implemented end-to-end (sections 5).
 2. **All P1 features** working with at least manual test coverage.
-3. **Updated `docs/INDEX.md`** with the checklist marked off.
+3. **Updated `INDEX.md`** with the checklist marked off.
 4. **A short "what I built" note** committed at the end, describing:
    - which features shipped,
    - which open questions (section 3.3) you answered with what default,
@@ -238,7 +238,7 @@ When you say "done", the repo must contain:
 ## 8. Verification protocol (use this for each feature)
 
 ```
-1. Re-read the feature spec at docs/features/0X-*.md
+1. Re-read the feature spec at features/0X-*.md
 2. Implement model (if new) in backend/app/models.py
 3. Implement router in backend/app/routers/X.py
 4. Wire bot handlers (if applicable) in backend/app/bot/cook_bot.py
@@ -248,7 +248,7 @@ When you say "done", the repo must contain:
 8. Open http://localhost:8000/ — confirm UI behavior (if any)
 9. Inspect SQLite: sqlite3 backend/restaurant.db ".schema" + ".tables"
 10. git add -p && git commit -m "Feature 0X: <short description>"
-11. Tick the box in docs/INDEX.md
+11. Tick the box in INDEX.md
 ```
 
 ## 9. Communication & cadence
@@ -280,7 +280,7 @@ By starting work, you accept:
 - The quality bar in section 7.
 
 If any of this is unclear, **ask before coding**. The doc tour in
-`docs/HANDOFF.md` and the feature specs in `docs/features/` are the
+`HANDOFF.md` and the feature specs in `features/` are the
 authoritative contracts; this charter is the high-level framing.
 
 Good luck. Ship the P0 list first.

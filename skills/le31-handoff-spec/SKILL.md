@@ -30,7 +30,7 @@ Do not use for in-session implementation by the same Hermes instance. Do not use
 Before producing a handoff, the package must include:
 
 - LE31 feature gate verdict for this slice.
-- The matching `docs/features/<id>-<name>.md` contract.
+- The matching `features/<id>-<name>.md` contract.
 - Conflicting or resolved charter questions that affect the slice.
 - The mandatory LE31 skill list the external agent must load.
 - Trigger policy and disambiguation text for the external agent.

@@ -23,7 +23,7 @@ Use for every LE31 feature proposal, research question, specification, plan, imp
 ## Source-of-truth order
 
 1. Current explicit user decision.
-2. `docs/PROJECT_CHARTER.md` and the matching `docs/features/*.md` contract.
+2. `PROJECT_CHARTER.md` and the matching `features/*.md` contract.
 3. Current repository behavior and tests.
 4. Linear for task status and durable decisions.
 5. Research reports for evidence, never as automatic product requirements.

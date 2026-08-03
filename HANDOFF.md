@@ -43,7 +43,7 @@ le31_mmm3_research/
 
 ## What's done
 
-✅ **Research phase** — broad survey + deep-dive of 30+ open-source projects, written-up as Markdown. See `docs/research/00-landscape-overview.md` for the verdict and `09-recommended-stack.md` for the architecture.
+✅ **Research phase** — broad survey + deep-dive of 30+ open-source projects, written-up as Markdown. See `research/00-landscape-overview.md` for the verdict and `09-recommended-stack.md` for the architecture.
 
 ✅ **Mock-up** — `index.html` is a single self-contained HTML file showing 4 views:
 - **Floor**: table grid with status colors (free/seated/ordered/billed/dirty)
@@ -55,17 +55,17 @@ le31_mmm3_research/
 
 ## What's NOT done (the next agent's job)
 
-Listed in priority order. See `docs/INDEX.md` for the full roadmap.
+Listed in priority order. See `INDEX.md` for the full roadmap.
 
 | # | Feature | Doc | Where it lives |
 |---|---|---|---|
-| 02 | Order taking | `docs/features/02-order-taking.md` | `backend/app/routers/orders.py` (new) |
-| 03 | Kitchen stock tracker | `docs/features/03-kitchen-stock-tracker.md` | `backend/app/routers/stock.py` (new) + integration into order close |
-| 04 | Menu photo OCR | `docs/features/04-menu-photo-bot.md` | `backend/app/bot/cook_bot.py` (extend) + `backend/app/ocr/` (new) |
-| 05 | Payment + tip | `docs/features/05-payment-tip-reconciliation.md` | `backend/app/routers/bills.py` (new) |
-| 06 | Guest demographics + reports | `docs/features/06-guest-demographics.md` | `backend/app/routers/reports.py` (new) |
-| 07 | Demand estimation | `docs/features/07-demand-estimation.md` | `backend/app/services/forecast.py` (new) |
-| 08 | index.html mock-up | `docs/features/08-index-mockup.md` | `index.html` (extend / replace) |
+| 02 | Order taking | `features/02-order-taking.md` | `backend/app/routers/orders.py` (new) |
+| 03 | Kitchen stock tracker | `features/03-kitchen-stock-tracker.md` | `backend/app/routers/stock.py` (new) + integration into order close |
+| 04 | Menu photo OCR | `features/04-menu-photo-bot.md` | `backend/app/bot/cook_bot.py` (extend) + `backend/app/ocr/` (new) |
+| 05 | Payment + tip | `features/05-payment-tip-reconciliation.md` | `backend/app/routers/bills.py` (new) |
+| 06 | Guest demographics + reports | `features/06-guest-demographics.md` | `backend/app/routers/reports.py` (new) |
+| 07 | Demand estimation | `features/07-demand-estimation.md` | `backend/app/services/forecast.py` (new) |
+| 08 | index.html mock-up | `features/08-index-mockup.md` | `index.html` (extend / replace) |
 
 ## Architectural decisions already made
 
@@ -101,7 +101,7 @@ Then:
 
 ## Open questions still waiting on the user
 
-These are in `docs/INDEX.md` under "Open questions for the user":
+These are in `INDEX.md` under "Open questions for the user":
 
 1. Menu language (drives OCR engine)
 2. Currency (single or multi)
@@ -116,9 +116,9 @@ Defaults are listed in the INDEX; ask the user only if a decision is needed for 
 ## What "good" looks like for the next agent
 
 - Implement features in the order above (02 → 03 → 04 → 05 → 06 → 07).
-- For each feature: read its spec file first (`docs/features/0X-*.md`).
+- For each feature: read its spec file first (`features/0X-*.md`).
 - Wire it end-to-end before moving on: DB model → router → bot integration → tested manually.
-- Update `docs/INDEX.md` to check off the feature when done.
+- Update `INDEX.md` to check off the feature when done.
 - Push commits frequently; each commit should reference the feature ID.
 
 ## What NOT to do

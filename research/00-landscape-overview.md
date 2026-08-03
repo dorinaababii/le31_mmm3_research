@@ -19,7 +19,7 @@ The closest open-source projects cluster into three groups:
 
 The recommended path is to **build a thin Python/FastAPI app + Telegram bot that
 composes a few existing libraries**, rather than fork any of the heavy POS
-projects. See `docs/research/09-recommended-stack.md` for the architecture sketch.
+projects. See `research/09-recommended-stack.md` for the architecture sketch.
 
 ---
 

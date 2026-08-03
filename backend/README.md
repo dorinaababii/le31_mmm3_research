@@ -39,7 +39,7 @@ backend/
 ## Schema
 
 Models in `app/models.py` mirror the DDL sketch in
-[`../docs/research/09-recommended-stack.md`](../docs/research/09-recommended-stack.md).
+[`../research/09-recommended-stack.md`](../research/09-recommended-stack.md).
 See that file for the full entity-relationship picture.
 
 Key tables:
@@ -52,7 +52,7 @@ Key tables:
 
 What's done: skeleton, models, basic tables router, bot stub.
 
-What to build next (priority order — see `../docs/INDEX.md` for full list):
+What to build next (priority order — see `../INDEX.md` for full list):
 1. **Feature 02** — Order router: add/update/bump order items
 2. **Feature 03** — Stock router: post StockEntry on order close, mark sold-out
 3. **Feature 04** — Wire up menu photo OCR in `cook_bot.py`

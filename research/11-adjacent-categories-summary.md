@@ -14,7 +14,7 @@ most owner-hours per week".
 
 ## The 10 new feature ideas (09–18)
 
-Each gets its own detailed spec file in `docs/features/`. Priority ranking
+Each gets its own detailed spec file in `features/`. Priority ranking
 based on owner-pains research × effort-to-impact ratio:
 
 | # | Feature | Priority | Effort | Source |

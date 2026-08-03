@@ -18,16 +18,16 @@ machine.
 
 ```
 README.md                                         ← project pitch
-docs/INDEX.md                                     ← master index, build order
-docs/HANDOFF.md                                   ← ⭐ the document you must read first
-docs/research/09-recommended-stack.md             ← architecture + DDL sketch
-docs/research/00-landscape-overview.md            ← why we're building fresh
-docs/features/02-order-taking.md                  ← Feature 02 spec
-docs/features/03-kitchen-stock-tracker.md          ← Feature 03 spec (the killer one)
-docs/features/04-menu-photo-bot.md                ← Feature 04 spec (OCR + Telegram)
-docs/features/05-payment-tip-reconciliation.md    ← Feature 05 spec
-docs/features/06-guest-demographics.md            ← Feature 06 spec
-docs/features/07-demand-estimation.md             ← Feature 07 spec
+INDEX.md                                     ← master index, build order
+HANDOFF.md                                   ← ⭐ the document you must read first
+research/09-recommended-stack.md             ← architecture + DDL sketch
+research/00-landscape-overview.md            ← why we're building fresh
+features/02-order-taking.md                  ← Feature 02 spec
+features/03-kitchen-stock-tracker.md          ← Feature 03 spec (the killer one)
+features/04-menu-photo-bot.md                ← Feature 04 spec (OCR + Telegram)
+features/05-payment-tip-reconciliation.md    ← Feature 05 spec
+features/06-guest-demographics.md            ← Feature 06 spec
+features/07-demand-estimation.md             ← Feature 07 spec
 backend/README.md                                 ← backend setup
 backend/app/models.py                             ← existing SQLModel schema
 backend/app/main.py                               ← existing FastAPI app
@@ -43,7 +43,7 @@ backend/app/bot/cook_bot.py                       ← bot stub
 
 ## 3. What you build — in this order
 
-The features are already prioritized in `docs/INDEX.md`. Build them in this order:
+The features are already prioritized in `INDEX.md`. Build them in this order:
 
 1. **Feature 02** — Order router (`backend/app/routers/orders.py`)
 2. **Feature 03** — Stock router (`backend/app/routers/stock.py`) + wire into order close
@@ -53,9 +53,9 @@ The features are already prioritized in `docs/INDEX.md`. Build them in this orde
 6. **Feature 07** — Forecast service (`backend/app/services/forecast.py`)
 
 For each feature:
-- Re-read its spec file in `docs/features/`.
+- Re-read its spec file in `features/`.
 - Implement end-to-end: model (if new) → router → bot integration (if applicable) → test manually with `curl` or the mock-up.
-- Check it off in `docs/INDEX.md`.
+- Check it off in `INDEX.md`.
 - Commit & push to GitHub.
 
 ## 4. Hard constraints (do NOT violate)
@@ -101,9 +101,9 @@ For each feature:
 ## 8. When you're stuck
 
 - **Re-read the spec file** — they're written as contracts, not suggestions.
-- **Check `docs/research/`** — the architecture & rationale is documented.
+- **Check `research/`** — the architecture & rationale is documented.
 - **Look at `backend/app/routers/tables.py`** — it shows the conventions for a working router.
-- **Ask the user** the open questions in `docs/INDEX.md` only if a decision is blocking you. Otherwise use the defaults.
+- **Ask the user** the open questions in `INDEX.md` only if a decision is blocking you. Otherwise use the defaults.
 
 ## 9. Don't
 
@@ -118,8 +118,8 @@ For each feature:
 
 Copy everything between the `---` markers and paste it into Kimi K5 as the system or first user message. If Kimi supports a project-files context, attach:
 
-- `docs/HANDOFF.md`
-- `docs/INDEX.md`
+- `HANDOFF.md`
+- `INDEX.md`
 - `backend/README.md`
 
 So it has the contract in front of it from turn 1.
