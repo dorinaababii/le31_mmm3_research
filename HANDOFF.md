@@ -133,3 +133,12 @@ Defaults are listed in the INDEX; ask the user only if a decision is needed for 
 ## Contact
 
 Project owner: dorinaababii (github). Repo: https://github.com/dorinaababii/le31_mmm3_research
+
+## Daily run (cron `le31-daily-research`, 08:00 Europe/Zurich)
+
+- Skills: `skills/le31-daily-research/SKILL.md` and `skills/le31-feature-pipeline/SKILL.md`.
+- Report path template: `/opt/data/le31-daily-research-YYYY-MM-DD.md`.
+- Index file updated each run: `/opt/data/INDEX.md`.
+- Linear research index issue: project `le31 Research`, title `Research YYYY-MM-DD — daily`, status `Done`. Body has short summary plus file path.
+- Branch writes go to `main`. Daily commit lands here; review by inspecting the new commit.
+- Telegram delivery: this chat, short update only.
