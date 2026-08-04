@@ -24,6 +24,7 @@ Daily 08:00 Europe/Zurich pass that scans restaurant-tech and the LE31 tech stac
 ## Procedure
 
 1. Confirm the date and the working directory.
+2. **Schedule caveat (timezone)**: the cron job is stored in UTC. To fire at **08:00 Europe/Zurich** the cron expression is `30 6 * * *` UTC (DST-aware). If the operator's timezone changes, update the cron schedule first; do not rely on Hermes to translate.
 2. Delegate the fetch+research to a subagent using raw curl (no browser). Sources allowed:
    - HN Algolia `search_by_date`, 7-day window
    - arXiv API
