@@ -142,3 +142,13 @@ Project owner: dorinaababii (github). Repo: https://github.com/dorinaababii/le31
 - Linear research index issue: project `le31 Research`, title `Research YYYY-MM-DD — daily`, status `Done`. Body has short summary plus file path.
 - Branch writes go to `main`. Daily commit lands here; review by inspecting the new commit.
 - Telegram delivery: this chat, short update only.
+
+## Daily brainstorm (cron `le31-daily-brainstorm`, 08:00 Europe/Zurich)
+
+- Skill: `skills/le31-daily-brainstorm/SKILL.md`.
+- Report path template: `/opt/data/le31-brainstorm-YYYY-MM-DD.md`.
+- INDEX updated under the same log.
+- Linear research index: project `le31 Research`, title `Brainstorm YYYY-MM-DD — daily`, status `Done`.
+- Branch writes go to `main`.
+- Telegram delivery: this chat, short headline plus three picks or `signal: none`.
+- Quality-gated: quiet days produce a `No new signal` report, not invented picks.
