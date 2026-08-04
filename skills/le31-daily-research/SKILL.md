@@ -58,6 +58,18 @@ Daily 08:00 Europe/Zurich pass that scans restaurant-tech and the LE31 tech stac
 - Do not start Linear issues for "v2-AI" picks unless explicitly scoped as v2-AI in the original prompt.
 - Treat the report file as the source of truth. The Linear issue is the index.
 
+## No-signal handling
+
+If the source mix returns nothing in-window (e.g. `nbHits: 0` from HN Algolia and no relevant arXiv/OpenAlex hits), the report must still be produced, but:
+
+- the headline reads `No new signal — sources quiet on YYYY-MM-DD`,
+- the `## Restaurant-tech findings` and `## Stack-relevant findings` sections list each source family and the count returned,
+- the `## Three feature picks` section says `No new picks today; previously queued picks remain active` and references the active pipeline,
+- the Telegram delivery is the same short shape but with `signal: none` instead of three slugs,
+- the cron does not invent a fake pick to fill the quota.
+
+Quiet days are valid output, not a failure.
+
 ## Verification checklist
 
 - [ ] Report file exists and was read back.
