@@ -10,8 +10,13 @@
 - Slug: `uvicorn-0-52-pin`
 - Contract file: `features/27-uvicorn-0-52-pin.md`
 - Bucket: v1 ops (one-line pin; no code, no schema)
-- Linear parent: HMM-20 (Research 2026-08-04 — daily)
-- Linear sub-issue: see `le31 v1 — Core MVP` project, label `Feature`
+- **Linear parent: HMM-20 (Research 2026-08-04 — daily)**
+- **Linear sub-issue: HMM-23, `le31 v1 — Core MVP` project, label `Feature`**
+- **Patch (2026-08-05, Pick C)**: the parent of this slice is now also
+  referenced by HMM-28 (Research 2026-08-05 — daily) as a carry-over
+  with a one-line doc note about the `encode/uvicorn` →
+  `Kludex/uvicorn` repo transfer. See `specs/uvicorn-0-52-pin-HANDOFF.md`
+  for the matching patch. No code change.
 
 ## LE31 feature-gate verdict (recorded)
 
@@ -97,5 +102,12 @@ behave as described.
 External coding agent must mirror the five frozen identifiers
 (Feature ID, slug, contract file path, bucket, Linear parent HMM-20)
 back to the research-side Hermes before implementing. If any of
-these conflict with what the agent sees locally, **stop and ask** —
-do not silently rename.
+these conflict with what the agent sees locally, **stop and ask** — do
+not silently rename.
+
+> **Patch (2026-08-05, Pick C)**: the uvicorn GitHub repository moved
+> from `encode/uvicorn` to `Kludex/uvicorn`. The release.atom URL is now
+> `https://github.com/Kludex/uvicorn/releases.atom`. The PyPI pin is
+> unaffected. No code change. If the coding agent uses any
+> GitHub-watch URL in CI, badges, or release notes, update it to the
+> `Kludex/uvicorn` path.

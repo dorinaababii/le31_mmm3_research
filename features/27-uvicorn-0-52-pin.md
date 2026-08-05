@@ -41,6 +41,14 @@ session after Pick A is shipped.
 The change is one line in `requirements.txt` plus a one-line README
 update. No code changes. No schema change. No migration.
 
+> **Patch (2026-08-05, Pick C)**: The uvicorn GitHub repository
+> transferred from `encode/uvicorn` to `Kludex/uvicorn`. The release.atom
+> URL is now `https://github.com/Kludex/uvicorn/releases.atom`. The PyPI
+> package is unchanged; `uvicorn>=0.52.0` (or `uvicorn~=0.52.1`) in
+> `backend/requirements.txt` continues to work from PyPI. No code or pin
+> change required; this note only updates the GitHub-watch reference in
+> any docs that point to the old `encode/uvicorn` path.
+
 ## Data model
 
 None. This is a dependency pin only.
