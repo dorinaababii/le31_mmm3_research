@@ -147,6 +147,7 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 | 2026-08-06 | `void-rationale-ledger-field`, `cook-voice-note-to-stockentry`, `owner-daily-recap-telegram` | 37/38/39 | [`/opt/data/le31-brainstorm-2026-08-06.md`](/opt/data/le31-brainstorm-2026-08-06.md) |
 | 2026-08-07 | `telegram-prep-checkoff-adherence`, `tether-day-card-fold`, `print-fallback-floor-sheet` | 43/44/45 | [`/opt/data/le31-brainstorm-2026-08-07.md`](/opt/data/le31-brainstorm-2026-08-07.md) |
 | 2026-08-08 | `havemind-decision-notes`, `decision-rationale-mixin`, `pipecat-voice-watch` (parking-lot) | 46/47/48 | [`/opt/data/le31-brainstorm-2026-08-08.md`](/opt/data/le31-brainstorm-2026-08-08.md) |
+| 2026-08-09 | `postledger-tamper-evident-hash`, `lifecycle-citation-mixin`, `realtime-cook-coach-watch` (parking-lot) | 49/50/51 | [`/opt/data/le31-brainstorm-2026-08-09.md`](/opt/data/le31-brainstorm-2026-08-09.md) |
 
 ---
 
@@ -157,3 +158,6 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 | 2026-08-08 | `havemind-decision-notes` | v2-AI (no-LLM core) | [`features/46-havemind-decision-notes.md`](features/46-havemind-decision-notes.md) | HMM-51 (sub) | [`specs/havemind-decision-notes-HANDOFF.md`](specs/havemind-decision-notes-HANDOFF.md) |
 | 2026-08-08 | `decision-rationale-mixin` | v2 utility | [`features/47-decision-rationale-mixin.md`](features/47-decision-rationale-mixin.md) | HMM-52 (sub) | [`specs/decision-rationale-mixin-HANDOFF.md`](specs/decision-rationale-mixin-HANDOFF.md) |
 | 2026-08-08 | `pipecat-voice-watch` | parking-lot | [`features/48-pipecat-voice-watch.md`](features/48-pipecat-voice-watch.md) | HMM-53 (sub) | [`specs/pipecat-voice-watch-HANDOFF.md`](specs/pipecat-voice-watch-HANDOFF.md) |
+| 2026-08-09 | `postledger-tamper-evident-hash` | v2 (audit) | [`features/49-postledger-tamper-evident-hash.md`](features/49-postledger-tamper-evident-hash.md) | HMM-53 (sub) | [`specs/postledger-tamper-evident-hash-HANDOFF.md`](specs/postledger-tamper-evident-hash-HANDOFF.md) |
+| 2026-08-09 | `lifecycle-citation-mixin` | v2 (state machine) | [`features/50-lifecycle-citation-mixin.md`](features/50-lifecycle-citation-mixin.md) | HMM-54 (sub) | [`specs/lifecycle-citation-mixin-HANDOFF.md`](specs/lifecycle-citation-mixin-HANDOFF.md) |
+| 2026-08-09 | `realtime-cook-coach-watch` | parking-lot | [`features/51-realtime-cook-coach-watch.md`](features/51-realtime-cook-coach-watch.md) | HMM-55 (sub) | [`specs/realtime-cook-coach-watch-HANDOFF.md`](specs/realtime-cook-coach-watch-HANDOFF.md) |
