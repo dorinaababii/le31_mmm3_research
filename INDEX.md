@@ -135,3 +135,25 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 - `index.html` (root) — the working mock-up (4 views, mobile-responsive, no build).
 - `backend/` — FastAPI app skeleton (see `backend/README.md`).
 - `agent/` — snapshots of the agent's runtime files (SOUL.md, config.yaml.template, USER.md, MEMORY.md). See [`agent/README.md`](agent/README.md).
+
+---
+
+## Daily Brainstorm index
+
+| Date | Headline | Picks (slugs) | Report |
+|---|---|---|---|
+| 2026-08-04 | `owner-no-account-live-floor-link`, `append-only-audit-redirect`, `shelf-threshold-receiving-bot` | 28/29/30 | [`/opt/data/le31-brainstorm-2026-08-04.md`](/opt/data/le31-brainstorm-2026-08-04.md) |
+| 2026-08-05 | `solo-operator-floor-pin`, `telegram-walkin-pin`, `stockout-prep-board-snapshot` | 32/33/34 | [`/opt/data/le31-brainstorm-2026-08-05.md`](/opt/data/le31-brainstorm-2026-08-05.md) |
+| 2026-08-06 | `void-rationale-ledger-field`, `cook-voice-note-to-stockentry`, `owner-daily-recap-telegram` | 37/38/39 | [`/opt/data/le31-brainstorm-2026-08-06.md`](/opt/data/le31-brainstorm-2026-08-06.md) |
+| 2026-08-07 | `telegram-prep-checkoff-adherence`, `tether-day-card-fold`, `print-fallback-floor-sheet` | 43/44/45 | [`/opt/data/le31-brainstorm-2026-08-07.md`](/opt/data/le31-brainstorm-2026-08-07.md) |
+| 2026-08-08 | `havemind-decision-notes`, `decision-rationale-mixin`, `pipecat-voice-watch` (parking-lot) | 46/47/48 | [`/opt/data/le31-brainstorm-2026-08-08.md`](/opt/data/le31-brainstorm-2026-08-08.md) |
+
+---
+
+## Active feature pipeline
+
+| Date | Pick | Bucket | Feature path | Linear ID | Handoff |
+|---|---|---|---|---|---|
+| 2026-08-08 | `havemind-decision-notes` | v2-AI (no-LLM core) | [`features/46-havemind-decision-notes.md`](features/46-havemind-decision-notes.md) | HMM-51 (sub) | [`specs/havemind-decision-notes-HANDOFF.md`](specs/havemind-decision-notes-HANDOFF.md) |
+| 2026-08-08 | `decision-rationale-mixin` | v2 utility | [`features/47-decision-rationale-mixin.md`](features/47-decision-rationale-mixin.md) | HMM-52 (sub) | [`specs/decision-rationale-mixin-HANDOFF.md`](specs/decision-rationale-mixin-HANDOFF.md) |
+| 2026-08-08 | `pipecat-voice-watch` | parking-lot | [`features/48-pipecat-voice-watch.md`](features/48-pipecat-voice-watch.md) | HMM-53 (sub) | [`specs/pipecat-voice-watch-HANDOFF.md`](specs/pipecat-voice-watch-HANDOFF.md) |
