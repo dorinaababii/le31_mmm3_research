@@ -148,6 +148,7 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 | 2026-08-07 | `telegram-prep-checkoff-adherence`, `tether-day-card-fold`, `print-fallback-floor-sheet` | 43/44/45 | [`/opt/data/le31-brainstorm-2026-08-07.md`](/opt/data/le31-brainstorm-2026-08-07.md) |
 | 2026-08-08 | `havemind-decision-notes`, `decision-rationale-mixin`, `pipecat-voice-watch` (parking-lot) | 46/47/48 | [`/opt/data/le31-brainstorm-2026-08-08.md`](/opt/data/le31-brainstorm-2026-08-08.md) |
 | 2026-08-09 | `postledger-tamper-evident-hash`, `lifecycle-citation-mixin`, `realtime-cook-coach-watch` (parking-lot) | 49/50/51 | [`/opt/data/le31-brainstorm-2026-08-09.md`](/opt/data/le31-brainstorm-2026-08-09.md) |
+| 2026-08-10 | `drailver-handoff-protocol`, `zentra-offline-first-fb-pattern`, `corner-mart-pos-double-entry` (parking-lot) | 52/53/54 | [`/opt/data/le31-brainstorm-2026-08-10.md`](/opt/data/le31-brainstorm-2026-08-10.md) |
 
 ---
 
@@ -161,3 +162,6 @@ These are listed in `research/09-recommended-stack.md` — repeated here for vis
 | 2026-08-09 | `postledger-tamper-evident-hash` | v2 (audit) | [`features/49-postledger-tamper-evident-hash.md`](features/49-postledger-tamper-evident-hash.md) | HMM-53 (sub) | [`specs/postledger-tamper-evident-hash-HANDOFF.md`](specs/postledger-tamper-evident-hash-HANDOFF.md) |
 | 2026-08-09 | `lifecycle-citation-mixin` | v2 (state machine) | [`features/50-lifecycle-citation-mixin.md`](features/50-lifecycle-citation-mixin.md) | HMM-54 (sub) | [`specs/lifecycle-citation-mixin-HANDOFF.md`](specs/lifecycle-citation-mixin-HANDOFF.md) |
 | 2026-08-09 | `realtime-cook-coach-watch` | parking-lot | [`features/51-realtime-cook-coach-watch.md`](features/51-realtime-cook-coach-watch.md) | HMM-55 (sub) | [`specs/realtime-cook-coach-watch-HANDOFF.md`](specs/realtime-cook-coach-watch-HANDOFF.md) |
+| 2026-08-10 | `drailver-handoff-protocol` | v2 owner-pains (audit) | [`features/52-drailver-handoff-protocol.md`](features/52-drailver-handoff-protocol.md) | HMM-58 (sub) | [`specs/drailver-handoff-protocol-HANDOFF.md`](specs/drailver-handoff-protocol-HANDOFF.md) |
+| 2026-08-10 | `zentra-offline-first-fb-pattern` | v2 owner-pains (resilience) | [`features/53-zentra-offline-first-fb-pattern.md`](features/53-zentra-offline-first-fb-pattern.md) | HMM-59 (sub) | [`specs/zentra-offline-first-fb-pattern-HANDOFF.md`](specs/zentra-offline-first-fb-pattern-HANDOFF.md) |
+| 2026-08-10 | `corner-mart-pos-double-entry` | parking-lot | [`features/54-corner-mart-pos-double-entry.md`](features/54-corner-mart-pos-double-entry.md) | HMM-60 (sub) | [`specs/corner-mart-pos-double-entry-HANDOFF.md`](specs/corner-mart-pos-double-entry-HANDOFF.md) |
