@@ -1,11 +1,15 @@
-# longnick-star-velocity-watch — HANDOFF (v2, 2026-08-17 update)
+# longnick-star-velocity-watch — HANDOFF (v4, 2026-08-19 update)
 
 > **Slice for the coding agent.** Read this *and*
 > `features/71-longnick-star-velocity-watch.md` before touching any
 > code. Do not paste chat excerpts back into the build. This is the
-> **v2 HANDOFF** for feature 71 (the original HANDOFF was created on
-> 2026-08-16; this v2 reflects the 18-pass observation through
-> 2026-08-17 which confirms the watch has **definitively EXPIRED**).
+> **v4 HANDOFF** for feature 71 (the original HANDOFF was created on
+> 2026-08-16, the v2 HANDOFF on 2026-08-17, the v3 HANDOFF on
+> 2026-08-18, and this v4 reflects the 20-pass observation through
+> 2026-08-19 which confirms the watch has **definitively EXPIRED +
+> −1★/24h anomaly under confirmation** — GitHub star counts do not
+> normally decrease; the 95★ → 94★ observation today with a NEW push
+> in past 24h warrants a 2026-08-20 confirmation check).
 
 ## Frozen identifiers (do not rename)
 
@@ -13,30 +17,34 @@
 - Slug: `longnick-star-velocity-watch`
 - Contract file: `features/71-longnick-star-velocity-watch.md`
 - Bucket: **v2 utility (watch-list)** — defer; watch definitively
-  EXPIRED
-- Linear parent: `HMM-89` (Research 2026-08-17 — daily) — **TBD pending Linear issue creation**
+  EXPIRED + −1★/24h anomaly under confirmation
+- Linear parent: `HMM-103` (Research 2026-08-19 — daily, created in this cron)
 - Linear sub-issue: **TBD** (create as a draft watch-list record)
 
 ## LE31 feature-gate verdict (recorded)
 
 Run per `skills/le31-conventions/SKILL.md`. Evidence precondition:
-**observed** (GitHub Search Repositories API across the 18-pass
+**observed** (GitHub Search Repositories API across the 20-pass
 daily-research series — 50★ baseline 2026-08-13 → 91★ (+41★/24h peak
 2026-08-14) → 95★ (+4★/24h deceleration 2026-08-15) → 95★ (+0★/24h
 stagnation 2026-08-16) → 95★ (+0★/48h CONFIRMED, repo actively
-pushed 2026-08-17T02:17:41Z). 5-day trajectory is
-+0.8★/24h average).
+pushed 2026-08-17T02:17:41Z) → 95★ (+0★/72h CONFIRMED, repo last
+pushed 2026-08-17T02:17:41Z — **no new push in past 24h**) → 94★
+(**−1★/24h ANOMALY** 2026-08-19, repo last pushed
+**2026-08-18T12:02:14Z — NEW push in past 24h**). 7-day trajectory
+is +0.43★/24h average (with the −1★ anomaly in the last 24h).
 
-**Confidence:** **high** for the JTBD pull (95★ in 5 days for a TS
-POS starter with 93 forks), **zero** for the stack match (FastAPI ✗,
-SQLModel ✗, aiogram ✗, Postgres ✗; longnick is TypeScript + React 19
-+ Vite 8).
+**Confidence:** **high** for the JTBD pull (94★ at the 7-day floor
+for a TS POS starter with 90 forks is very high; the +41★/24h peak
+was a one-day velocity phenomenon that has now decayed), **zero**
+for the stack match (FastAPI ✗, SQLModel ✗, aiogram ✗, Postgres ✗;
+longnick is TypeScript + React 19 + Vite 8).
 
-**Decision: defer (watch-list, watch definitively EXPIRED).** The
-slice boundary is hard: one Markdown file update, zero source code
-changes, zero migrations, zero new dependencies. Circuit breaker:
-delete this file + the corresponding `INDEX.md` row; no other code
-changes to revert.
+**Decision: defer (watch-list, watch definitively EXPIRED + −1★/24h anomaly under confirmation).**
+The slice boundary is hard: one Markdown file update, zero source
+code changes, zero migrations, zero new dependencies. Circuit
+breaker: delete this file + the corresponding `INDEX.md` row; no
+other code changes to revert.
 
 ## Mandatory LE31 skill list (load these first)
 
@@ -49,7 +57,7 @@ External coding agent MUST load before starting:
 3. `le31-handoff-spec` (frozen-contract discipline; mirror
    contract back).
 4. `le31-daily-research` (this pick came from the daily research
-   job on 2026-08-17).
+   job on 2026-08-18).
 5. `le31-feature-pipeline` (so the agent understands how this
    slice will be sequenced after it ships).
 
@@ -73,18 +81,21 @@ After the artifact ships:
 
 1. **Read back** `features/71-longnick-star-velocity-watch.md` and
    confirm it matches the daily-research report's
-   "longnick-star-velocity-watch" pick description (v2 with the
-   2026-08-17 18-pass observation).
+   "longnick-star-velocity-watch" pick description (v4 with the
+   2026-08-19 20-pass observation and the −1★/24h anomaly).
 2. **Read back** the new row in `INDEX.md` "Active feature
-   pipeline" table and confirm the date (2026-08-17), pick slug
+   pipeline" table and confirm the date (2026-08-19), pick slug
    (`longnick-star-velocity-watch`), feature path
    (`features/71-longnick-star-velocity-watch.md`), and Linear
    sub-issue ID.
-3. **On the next daily-research pass (2026-08-18):** query the
+3. **On the next daily-research pass (2026-08-20):** query the
    GitHub Search Repositories API for `longnick/small-pos-open-source`
    and record the new ★ count. If the ★ count is in the revised
-   target window (95★ ± 5), the watch is effectively over. If the
-   ★ count resumes growth above 100★, the watch re-activates.
+   target window (95★ ± 5), the −1★ anomaly was a single-star-removal
+   or API staleness (hypothesis (a) or (c)). If the ★ count stays
+   at 94★ or drops further, hypothesis (b) (mass un-star / API
+   anomaly) gains weight and the watch remains in "plateau but
+   anomaly" state.
 
 ## Linear sub-issue
 
@@ -92,11 +103,12 @@ Create a Linear sub-issue in project `le31 v1 — Core MVP` (project ID
 `fdb233e0-044c-4425-8574-1b72c3787563`) with label `Feature`
 (label ID `972f1a1c-5e66-488c-923f-f6a4ea3ef2bb`).
 
-- Title: `Feature 71 — longnick star velocity watch` (v2, watch
-  definitively EXPIRED).
+- Title: `Feature 71 — longnick star velocity watch` (v4, watch
+  definitively EXPIRED + −1★/24h anomaly under confirmation).
 - Body: the contract from `features/71-longnick-star-velocity-watch.md`
   (or a short summary + the file path).
-- Parent: `HMM-89` (Research 2026-08-17 — daily) — **TBD pending Linear issue creation**.
+- Parent: `HMM-103` (Research 2026-08-19 — daily, the Linear index
+  issue created in this cron).
 - Status: `Backlog`.
 
 ## Rollback path
@@ -116,13 +128,24 @@ Python rewrite or a charter-decided stack change to TypeScript.
 
 **As of 2026-08-17, the watch has definitively EXPIRED**: the
 velocity-driven signal (which was the original reason to watch) is
-gone. JTBD pull is confirmed (95★ in 5 days is very high for a TS
-POS starter with 93 forks) but the velocity that made it special
-has decayed to a normal slow-growth / stagnation pattern.
+gone. JTBD pull is confirmed (95★ in 5 days is very high for a TS POS
+starter with 93 forks) but the velocity that made it special has
+decayed to a normal slow-growth / stagnation pattern.
 **The +0★/48h observation with active pushes is a stronger "defer"
 signal than yesterday's +0★/24h** — an active repo that is not
 gaining stars is consistent with the JTBD pull being sated by
 existing organic discovery.
+
+**As of 2026-08-18 (19-pass observation, +0★/72h CONFIRMED with no new
+push in the past 24h), the watch has DEFINITIVELY EXPIRED.** The
++0★/72h observation across 4 consecutive daily passes is the
+strongest "defer" signal yet — the repo is now demonstrably in the
+long-term plateau phase, not the velocity-driven discovery phase.
+**The +0★/72h observation with no new push in the past 24h** is a
+stronger "defer" signal than yesterday's +0★/48h with active pushes
+— an active repo that has stopped pushing AND has stopped gaining
+stars is consistent with the JTBD pull being fully sated by existing
+organic discovery.
 
 **Risk of NOT tracking:** the JTBD pull could re-activate (e.g. a
 backend PR or a Hacker News Show HN post) and the team would miss

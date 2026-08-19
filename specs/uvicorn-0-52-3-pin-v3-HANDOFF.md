@@ -1,0 +1,140 @@
+# uvicorn-0-52-3-pin-bump-v3 — HANDOFF
+
+> **Slice for the coding agent.** Read this *and*
+> `features/78-uvicorn-0-52-3-pin.md` before touching any
+> code. Do not paste chat excerpts back into the build.
+
+## Frozen identifiers (do not rename)
+
+- Feature ID: `78`
+- Slug: `uvicorn-0-52-3-pin-bump-v3`
+- Contract file: `features/78-uvicorn-0-52-3-pin.md`
+- Bucket: **v2 utility (stack pin-bump)** — build candidate defer
+- Linear parent: `HMM-95` (Research 2026-08-18 — daily, created in this cron)
+- Linear sub-issue: **TBD** (create as a draft pin-bump artifact)
+
+## LE31 feature-gate verdict (recorded)
+
+Run per `skills/le31-conventions/SKILL.md`. Evidence precondition:
+**observed** (verified in-window across the 18-pass series via two
+independent sources: PyPI JSON release timestamps + `Kludex/uvicorn`
+GitHub `releases.atom` feed; two same-day patch releases on
+2026-08-13).
+
+**Confidence:** **high** for the pin-bump mechanics (test suite
+passes; LE31 imports `uvicorn` only as the ASGI server entrypoint and
+doesn't exercise zttp), **medium** for an immediate bump (two releases
+same day suggests urgency but neither is a CVE/security fix).
+
+**Decision: build candidate (defer until charter-decided pin-bump
+window).** The slice boundary is hard: one source-file edit (the pin
+bump), zero new dependencies, zero migrations, zero schema changes.
+Circuit breaker: delete this file + the corresponding `INDEX.md` row;
+no other code changes to revert.
+
+## Mandatory LE31 skill list (load these first)
+
+External coding agent MUST load before starting:
+
+1. `le31-conventions` (project invariants + the seven-check gate).
+2. `le31-v1-feature-pattern` (canonical contract shape + slicing rules).
+3. `le31-handoff-spec` (frozen-contract discipline; mirror contract back).
+4. `le31-daily-research` (this pick came from the daily research job
+   on 2026-08-18).
+5. `le31-feature-pipeline` (so the agent understands how this slice
+   will be sequenced after it ships).
+
+If the destination repo does not yet ship these skills, request them
+from the research-side Hermes instance before writing code.
+
+## Files the slice touches
+
+```
+features/78-uvicorn-0-52-3-pin.md   # NEW (this artifact)
+specs/uvicorn-0-52-3-pin-v3-HANDOFF.md # NEW (this file)
+INDEX.md                             # EDIT: append one row to "Active feature pipeline" table
+<dependency manifest>                # EDIT: bump uvicorn == 0.52.1 -> uvicorn == 0.52.3
+```
+
+One source-file edit (the pin bump in the dependency manifest). Zero
+new pip dependencies. Zero migrations. Zero new config keys. Zero new
+schema changes.
+
+## Verification protocol
+
+After the artifact ships:
+
+1. **Read back** `features/78-uvicorn-0-52-3-pin.md` and confirm it
+   matches the daily-research report's
+   "uvicorn-0-52-3-pin-bump-v3" pick description.
+2. **Read back** the new row in `INDEX.md` "Active feature pipeline"
+   table and confirm the date (2026-08-18), pick slug
+   (`uvicorn-0-52-3-pin-bump-v3`), feature path
+   (`features/78-uvicorn-0-52-3-pin.md`), and Linear sub-issue ID.
+3. **Read back** the dependency manifest and confirm the pin is now
+   `uvicorn == 0.52.3` (was `uvicorn == 0.52.1`).
+4. **Run the LE31 test suite** (`pytest` or equivalent) and confirm
+   it still passes.
+5. **Run the LE31 dev server** (`uvicorn app.main:app --reload`) and
+   confirm it starts and serves the `/api/...` routes.
+6. **On a future daily-research pass**: re-query the GitHub
+   `Kludex/uvicorn` `releases.atom` feed + PyPI JSON and confirm
+   whether a new in-window uvicorn release ships. If a new release
+   ships (e.g. 0.52.4), the bump target changes from 0.52.3 to
+   0.52.4. **Re-check on 2026-08-19 for new in-window uvicorn releases.**
+
+## Linear sub-issue
+
+Create a Linear sub-issue in project `le31 v1 — Core MVP` (project ID
+`fdb233e0-044c-4425-8574-1b72c3787563`) with label `Feature`
+(label ID `972f1a1c-5e66-488c-923f-f6a4ea3ef2bb`).
+
+- Title: `Feature 78 — uvicorn-0-52-3-pin-bump-v3`.
+- Body: the contract from
+  `features/78-uvicorn-0-52-3-pin.md` (or a short summary + the file
+  path).
+- Parent: `HMM-95` (Research 2026-08-18 — daily, the Linear index
+  issue created in this cron).
+- Status: `Backlog`.
+
+## Rollback path
+
+Delete `features/78-uvicorn-0-52-3-pin.md` and this HANDOFF.md.
+Remove the corresponding row from `INDEX.md`. Revert the dependency
+manifest pin from `uvicorn == 0.52.3` to `uvicorn == 0.52.1`. No
+other code changes to revert. No data migration to revert.
+
+## Why this matters (for the coding agent)
+
+The `uvicorn 0.52.1 → 0.52.3` pin bump is the **only** in-window
+stack change that affects a LE31 pin and the **only** one where the
+diff is pure stability/perf (zttp 0.0.22 → 0.0.24 + WebSocket
+close-handshake fix). Two in-window patch releases on the same UTC
+day (2026-08-13) is unusual for the uvicorn project (the prior
+0.52.0 → 0.52.1 was a 3-day gap), suggesting an active maintainer and
+a real urgency to get the WebSocket close-handshake fix and HTTP/1.1
+perf improvements in.
+
+**As of 2026-08-18 (18-pass observation), the recommendation is
+unchanged.** Across 2026-08-14 through 2026-08-18, no new uvicorn
+releases have shipped. The two-release same-day pattern
+(0.52.2 + 0.52.3, both 2026-08-13) is the **only** in-window stack
+change. **This is the 3rd consecutive day the uvicorn pin-bump has
+surfaced** (2026-08-16 → feature 70, 2026-08-17 → feature 76,
+2026-08-18 → feature 78); the consistent deferral pattern across the
+3 consecutive daily passes is itself a signal that the recommendation
+is stable.
+
+**Risk of NOT bumping**: LE31 v1 is on `uvicorn == 0.52.1`; the
+WebSocket close-handshake fix (0.52.2) and HTTP/1.1 request-parsing
+perf improvements (0.52.3) are missed. Low-severity risk (no CVE, no
+security fix); the fix is operational polish, not correctness.
+
+**Risk of bumping**: the two same-day releases suggest urgency but
+neither is a CVE/security fix; bumping mid-window may conflict with
+other in-flight work. The defer-to-next-pin-bump-window recommendation
+balances these risks.
+
+**Net: defer to the next charter-decided pin-bump window.** Keep the
+recommendation visible in the active pipeline; close the artifact
+once the bump lands.
