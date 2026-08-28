@@ -30,6 +30,7 @@ Takes a passed-gate feature pick and produces the deliverables the coding agent 
 3. Write `features/NN-<slug>.md` using the existing v1 feature template:
    Goal / Scope / Out of scope / Description / Data model / Implementation steps / Telegram interaction if any / Dependencies / Open questions / Why this matters.
 4. Create or draft a Linear sub-issue in the matching project (`le31 v1 — Core MVP`, `le31 v2 owner-pains`, or `le31 v2-AI`) with the contract body and label `Feature`.
+   - **Verified 2026-08-28: the workspace contains only three projects — `le31 v1 — Core MVP`, `le31 Workflow`, `le31 Research`. `le31 v2 owner-pains` and `le31 v2-AI` DO NOT EXIST.** Confirm with `list_projects` before assuming. For a v2-bucket pick, attach the sub-issue to `le31 Research` (where the parent research issue lives) and say so in the report — do **not** silently invent a project, and do **not** report a project attachment that did not happen.
 5. Write a `*-HANDOFF.md` slice contract for the coding agent under `specs/` that includes:
    - the active feature path
    - the seven-check gate verdict

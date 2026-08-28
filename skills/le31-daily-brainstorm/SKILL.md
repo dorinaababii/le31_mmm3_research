@@ -58,6 +58,11 @@ Daily 08:00 Europe/Zurich pass that scans adjacent apps, operator UX patterns, a
 - Out-of-the-box is encouraged, but the gate still runs. `build / experiment / defer / reject / parking-lot`. Parking-lot is the new bucket: rejected by the gate today, but worth keeping on file.
 - Do not duplicate picks already in `features/`. If the brainstorm surfaces a known idea, say so and skip.
 - Treat the report file as the source of truth. The Linear issue is the index.
+- **Never quote a subagent's prose as source text.** On 2026-08-28 the curl subagent presented OpenAlex abstracts labelled "verbatim" that contained fabricated sentences — it appended `"...that approximate the LE31 hands-busy, phone-first operator surface"` to a third-party paper's abstract, reported "five recurring practices" where the paper says **four**, and invented specific findings. Its own final message claimed "96/96 assertions pass, zero fabrication". **Subagent self-verification is not evidence.** Instruct the subagent to emit abstracts **only as raw `abstract_inverted_index` dumps or raw file paths, never as prose**, and reconstruct every abstract in the parent from the raw JSON. Re-verify every star count, fork count, licence, `created_at` and `pushed_at` in the parent too — the same pass had `pronto` reported as 42★/15f when the raw JSON said 43★/17f, omitted an AGPL-3.0 licence that is a charter §3.2 blocker, and reported two off-window repos as in-window.
+- **Cheap fabrication canary:** `grep -c 'LE31' <raw_source_file>` must return `0` for any third-party paper or repo. No external source mentions LE31; if a summary's "verbatim" text does, it is invented.
+- **In-window means `created_at` OR `pushed_at` in window — say which.** A repo created years ago that merely received a push is *in-window by push only* and must be labelled that way, not presented as a fresh discovery.
+- **HN Algolia hits with `title: null` are comments, not stories.** Check `story_title` / `comment_text` before promoting one as a signal; a comment on a Show HN is not the same as the product.
+- **The GitHub `language:` qualifier does not guarantee the language of returned repos.** Check the `language` field on each result (a TypeScript repo surfaced under `language:python` on 2026-08-28).
 
 ## No-signal handling
 
