@@ -1,0 +1,59 @@
+{
+  "date": "2026-08-29",
+  "initial_state": "Linear MCP server unreachable during the first 4 issue-creation attempts (parent reported 'MCP server linear is unreachable after 3 consecutive failures' cooldown). Fallback written per le31-daily-brainstorm/SKILL.md hard rule 'If the Linear MCP is unreachable, save a JSON report at /opt/data/le31-brainstorm-YYYY-MM-DD.linear-fallback.json'.",
+  "final_state": "Linear MCP recovered after the parent committed + pushed to git (commit 8023cef, push 244450e..8023cef main -> main). All 4 intended issues were then created successfully with team='Hmm3' and parentId relationships established.",
+  "actually_created_at": "2026-08-29T07:04:11Z .. 2026-08-29T07:04:24Z",
+  "created_issues": [
+    {
+      "id": "HMM-177",
+      "title": "Brainstorm 2026-08-29 — daily",
+      "project": "le31 Research",
+      "team": "Hmm3",
+      "status": "Done",
+      "labels": [],
+      "url": "https://linear.app/hmm3/issue/HMM-177"
+    },
+    {
+      "id": "HMM-178",
+      "title": "135 — DreamLedger execution-settled credit-ledger architecture",
+      "project": "le31 Research",
+      "team": "Hmm3",
+      "status": "Backlog",
+      "labels": ["Feature"],
+      "parent_id": "HMM-177",
+      "url": "https://linear.app/hmm3/issue/HMM-178"
+    },
+    {
+      "id": "HMM-179",
+      "title": "136 — MemGuard verifier-signals lifecycle-metadata StockEntry audit",
+      "project": "le31 Research",
+      "team": "Hmm3",
+      "status": "Backlog",
+      "labels": ["Feature"],
+      "parent_id": "HMM-177",
+      "url": "https://linear.app/hmm3/issue/HMM-179"
+    },
+    {
+      "id": "HMM-180",
+      "title": "137 — Natural-language policies → executable obligations verification-harness",
+      "project": "le31 Research",
+      "team": "Hmm3",
+      "status": "Backlog",
+      "labels": ["Feature"],
+      "parent_id": "HMM-177",
+      "url": "https://linear.app/hmm3/issue/HMM-180"
+    }
+  ],
+  "feature_contracts": [
+    "/opt/data/le31_mmm3_research_work/features/135-dreamledger-execution-settled-credit-ledger-architecture.md",
+    "/opt/data/le31_mmm3_research_work/features/136-memguard-verifier-signals-lifecycle-metadata-stockentry-audit.md",
+    "/opt/data/le31_mmm3_research_work/features/137-natural-language-policies-executable-obligations-verification-harness.md"
+  ],
+  "slice_handoffs": [
+    "/opt/data/le31_mmm3_research_work/specs/135-dreamledger-execution-settled-credit-ledger-architecture-HANDOFF.md",
+    "/opt/data/le31_mmm3_research_work/specs/136-memguard-verifier-signals-lifecycle-metadata-stockentry-audit-HANDOFF.md",
+    "/opt/data/le31_mmm3_research_work/specs/137-natural-language-policies-executable-obligations-verification-harness-HANDOFF.md"
+  ],
+  "git_commit": "8023cef 'Daily brainstorm 2026-08-29' (pushed: 244450e..8023cef main -> main)",
+  "raw_fetches": "/tmp/le31-brainstorm-2026-08-29/ (50 files, 2.7 MB)"
+}
