@@ -87,8 +87,8 @@ The external agent must **mirror back the frozen contract** before implementing 
 | Trigger condition | First v2 PR that adds an operator-UX surface, a user-intent model, or a smallest-sufficient-action-set derivation query |
 | Verification protocol | Does the change expose the smallest sufficient action set at every moment? Does it anchor on operator intent (not application features)? |
 | Rollback | Fully reversible (defer artifact is documentation only) |
-| Parent research issue | HMM-228 (to be created) |
-| Linear sub-issue | (to be created) |
+| Parent research issue | HMM-226 (Brainstorm 2026-09-09 — daily) |
+| Linear sub-issue | HMM-229 (Feature 164 — muredsa-uxys-intent-first-ux-analysis-shortest-sufficient-route, Backlog, Feature label) |
 | Lead source | GitHub `Muredsa/UXYS` (MIT, 1★, pushed 2026-09-04T17:08Z) |
 
 ## 8. Sign-off gap

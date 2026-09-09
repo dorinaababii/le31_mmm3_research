@@ -87,8 +87,8 @@ The external agent must **mirror back the frozen contract** before implementing 
 | Trigger condition | First v2 PR that adds an owner-facing audit trail, a `source` field on `audit_logs`, a `cites` field on `audit_logs`, or a formal type-lock on `audit_logs.action` |
 | Verification protocol | Does the change preserve *Admissible Basis* + *Operative Capacity* + *Common-Cause Independence* + *Re-Provability*? |
 | Rollback | Fully reversible (defer artifact is documentation only) |
-| Parent research issue | HMM-226 (to be created) |
-| Linear sub-issue | (to be created) |
+| Parent research issue | HMM-226 (Brainstorm 2026-09-09 — daily) |
+| Linear sub-issue | HMM-227 (Feature 162 — partasyuk-applicability-boundary-doctrine-formal-commit-admissibility, Backlog, Feature label) |
 | Lead source | OpenAlex `W7203599068` / `W7203663783` / `W7203618587` (Zenodo `21983371` / `21988251` / `21985437`, Vadym Partasyuk, 2026-08-17..18) |
 
 ## 8. Sign-off gap

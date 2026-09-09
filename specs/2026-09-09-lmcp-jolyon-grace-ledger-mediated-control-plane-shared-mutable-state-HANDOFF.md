@@ -87,8 +87,8 @@ The external agent must **mirror back the frozen contract** before implementing 
 | Trigger condition | First v2 PR that adds an `actor_type` field on `audit_logs`, an `agent_id` field on `audit_logs`, or a coordination-events table |
 | Verification protocol | Does the change preserve *append-only coordination*? Does it preserve *asynchronous*? Does it distinguish *human operator* vs *AI agent*? |
 | Rollback | Fully reversible (defer artifact is documentation only) |
-| Parent research issue | HMM-227 (to be created) |
-| Linear sub-issue | (to be created) |
+| Parent research issue | HMM-226 (Brainstorm 2026-09-09 — daily) |
+| Linear sub-issue | HMM-228 (Feature 163 — lmcp-jolyon-grace-ledger-mediated-control-plane-shared-mutable-state, Backlog, Feature label) |
 | Lead source | Figshare `33437977` + OpenAlex `W7208739566` (Jolyon Grace, 2026-09-04) |
 
 ## 8. Sign-off gap
