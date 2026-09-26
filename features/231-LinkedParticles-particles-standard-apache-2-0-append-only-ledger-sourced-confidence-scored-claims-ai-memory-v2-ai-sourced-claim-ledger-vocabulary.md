@@ -1,0 +1,76 @@
+# Feature 231 — LinkedParticles-particles-standard-apache-2-0-append-only-ledger-sourced-confidence-scored-claims-ai-memory-v2-ai-sourced-claim-ledger-vocabulary (defer)
+
+> **NEW observation (2026-09-26).** Documents in-window GitHub Search `append-only+ledger` query result: `LinkedParticles/particles-standard` (**Apache-2.0 ✓ §3.2 STRICTLY-COMPATIBLE**, **7★/0⑂ = second-highest-star-count in-window candidate of the 57-pass daily-research series**; 3.5× the star count of feature 187's `traust-security/traust-ledger` 2★; parent-direct-GET confirms; subagent missed this candidate), Python (vocabulary reference; serialization is JSON-LD/SHACL/RDF), **pushed 2026-09-25T19:13:00Z** (in-window by `pushed_at` only — *1 day before fetch time*), **created 2026-08-09T00:00:00Z** (~7-week-old repo with in-window `pushed_at`; **IN-WINDOW BY PUSH ONLY**; `created_at` is OUT-OF-WINDOW by ~7 weeks), **1116 KB** substantial repo, `default_branch=main`, archived=`False`). **12 topics** (verbatim from raw JSON): `agent-memory`, `ai-memory`, `epistemics`, `json-ld`, `jsonschema`, `knowledge-graph`, `knowledge-management`, `linked-data`, `provenance`, `rdf`, `shacl`, `specification`. Description (verbatim, parent-verified GitHub API direct-GET 2026-09-26): *"The Particles specification — an append-only ledger of sourced, confidence-scored claims for AI memory. Schemas, SHACL shapes, conformance profile, whitepaper."* The **sourced-claim-ledger + confidence-scored + AI-memory + JSON-LD/SHACL/RDF** sextuple-primitive + the *append-only-ledger-of-sourced-confidence-scored-claims* discipline = the **strongest single v2-AI sourced-claim-ledger specification vocabulary of the 57-pass series**. Bucket: **v2-AI sourced-claim-ledger specification (parking-lot, future-v2-AI-surface-vocabulary-reference)** — watch-list entry, zero build time today.
+
+## Goal
+
+Retain the **sourced-claim-ledger + confidence-scored + AI-memory + JSON-LD/SHACL/RDF** sextuple-primitive as a persistent cross-section reference for any future LE31 v2-AI surface that introduces an AI-assisted workflow with (a) **claims** (the AI extracts atomic claims from documents), (b) **sources** (each claim is tied to the document/source it came from), (c) **confidence scores** (each claim carries a confidence value), and (d) **append-only ledger** (the sequence of sourced-confidence-scored claims is the audit trail). The artifact is the persistent cross-section reference + the 12 named topics + the verbatim description. No code today (Apache-2.0 license permits future code reuse; vocabulary-only artifact today; 1116 KB substantial-repo size is readable; the *whitepaper + schemas + SHACL shapes* bundle is the load-bearing value).
+
+## Scope
+
+**In scope (defer artifact):**
+- A written record of the **sourced-claim-ledger** discipline: the *sourced-confidence-scored-claim* primitive (LE31 v1 today has `audit_logs` for state transitions but no notion of a *claim* that is tied to a *source + confidence*; the *sourced-claim-ledger* discipline IS the *claim-then-source-then-confidence* posture applied to charter §3.1's *explicit-state-transition* discipline).
+- A written record of the **AI-memory** discipline: the *AI-memory-claim-store* primitive (the ledger is specifically designed for AI memory (what does the AI remember + where did it get the memory + how confident is the AI), not for human operator transactions; the *AI-memory* discipline IS the *AI-system-knowledge-store* posture).
+- A written record of the **JSON-LD/SHACL/RDF** discipline: the *semantic-web-standard-serialization* primitive (the ledger uses JSON-LD (JSON for Linking Data), SHACL (Shapes Constraint Language for RDF), and RDF (Resource Description Framework) for interop with the broader semantic-web ecosystem; LE31 v1 today uses Postgres JSON columns but does NOT use JSON-LD/SHACL/RDF; the *semantic-web-standard-serialization* posture is a v2-AI future reference for interop with external knowledge graphs).
+- A written record of the **provenance + knowledge-graph** discipline: the *provenance-tracked-knowledge-graph* primitive (each claim's source is recorded as a *provenance* edge in a *knowledge-graph*; the *provenance-tracked-knowledge-graph* discipline IS the *sourced-knowledge-graph* posture; LE31 v1 has no knowledge-graph surface today).
+- A written record of the **epistemics** discipline: the *epistemics-of-AI-memory* primitive (the *epistemics* topic explicitly names the *what-do-we-know-and-how-do-we-know-it* discipline; the *epistemics* primitive IS the *claim-with-confidence-and-source* posture per charter §3.4's *observable-evidence* requirement).
+- A decision record: today's verdict is `defer` because LE31 v1 has no AI surface at all (charter §3.4 explicit invariant); the cross-section reference is informative, not a v2-AI build-trigger.
+- A cross-section reference with the prior v2-AI append-only-ledger + AI-memory cluster: features 160 (`factgraph` Apache-2.0 carry-over from 09-08; same RDF/JSON-LD vocabulary cluster), 183 (`n0-public` MIT 0★ carry-over from 09-16), 187 (`traust-ledger` Apache-2.0 2★/5⑂ carry-over from 09-17), 197 (`ledgerkb` Apache-2.0 7★ HTTP 404 = 6th consecutive day), 198 (`arbiter` MIT 0★ carry-over from 09-19), 199 (`transparency-kit` NOASSERTION 0★; now pickable if NOASSERTION is overridden), 219 (`epcore` MIT 0★ carry-over from 09-23), 220 (`commit-replay-bench` Apache-2.0 0★ carry-over from 09-23), 230 (`mentu-ai/commitment-protocol` MIT 10★/4⑂ = today's Pick A = same commitment-ledger vocabulary cluster). The *transferable insight* is the **sourced-claim-ledger + confidence-scored + AI-memory + JSON-LD/SHACL/RDF** sextuple-primitive.
+
+**Out of scope (defer artifact):**
+- Any change to LE31 v1's data model.
+- Any change to the waiter web UI.
+- Any change to the cook Telegram bot.
+- Any change to the `audit_logs` schema.
+- Any change to the `StockEntry` schema.
+- Any v2 surface in v1 (charter §3.1 + §3.2 invariant: v1 surface expansion is the next boundary; cross-section is informative, not a v2 expansion trigger).
+- Any customer-facing AI surface in v1 (charter §3.4 explicit invariant: NO customer-facing AI).
+- Any owner-facing AI surface in v1 (LE31 v1 has no AI surface at all).
+- Any v2 horizontal-expansion surface in v2 (charter §3.1 + §3.2 invariant: v2 surface expansion is the next boundary; this is a vocabulary reference, not a v2 expansion trigger).
+- Any v2-AI sourced-claim-ledger implementation in v2 (the artifact is vocabulary-only; the implementation would require explicit owner/charter sign-off).
+- Any JSON-LD/SHACL/RDF serialization in v1 (LE31 v1's Postgres JSON columns do NOT use JSON-LD/SHACL/RDF; the *semantic-web-standard-serialization* vocabulary is a v2-AI future reference).
+- Any knowledge-graph surface in v1 (LE31 v1 has no knowledge-graph surface today; the *knowledge-graph* vocabulary is a v2-AI future reference).
+- Any external-knowledge-graph interop in v1 (LE31 v1 has no external knowledge-graph surface today; the *interop* vocabulary is a v2-AI future reference).
+
+## Description
+
+The pick is **`LinkedParticles/particles-standard`** — a Python + Apache-2.0 + append-only + sourced-confidence-scored + AI-memory ledger specification with JSON-LD/SHACL/RDF serialization, including schemas, SHACL shapes, conformance profile, and whitepaper. Charter §3.4 NOT triggered because the artifact is operator-tooling-AI (the ledger records AI-extracted claims with sources + confidence), NOT customer-facing-AI (no restaurant diner interacts with the sourced-claim-ledger; the diner interacts with the operator who uses the AI). The *sourced-claim-ledger* is a tool for the *operator/owner* who supervises the AI; charter §3.4 is satisfied because the AI runs in the *operator-tooling layer* (per charter §3.4 *"AI may assist owner/staff, with observable evidence and a non-AI fallback"*). The artifact is the persistent cross-section reference for the 12 named topics + the verbatim description + the JSON-LD/SHACL/RDF serialization vocabulary.
+
+## Data model
+
+No data model changes today. The artifact is a vocabulary reference, not a code change. Future v2-AI surface that adopts the *sourced-claim-ledger* primitive would extend the LE31 v1 data model with appropriate new tables (e.g., a `claim` table with `claim_id, claim_text, claim_type, source_id, confidence_score, recorded_at, claim_hash`; a `claim_source` table with `source_id, source_type, source_uri, source_hash, retrieved_at`; a `claim_confidence_history` table with `confidence_id, claim_id, confidence_score, recorded_at, scoring_method`). The serialization format would extend Postgres JSON columns with JSON-LD `@context` + `@type` keys for interop with external knowledge graphs. All future schema extensions are explicitly out-of-scope for this defer artifact.
+
+## Implementation steps
+
+Zero implementation today (defer artifact). If a future v2-AI PR is triggered by the trigger condition below, the implementation would:
+1. Read the `LinkedParticles/particles-standard` README + whitepaper + schemas at https://github.com/LinkedParticles/particles-standard for the *sourced-claim-ledger + confidence-scored + AI-memory + JSON-LD/SHACL/RDF* sextuple-primitive.
+2. Cross-reference with LE31 v1's `audit_logs` schema to identify the *delta* (the *delta* = `LinkedParticles/particles-standard` introduces sourced-claim + confidence-scored + AI-memory + JSON-LD/SHACL/RDF serialization primitives that LE31 v1's `audit_logs` does not have; LE31 v1's `audit_logs` is append-only but does NOT tie claims to sources + confidence scores + JSON-LD/SHACL/RDF serialization).
+3. Apply charter §3.4 *operator-tooling-AI with observable evidence + non-AI fallback* review to the *delta* (any new v2-AI surface requires explicit owner/charter sign-off; the *sourced-claim-ledger* surface is operator-tooling-AI which is charter §3.4-compatible provided the non-AI fallback is preserved — i.e., the operator can view and approve every claim + confidence + source without using the AI to interpret it).
+4. Implement the surface with the LE31 v1 + FastAPI + SQLModel + aiogram stack; the `LinkedParticles/particles-standard` reference is the *vocabulary* for *sourced-claim-ledger + confidence-scored + AI-memory + JSON-LD/SHACL/RDF*, NOT for *sourced-claim-ledger replacement*. **Stack caveat**: JSON-LD/SHACL/RDF is not LE31 v1's Postgres-only stack; the vocabulary is transferable but the serialization format may not be directly adopted.
+
+## Telegram interaction
+
+Zero new Telegram interaction today. Future v2-AI PR that adopts the *sourced-claim-ledger* primitive would extend the existing aiogram-bot (cook-bot per charter §3.1) with a *claim-status* command set that allows the operator to query claim status (e.g., `/claim list` → list of recent claims with sources + confidence; `/claim show <claim_id>` → show full claim details + source + confidence; `/claim verify <claim_id>` → re-verify the claim against the original source). The *claim-status* discipline is *operator-tooling* (operator queries the claim status), NOT customer-facing-AI; charter §3.4 is NOT triggered.
+
+## Dependencies
+
+- LE31 charter §3.1 surface-expansion review (for any v2 surface adoption).
+- LE31 charter §3.2 surface-expansion review (for any v2-AI surface adoption).
+- LE31 charter §3.4 operator-tooling-AI-with-observable-evidence boundary (for any sourced-claim-ledger adoption; the *sourced-claim-ledger* posture is operator-tooling-AI which is charter §3.4-compatible provided the non-AI fallback is preserved).
+- LE31 charter §3.2 license-compatible (Apache-2.0 permissive; future code adoption is possible).
+- Features 160 (`factgraph`), 183 (`n0-public`), 187 (`traust-ledger`), 197 (`ledgerkb`), 198 (`arbiter`), 199 (`transparency-kit`), 219 (`epcore`), 220 (`commit-replay-bench`), 230 (`mentu-ai/commitment-protocol` = today's Pick A = same commitment-ledger vocabulary cluster).
+- Cross-section reference `LinkedParticles/particles-standard` at https://github.com/LinkedParticles/particles-standard (Apache-2.0, 7★/0⑂, Python, sourced-claim-ledger + confidence-scored + AI-memory + JSON-LD/SHACL/RDF).
+
+## Open questions
+
+- Will LE31 v2-AI ever introduce a sourced-claim-ledger surface? If yes, `LinkedParticles/particles-standard` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce a confidence-scored claim store? If yes, `LinkedParticles/particles-standard` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce a JSON-LD/SHACL/RDF serialization layer? If yes, `LinkedParticles/particles-standard` is the vocabulary reference (note: LE31 v1's Postgres JSON columns do NOT use JSON-LD/SHACL/RDF; the *semantic-web-standard-serialization* vocabulary is a v2-AI future reference).
+- Will LE31 v2-AI ever introduce a knowledge-graph surface? If yes, `LinkedParticles/particles-standard` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce an external-knowledge-graph interop surface? If yes, `LinkedParticles/particles-standard` is the vocabulary reference.
+- The 7★/0⑂ is explicitly NOT offered as evidence of *LE31 needing a sourced-claim-ledger*; the 7★/0⑂ is for the *sourced-claim-ledger specification domain*, not for the *LE31 operational* primitive. The transferable item is the *technique* (claim + source + confidence + JSON-LD/SHACL/RDF), not the *sourced-claim-ledger* itself.
+- **Open question that may kill any future PR**: who would ever need to consume a JSON-LD/SHACL/RDF serialization of LE31's internal claim ledger? LE31's owner is the only stakeholder; external interop with the broader semantic-web ecosystem is unlikely for a single-restaurant operations system. The *sourced-claim-ledger* may be over-engineering for a single-tenant single-operator scenario.
+
+## Why this matters
+
+The 12 topics + the verbatim description in `LinkedParticles/particles-standard` are the **canonical v2-AI sourced-claim-ledger specification vocabulary** that LE31 v1's `audit_logs` (feature/charter §3.1) and v2-AI's future AI-extracted-fact surface would inherit. Specifically: (i) **sourced-claim** (the *sourced-claim-ledger* primitive) is the *claim-then-source-then-confidence* posture; (ii) **confidence-scored** (the *confidence-scored-claim* primitive) is the *claim-with-confidence-value* posture per charter §3.4's *observable-evidence* requirement; (iii) **AI-memory** (the *AI-memory-claim-store* primitive) is the *AI-system-knowledge-store* posture; (iv) **JSON-LD/SHACL/RDF** (the *semantic-web-standard-serialization* primitive) is the *JSON-LD-with-SHACL-shapes-and-RDF-interop* posture; (v) **provenance + knowledge-graph** (the *provenance-tracked-knowledge-graph* primitive) is the *sourced-knowledge-graph* posture; (vi) **epistemics** (the *epistemics-of-AI-memory* primitive) is the *what-do-we-know-and-how-do-we-know-it* posture. When v2-AI introduces any of these 6 primitives, `LinkedParticles/particles-standard` is the vocabulary reference. **HONEST DISCLOSURE**: `LinkedParticles/particles-standard`'s 7★/0⑂ is for the *sourced-claim-ledger specification domain*, not for the *LE31 operational* primitive; the 7★/0⑂ is explicitly NOT offered as evidence of LE31's need for the sourced-claim-ledger.
