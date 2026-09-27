@@ -1,0 +1,77 @@
+# Feature 236 — shawn-durrani-membro-mit-local-first-memory-ai-assistants-append-only-fact-ledger-deterministic-extraction-walls-immutable-transcripts-provenance-v2-ai-local-first-ai-assistant-memory (defer)
+
+> **NEW observation (2026-09-27).** Documents in-window GitHub Search `append-only+ledger` query result: `shawn-durrani/membro` (**MIT ✓ §3.2 STRICTLY-COMPATIBLE**, **1★/0⑂**, Python, **pushed 2026-09-27T02:20:40Z = TODAY** (in-window by `pushed_at` only — *~5 hours before fetch time*), **created 2026-08-20T03:11:24Z** (~5-week-old repo with in-window `pushed_at`; `created_at` is OUT-OF-WINDOW by ~5 weeks), **661 KB modest repo**, `default_branch=main`, archived=`False`). **No topics** (parent-verified from raw JSON: `"topics": []`). Description (verbatim, parent-verified GitHub API direct-GET 2026-09-27): *"Local-first memory for AI assistants: append-only fact ledger behind deterministic extraction walls, immutable transcripts, provenance-carrying summaries."* The **local-first-memory-for-AI-assistants + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries** quintuple-primitive + the *append-only-fact-ledger-behind-deterministic-extraction-walls* discipline = the **strongest single v2-AI local-first-AI-assistant-memory vocabulary of the 58-pass series**. Bucket: **v2-AI local-first-AI-assistant-memory (parking-lot, future-v2-AI-surface-vocabulary-reference)** — watch-list entry, zero build time today.
+
+## Goal
+
+Retain the **local-first-memory-for-AI-assistants + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries** quintuple-primitive as a persistent cross-section reference for any future LE31 v2-AI surface that introduces (a) **local-first-memory** (the memory layer is local to the assistant, not cloud-dependent), (b) **AI-assistant-memory** (the memory is for an AI assistant, not a human operator), (c) **append-only-fact-ledger** (facts are recorded once and never modified), (d) **deterministic-extraction-walls** (the boundary between raw input and recorded fact is deterministic, not learned), and (e) **provenance-carrying-summaries** (every summary carries the provenance chain back to the raw input that produced it). The artifact is the persistent cross-section reference + the verbatim description. No code today (MIT license permits future code reuse; vocabulary-only artifact today; 661 KB modest-repo size is comfortably readable).
+
+## Scope
+
+**In scope (defer artifact):**
+- A written record of the **local-first-memory** discipline: the *local-first-AI-assistant-memory* primitive (the memory layer is local, not cloud-dependent; this is the *self-hosted + single-tenant* posture applied to the AI-assistant-memory dimension; LE31 v1's Postgres is already local-first but the *AI-assistant-memory* extension is a v2-AI future reference).
+- A written record of the **append-only-fact-ledger** discipline: the *fact-ledger* primitive (facts are recorded once and never modified; this is the *explicit-state-transition* discipline applied to AI-extracted facts; LE31 v1's `audit_logs` is append-only but does not record *facts* — the *fact-ledger* discipline is the *fact-extraction* layer between raw input and recorded event).
+- A written record of the **deterministic-extraction-walls** discipline: the *deterministic-extraction* primitive (the boundary between raw input and recorded fact is deterministic, not learned; this is the *explicit-state-transition* discipline applied to AI-extraction boundaries; charter §3.4's *observable-evidence* requirement is operationalized by this primitive — every fact must be traceable through the deterministic wall back to the raw input).
+- A written record of the **immutable-transcripts** discipline: the *immutable-transcript* primitive (raw transcripts of AI conversations are immutable; this is the *append-only + no-mutation* posture applied to AI conversation history; LE31 v1's `audit_logs` does not record conversation transcripts — the *immutable-transcript* layer is a v2-AI future reference).
+- A written record of the **provenance-carrying-summaries** discipline: the *provenance-summary* primitive (every summary carries the provenance chain back to the raw input that produced it; this is the *evidence-tied* posture applied to AI summaries; charter §3.4's *observable-evidence* requirement is operationalized by this primitive).
+- A decision record: today's verdict is `defer` because LE31 v1 has no AI surface at all (charter §3.4 explicit invariant); the cross-section reference is informative, not a v2-AI build-trigger.
+- A cross-section reference with the prior v2-AI append-only-ledger + audit-log cluster: features 121 (`ledger-commitment-field-tier-minimization`) + 122 (`trace-integrity-cait-acceptance-criterion`) + 129 (`ledger-claim-to-evidence-trace-graph-audit`) + 160 (`factgraph` Apache-2.0 carry-over) + 173 (`consortium-blockchain-audit-sharing-kenya-fraud-intelligence`) + 183 (`n0-public` MIT 0★ carry-over) + 187 (`traust-ledger` Apache-2.0 2★/5⑂ carry-over) + 197 (`ledgerkb` Apache-2.0 7★ HTTP 404 = 7th consecutive day) + 198 (`arbiter` MIT 0★) + 199 (`transparency-kit` NOASSERTION 0★) + 212 (`Hardtack` MIT 0★ carry-over from 09-22) + 219 (`epcore` MIT 0★ carry-over from 09-23) + 220 (`commit-replay-bench` Apache-2.0 0★ carry-over from 09-23) + 230 (`mentu-ai/commitment-protocol` MIT 10★/4⑂ carry-over from 09-26) + 231 (`LinkedParticles/particles-standard` Apache-2.0 7★/0⑂ carry-over from 09-26) + 232 (`lpalbou/AbstractGateway` MIT 4★/0⑂ + LICENSE UPGRADE `null → MIT` confirmed carry-over from 09-26). The *transferable insight* is the **local-first + AI-assistant-memory + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries** sextuple-primitive.
+
+**Out of scope (defer artifact):**
+- Any change to LE31 v1's data model.
+- Any change to the waiter web UI.
+- Any change to the cook Telegram bot.
+- Any change to the `audit_logs` schema.
+- Any change to the `StockEntry` schema.
+- Any v2 surface in v1 (charter §3.1 + §3.2 invariant: v1 surface expansion is the next boundary; cross-section is informative, not a v2 expansion trigger).
+- Any customer-facing AI surface in v1 (charter §3.4 explicit invariant: NO customer-facing AI).
+- Any owner-facing AI surface in v1 (LE31 v1 has no AI surface at all).
+- Any v2 horizontal-expansion surface in v2 (charter §3.1 + §3.2 invariant: v2 surface expansion is the next boundary; this is a vocabulary reference, not a v2 expansion trigger).
+- Any v2-AI local-first-AI-assistant-memory implementation in v2 (the artifact is vocabulary-only; the implementation would require explicit owner/charter sign-off).
+- Any deterministic-extraction-wall primitive in v1 (LE31 v1 has no AI surface at all; the *deterministic-extraction-wall* vocabulary is a v2-AI future reference).
+- Any immutable-transcript primitive in v1 (LE31 v1 has no AI surface at all; the *immutable-transcript* vocabulary is a v2-AI future reference).
+- Any provenance-carrying-summary primitive in v1 (LE31 v1 has no AI surface at all; the *provenance-carrying-summary* vocabulary is a v2-AI future reference).
+
+## Description
+
+The pick is **`shawn-durrani/membro`** — a Python + MIT + local-first + AI-assistant-memory + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries vocabulary artifact. Charter §3.4 NOT triggered because the artifact is operator-tooling-AI (the memory layer records AI-extracted facts and the provenance chains that produced them), NOT customer-facing-AI (no restaurant diner interacts with the local-first-memory layer; the diner interacts with the operator who uses the AI). The *local-first-AI-assistant-memory* is a tool for the *operator/owner* who supervises the AI; charter §3.4 is satisfied because the AI runs in the *operator-tooling layer* (per charter §3.4 *"AI may assist owner/staff, with observable evidence and a non-AI fallback"*). The artifact is the persistent cross-section reference for the verbatim description + the 5 named primitives.
+
+## Data model
+
+No data model changes today. The artifact is a vocabulary reference, not a code change. Future v2-AI surface that adopts the *local-first-AI-assistant-memory* primitive would extend the LE31 v1 data model with appropriate new tables (e.g., a `fact` table with `fact_id, fact_text, fact_type, source_input_id, extraction_wall_version, recorded_at, provenance_chain_hash`; a `transcript` table with `transcript_id, conversation_id, transcript_text, recorded_at, immutable_hash`; a `provenance_chain` table with `chain_id, fact_id, source_input_id, intermediate_step_id, final_fact_id, chain_hash`). All future schema extensions are explicitly out-of-scope for this defer artifact.
+
+## Implementation steps
+
+Zero implementation today (defer artifact). If a future v2-AI PR is triggered by the trigger condition below, the implementation would:
+1. Read the `shawn-durrani/membro` README at https://github.com/shawn-durrani/membro for the *local-first-memory + AI-assistant-memory + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries* quintuple-primitive.
+2. Cross-reference with LE31 v1's `audit_logs` schema to identify the *delta* (the *delta* = `shawn-durrani/membro` introduces local-first-AI-assistant-memory + fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries primitives that LE31 v1's `audit_logs` does not have; LE31 v1's `audit_logs` is append-only but does NOT record *facts* + does NOT have *deterministic-extraction-walls* + does NOT record *transcripts* + does NOT carry *provenance*).
+3. Apply charter §3.4 *operator-tooling-AI with observable evidence + non-AI fallback* review to the *delta* (any new v2-AI surface requires explicit owner/charter sign-off; the *local-first-AI-assistant-memory* surface is operator-tooling-AI which is charter §3.4-compatible provided the non-AI fallback is preserved — i.e., the operator can view every fact and its provenance chain without using the AI to interpret it).
+4. Implement the surface with the LE31 v1 + FastAPI + SQLModel + aiogram stack; the `shawn-durrani/membro` reference is the *vocabulary* for *local-first + AI-assistant-memory + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries*, NOT for *local-first-AI-assistant-memory replacement*.
+
+## Telegram interaction
+
+Zero new Telegram interaction today. Future v2-AI PR that adopts the *local-first-AI-assistant-memory* primitive would extend the existing aiogram-bot (cook-bot per charter §3.1) with a *fact-status* command set that allows the operator to query fact status (e.g., `/fact status` → list of recently-recorded facts; `/fact show <fact_id>` → show a fact with its provenance chain; `/fact verify <fact_id>` → verify the deterministic-extraction-wall for a fact). The *fact-status* discipline is *operator-tooling* (operator queries the fact status), NOT customer-facing-AI; charter §3.4 is NOT triggered.
+
+## Dependencies
+
+- LE31 charter §3.1 surface-expansion review (for any v2 surface adoption).
+- LE31 charter §3.2 surface-expansion review (for any v2-AI surface adoption).
+- LE31 charter §3.4 operator-tooling-AI-with-observable-evidence boundary (for any local-first-AI-assistant-memory adoption; the *local-first-AI-assistant-memory* posture is operator-tooling-AI which is charter §3.4-compatible provided the non-AI fallback is preserved).
+- LE31 charter §3.2 license-compatible (MIT permissive; future code adoption is possible).
+- Features 121, 122, 129, 160, 173, 183, 187, 197, 198, 199, 212, 219, 220, 230, 231, 232.
+- Cross-section reference `shawn-durrani/membro` at https://github.com/shawn-durrani/membro (MIT, 1★/0⑂, Python, local-first + AI-assistant-memory + append-only-fact-ledger + deterministic-extraction-walls + immutable-transcripts + provenance-carrying-summaries).
+
+## Open questions
+
+- Will LE31 v2-AI ever introduce a local-first-AI-assistant-memory surface? If yes, `shawn-durrani/membro` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce a fact-ledger layer (vs the current `audit_logs` which records *state transitions* but not *facts*)? If yes, `shawn-durrani/membro` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce deterministic-extraction-walls (the boundary between raw input and recorded fact is deterministic, not learned)? If yes, `shawn-durrani/membro` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce immutable-transcripts (raw transcripts of AI conversations are immutable)? If yes, `shawn-durrani/membro` is the vocabulary reference.
+- Will LE31 v2-AI ever introduce provenance-carrying-summaries (every summary carries the provenance chain back to the raw input that produced it)? If yes, `shawn-durrani/membro` is the vocabulary reference.
+- The 1★/0⑂ is explicitly NOT offered as evidence of *LE31 needing a local-first-AI-assistant-memory*; the 1★/0⑂ is for the *local-first-AI-assistant-memory domain*, not for the *LE31 operational* primitive. The transferable item is the *technique* (local-first + fact-ledger + deterministic-extraction + immutable-transcripts + provenance-summaries), not the *local-first-AI-assistant-memory* itself.
+- **Open question that may kill any future PR**: who would ever run the deterministic-extraction-wall verifier of a fact-ledger? LE31 has exactly one stakeholder (the owner) who can just ask the AI what it did. The *local-first-AI-assistant-memory* may be over-engineering for a single-tenant single-operator scenario.
+- **Open question that may kill any future PR**: who would ever consume the immutable-transcripts? LE31 has exactly one stakeholder (the owner) who can just ask the AI what it said. The *immutable-transcripts* layer may be over-engineering for a single-tenant single-operator scenario.
+
+## Why this matters
+
+The verbatim description in `shawn-durrani/membro` is the **canonical v2-AI local-first-AI-assistant-memory vocabulary** that LE31 v1's `audit_logs` (feature/charter §3.1) and v2-AI's future fact-tracking surface would inherit. Specifically: (i) **local-first-memory** (the *self-hosted + single-tenant* posture) is the *local-first + AI-assistant-memory* primitive; (ii) **append-only-fact-ledger** (the *fact-ledger* primitive) is the *fact-extraction layer between raw input and recorded event* posture; (iii) **deterministic-extraction-walls** (the *deterministic-extraction* primitive) is the *explicit-boundary-between-input-and-fact* posture per charter §3.4; (iv) **immutable-transcripts** (the *immutable-transcript* primitive) is the *append-only + no-mutation* posture; (v) **provenance-carrying-summaries** (the *provenance-summary* primitive) is the *evidence-tied-summary* posture per charter §3.4. When v2-AI introduces any of these 5 primitives, `shawn-durrani/membro` is the vocabulary reference. **HONEST DISCLOSURE**: `shawn-durrani/membro`'s 1★/0⑂ is for the *local-first-AI-assistant-memory domain*, not for the *LE31 operational* primitive; the 1★/0⑂ is explicitly NOT offered as evidence of LE31's need for the local-first-AI-assistant-memory.
