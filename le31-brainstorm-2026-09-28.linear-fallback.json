@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-28",
+  "title": "Brainstorm 2026-09-28 — daily",
+  "project_intended": "le31 Research",
+  "state_intended": "Done",
+  "status": "blocked",
+  "error": "Linear MCP returned 400: \"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.\" (10th consecutive day; requestId a420df816e667ac3)",
+  "report_path": "/opt/data/le31-brainstorm-2026-09-28.md",
+  "headline": "60th consecutive daily-brainstorm pass. 3 net-new cross-section picks + 0 same-day duplicates — all `defer` (parking-lot, vocabulary references). 3 different shapes of MIT-licensed Python append-only + telegram-bot + SQLModel+FastAPI+HTMX cluster: (A) EvezArt/evez-event-spine = append-only-hash-linked-event-log content-hash-chain-discipline primitive (MIT ✓ + 0★/0⑂ + 45 KB tiny + in-window by pushed_at only + 'Append-only hash-linked event log — immutable, verifiable, readable truth'); (B) mshykhov/expense-ledger-bot = Telegram-ledger-extension+approval-gated-entries+Postgres-transactions+outbox+Google-Sheets-projection quintuple primitive (MIT ✓ + 0★/0⑂ + 233 KB substantial + both fields in-window by same-day-fresh-repo created+committed-today 2026-09-13 + 'Telegram expense ledger with approval-based entries, PostgreSQL transactions, an outbox, and optional Google Sheets projection'); (C) graydragon2/mortgage-intelligence-web-public = SQLModel+FastAPI+HTMX multi-tenant SaaS stack-vocabulary primitive — the ONLY today-pick LITERALLY on the LE31 v1 stack primitive (MIT ✓ + 0★/0⑂ + 77 KB tiny + both fields in-window by same-day-fresh-repo created+committed-today 2026-09-09 + topics fastapi+htmx+python+saas+sqlmodel = the LE31-stack-vocabulary-envelope + 'Hosted multi-tenant mortgage refinance intelligence app with deterministic scoring, rate tracking, authentication, billing, alerts, and AI-generated explanation'). 60th consecutive day with 0 LE31-relevant HN titled hit (10/10 queries HTTP 200, total nbHits=0). 60th consecutive day with 0 LE31-relevant OpenAlex restaurant-tech software paper. All 3 picks ripgrep-verified unique vs features 1-244. Per le31-feature-pipeline/SKILL.md line 33: confirmed workspace contains only 3 projects — le31 v1 — Core MVP P-HMM-3, le31 Workflow P-HMM-2, le31 Research P-HMM-1 — and le31 v2 owner-pains / le31 v2-AI DO NOT EXIST; all 3 picks are v1-architecture-reference bucket → le31 v1 — Core MVP P-HMM-3 (parent brainstorm issue → le31 Research P-HMM-1). Linear MCP write endpoint BLOCKED by workspace plan-limit (HTTP 400 'You\\'ve exceeded the free issue limit for this workspace' — 10th consecutive day; requestId a420df816e667ac3); read endpoints list_projects/get_issue/list_issues still reachable.",
+  "three_picks": [
+    {
+      "rank": "A",
+      "owner_repo": "EvezArt/evez-event-spine",
+      "slug": "EvezArt-evez-event-spine-mit-append-only-hash-linked-event-log-immutable-verifiable-readable-truth-content-hash-chain-discipline-python",
+      "bucket": "v1 architecture-reference (LE31-append-only-event-store-as-content-hash-chained-log primitive)",
+      "verdict": "defer (parking-lot)",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-09-24T21:48:47Z",
+      "created_at": "2026-06-22T13:11:00Z",
+      "size_kb": 45,
+      "language": "Python",
+      "archived": false,
+      "topics": [],
+      "description": "Append-only hash-linked event log — immutable, verifiable, readable truth."
+    },
+    {
+      "rank": "B",
+      "owner_repo": "mshykhov/expense-ledger-bot",
+      "slug": "mshykhov-expense-ledger-bot-mit-telegram-expense-ledger-approval-based-entries-postgresql-transactions-outbox-google-sheets-projection-python",
+      "bucket": "v1 architecture-reference (LE31-Telegram-ledger-extension+approval-gated-entries+outbox+google-sheets-projection primitive)",
+      "verdict": "defer (parking-lot)",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-09-13T05:19:30Z",
+      "created_at": "2026-09-13T05:17:59Z",
+      "size_kb": 233,
+      "language": "Python",
+      "archived": false,
+      "topics": [],
+      "description": "Telegram expense ledger with approval-based entries, PostgreSQL transactions, an outbox, and optional Google Sheets projection."
+    },
+    {
+      "rank": "C",
+      "owner_repo": "graydragon2/mortgage-intelligence-web-public",
+      "slug": "graydragon2-mortgage-intelligence-web-public-mit-sqlmodel-fastapi-htmx-multi-tenant-saas-mortgage-rate-tracking-authentication-billing-alerts-ai-generated-explanation-python",
+      "bucket": "v1 architecture-reference (LE31-SQLModel+FastAPI+HTMX multi-tenant SaaS stack-vocabulary primitive)",
+      "verdict": "defer (parking-lot)",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-09-09T23:06:47Z",
+      "created_at": "2026-09-09T23:05:59Z",
+      "size_kb": 77,
+      "language": "Python",
+      "archived": false,
+      "topics": ["deterministic-scoring", "fastapi", "htmx", "mortgage", "python", "saas", "sqlmodel", "stripe"],
+      "description": "Hosted multi-tenant mortgage refinance intelligence app with deterministic scoring, rate tracking, authentication, billing, alerts, and AI-generated explanation."
+    }
+  ],
+  "sub_issues_intended": [
+    {
+      "rank": "A",
+      "feature_path_intended": "features/245-EvezArt-evez-event-spine-mit-append-only-hash-linked-event-log-immutable-verifiable-readable-truth-content-hash-chain-discipline-python.md",
+      "spec_path_intended": "specs/245-evez-event-spine-append-only-hash-linked-event-log-content-hash-chain-discipline-HANDOFF.md",
+      "linear_intended": "draft sub-issue in P-HMM-3 (le31 v1 — Core MVP) with label Feature",
+      "status": "draft-not-created-because-parent-Linear-blocked"
+    },
+    {
+      "rank": "B",
+      "feature_path_intended": "features/246-mshykhov-expense-ledger-bot-mit-telegram-expense-ledger-approval-based-entries-postgresql-transactions-outbox-google-sheets-projection-python.md",
+      "spec_path_intended": "specs/246-mshykhov-expense-ledger-bot-telegram-ledger-approval-gated-entries-outbox-google-sheets-projection-HANDOFF.md",
+      "linear_intended": "draft sub-issue in P-HMM-3 (le31 v1 — Core MVP) with label Feature",
+      "status": "draft-not-created-because-parent-Linear-blocked"
+    },
+    {
+      "rank": "C",
+      "feature_path_intended": "features/247-graydragon2-mortgage-intelligence-web-public-mit-sqlmodel-fastapi-htmx-multi-tenant-saas-mortgage-rate-tracking-authentication-billing-alerts-ai-generated-explanation-python.md",
+      "spec_path_intended": "specs/247-graydragon2-mortgage-intelligence-web-public-sqlmodel-fastapi-htmx-multi-tenant-saas-stack-vocabulary-HANDOFF.md",
+      "linear_intended": "draft sub-issue in P-HMM-3 (le31 v1 — Core MVP) with label Feature",
+      "status": "draft-not-created-because-parent-Linear-blocked"
+    }
+  ]
+}
