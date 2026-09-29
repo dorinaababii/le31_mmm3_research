@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-29",
+  "headline": "3 net-new cross-section picks — all defer (parking-lot, vocabulary references) — 1 v1 telegram-restaurant-reservation-agent + retrieval-eval-gate-in-CI + 1 v1 on-stack FastAPI+HTMX+SQLAlchemy-2.0 admin-panel + 1 v1 charter-§3.1-aligned event-sourced-sessions + WebSockets + multi-agent-LLM-control-plane.",
+  "report_path": "/opt/data/le31-brainstorm-2026-09-29.md",
+  "picks": [
+    {
+      "rank": "A",
+      "owner_repo": "sherrybuilds-studio/reservation-agent",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 59,
+      "pushed_at": "2026-09-28T07:13:58Z",
+      "created_at": "2026-05-14T03:25:58Z",
+      "in_window_by": "push only",
+      "topics": ["chromadb", "fastapi", "llm", "python", "rag", "reservations", "restaurant", "telegram-bot"],
+      "description": "Telegram reservation & ordering agent for restaurants — hybrid RAG over the menu (ChromaDB), semantic cache, 10/10 retrieval eval gate in CI.",
+      "primitive": "Telegram-restaurant-reservation-agent + RAG-over-menu + ChromaDB + semantic-cache + retrieval-eval-gate-in-CI",
+      "feature_id": 251,
+      "feature_path": "/opt/data/le31_mmm3_research_work/features/251-sherrybuilds-studio-reservation-agent-mit-telegram-restaurant-reservation-agent-rag-over-menu-chromadb-semantic-cache-retrieval-eval-gate-in-ci-v1-restaurant-reservation-vocabulary-reference.md",
+      "spec_path": "/opt/data/le31_mmm3_research_work/specs/251-sherrybuilds-studio-reservation-agent-mit-telegram-restaurant-reservation-agent-rag-over-menu-chromadb-semantic-cache-retrieval-eval-gate-in-ci-v1-restaurant-reservation-vocabulary-reference-HANDOFF.md",
+      "decision": "defer (parking-lot, vocabulary reference)"
+    },
+    {
+      "rank": "B",
+      "owner_repo": "nimaxin/adminsite",
+      "license": "MIT",
+      "stars": 4,
+      "forks": 0,
+      "size_kb": 4306,
+      "pushed_at": "2026-09-27T18:20:57Z",
+      "created_at": "2026-09-20T17:07:26Z",
+      "in_window_by": "both (push + create)",
+      "topics": ["admin", "admin-dashboard", "admin-panel", "asgi", "fastapi", "htmx", "litestar", "python", "sqlalchemy", "starlette"],
+      "description": "An admin panel for the SQLAlchemy 2.0 ORM that works with FastAPI, Starlette and Litestar.",
+      "primitive": "on-stack FastAPI + HTMX + SQLAlchemy-2.0 admin-panel (5-of-10 topics enumerate literal LE31 v1 stack primitive)",
+      "feature_id": 252,
+      "feature_path": "/opt/data/le31_mmm3_research_work/features/252-nimaxin-adminsite-mit-admin-panel-sqlalchemy-2-0-orm-fastapi-starlette-litestar-htmx-v1-on-stack-admin-panel-vocabulary-reference.md",
+      "spec_path": "/opt/data/le31_mmm3_research_work/specs/252-nimaxin-adminsite-mit-admin-panel-sqlalchemy-2-0-orm-fastapi-starlette-litestar-htmx-v1-on-stack-admin-panel-vocabulary-reference-HANDOFF.md",
+      "decision": "defer (parking-lot, vocabulary reference)"
+    },
+    {
+      "rank": "C",
+      "owner_repo": "sandoracs/thinktank",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 494,
+      "pushed_at": "2026-09-27T23:42:24Z",
+      "created_at": "2026-09-27T21:16:15Z",
+      "in_window_by": "both (push + create), same-day-fresh-repo 2026-09-27",
+      "topics": ["agent-memory", "ai-agents", "debate", "event-sourcing", "fastapi", "htmx", "hybrid-search", "litellm", "llm", "multi-agent-systems", "ollama", "python", "rag", "sqlite", "sqlite-vec", "websockets"],
+      "description": "Multi-party debate system where AI agents and humans argue a topic around one virtual table — evolving personas, three-layer memory, event-sourced sessions, and a live web hub. Single machine, SQLite, any LiteLLM model.",
+      "primitive": "event-sourced-sessions + WebSockets + multi-agent-LLM-control-plane + SQLite + LiteLLM + Ollama + FakeLLM-fallback (canonical charter §3.1-aligned event-sourcing reference; richest-vocabulary pick of the 61-pass series)",
+      "feature_id": 253,
+      "feature_path": "/opt/data/le31_mmm3_research_work/features/253-sandoracs-thinktank-mit-fastapi-htmx-sqlite-event-sourced-sessions-websockets-multi-agent-litellm-ollama-fakellm-v1-charter-3-1-aligned-event-sourcing-vocabulary-reference.md",
+      "spec_path": "/opt/data/le31_mmm3_research_work/specs/253-sandoracs-thinktank-mit-fastapi-htmx-sqlite-event-sourced-sessions-websockets-multi-agent-litellm-ollama-fakellm-v1-charter-3-1-aligned-event-sourcing-vocabulary-reference-HANDOFF.md",
+      "decision": "defer (parking-lot, vocabulary reference)"
+    }
+  ],
+  "linear": {
+    "write_endpoint_status": "blocked",
+    "error_message": "You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.",
+    "request_id": "a4292cec4994d246",
+    "blocked_consecutive_days": 11,
+    "read_endpoints_status": "reachable",
+    "intended_parent_issue": {
+      "title": "Brainstorm 2026-09-29 — daily",
+      "project": "le31 Research (P-HMM-1)",
+      "team": "Hmm3",
+      "state": "Done",
+      "body_summary": "61st consecutive daily-brainstorm pass. 3 net-new cross-section picks — all defer (parking-lot, vocabulary references). Report at /opt/data/le31-brainstorm-2026-09-29.md. Picks filed: features/251, 252, 253."
+    }
+  },
+  "parent_fallback_reason": "Linear MCP write endpoint returned HTTP 400 — exceeded free issue limit; 11th consecutive day of write-endpoint block. Falling back to per-day JSON file at /opt/data/le31-brainstorm-2026-09-29.linear-fallback.json per cron spec. Read endpoints still reachable for parent verification.",
+  "source_summary": {
+    "hn_algolia": "10/10 queries HTTP 200, all nbHits=0 (61st consecutive day with 0 actionable HN titled hit; subagent confirmed queries return hits without time filter but 30-day window too narrow)",
+    "github_search_spec": "8/8 queries HTTP 200; 7/8 returned total_count=0 (topic:small-business, topic:hci, topic:mobile-ux, topic:real-time, topic:append-only, topic:telegram-bot, htmx+saas); only restaurant+language:python returned 112",
+    "github_search_supplementary": "4 supplementary queries added by subagent (htmx python / aiogram python 3358 / telegram bot python 21226 / fastapi python restaurant 263)",
+    "openalex": "5/5 queries HTTP 200; meta.count=1549/13/12520/775/52; no actionable restaurant-tech software paper (61st consecutive day)",
+    "producthunt_feed": "HTTP 200, ~50 entries, 0 LE31-relevant",
+    "producthunt_restaurant_topic": "HTTP 404 (12th consecutive day endpoint decommissioned)",
+    "sciencedirect": "blocked on VPS, not attempted"
+  },
+  "anti_fabrication_canary": {
+    "command": "grep -cF 'LE31' /tmp/le31-brainstorm-2026-09-29/*.json | grep -v ':0$'",
+    "result": "empty (exit code 1)",
+    "parent_verified": true
+  },
+  "window": {
+    "start": "2026-08-30T00:00:00Z",
+    "end": "2026-09-29T23:59:59Z",
+    "start_epoch": 1788048000,
+    "end_epoch": 1790636399,
+    "note": "Parent-provided epoch 1756617600 was off by 365 days (2025-08-30); subagent caught + re-computed fresh."
+  },
+  "raw_fetches_path": "/tmp/le31-brainstorm-2026-09-29/",
+  "raw_file_count": 27
+}
