@@ -1,0 +1,86 @@
+# Feature 257 — `yaoyuxiang-gnn-agent-ledger-apache-2-0-append-only-signed-ledger-ai-agent-delegations-zero-dependencies-v2-ai-append-only-decision-ledger` (defer)
+
+> **NEW observation (2026-10-01).** Documents in-window GitHub Search `g5 (append-only+ledger, language:python, pushed:>2026-09-24)` query result: `yaoyuxiang-gnn/agent-ledger` (**Apache-2.0 ✓ §3.2 STRICTLY-COMPATIBLE**, **0★/0⑂**, Python, **pushed 2026-10-01T01:57:14Z = TODAY** (in-window by `pushed_at`), **created 2026-09-30T16:50:15Z = YESTERDAY = IN-WINDOW BY `created_at`** = **IN-WINDOW BY BOTH FIELDS**, the strongest in-window discovery of the 63-pass series by both-field criterion), **405 KB modest repo**, `default_branch=main`, `archived=false`). Topics (verbatim, parent-verified GitHub API direct-GET 2026-10-01, **5 topics**): `a2a, ai-agents, audit-trail, multi-agent, transparency-log`. Description (verbatim, parent-verified GitHub API direct-GET 2026-10-01): *"Who authorised that AI agent — and who answers for the result? Append-only signed ledger for agent delegations. Zero dependencies."*. The **append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log** septuple-primitive = the canonical v2-AI append-only-decision-ledger vocabulary. Net-new observation 2026-10-01 (ripgrep-confirmed unique vs features 1–256). Bucket: **v2-AI append-only-decision-ledger** (parking-lot, vocabulary reference).
+
+## Goal
+
+Retain the **append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log** septuple-primitive as a persistent cross-section reference for any future LE31 v2-AI surface that introduces (a) **append-only** (the *append-only-as-record-keeping* discipline applied to AI-decision-tracking = direct LE31 `audit_logs` + `StockEntry` invariant match), (b) **signed** (every AI-agent-delegation entry is cryptographically signed = the *cryptographically-bound-assertion* primitive applied to AI-decision-attribution), (c) **AI-agent-delegations** (the *chain-of-delegation* tracking = which human authorized which parent agent which delegated to which child agent = the *attribution-chain* primitive), (d) **audit-trail** (the *audit-trail* discipline applied to AI-decision-history = the *post-hoc-reconstructability* primitive), (e) **multi-agent** (the *multi-agent-coordination* vocabulary), (f) **zero-dependencies** (the *stdlib-only-no-third-party-dependencies* posture = the charter §3.2 *dependency-surface-minimization* principle applied to AI-tooling), and (g) **transparency-log** (the *transparency-as-public-record* discipline applied to AI-decisions = the *external-observability* primitive). Today's verdict is **`defer (parking-lot)`** because LE31 v1 has no AI surface today; the cross-section reference is informative, not a v2-AI build-trigger.
+
+## Scope
+
+**In scope (defer artifact):**
+- A written record of the **append-only** discipline: the *append-only-as-record-keeping* primitive applied to AI-decision-tracking.
+- A written record of the **signed** discipline: the *cryptographically-signed-entry* primitive applied to AI-decision-attribution.
+- A written record of the **AI-agent-delegations** discipline: the *chain-of-delegation-tracking* primitive applied to AI-decision-history.
+- A written record of the **audit-trail** discipline: the *post-hoc-reconstructability* primitive applied to AI-decisions.
+- A written record of the **multi-agent** discipline: the *multi-agent-coordination* vocabulary applied to AI-agent-systems.
+- A written record of the **zero-dependencies** discipline: the *stdlib-only-no-third-party-dependencies* posture applied to AI-tooling (charter §3.2 principle).
+- A written record of the **transparency-log** discipline: the *transparency-as-public-record* primitive applied to AI-decisions.
+- A decision record: today's verdict is `defer` because LE31 v1 has no AI surface today; the cross-section reference is informative, not a v2-AI build-trigger.
+- A cross-section reference with the prior v2-AI append-only-ledger + AI-decision-attribution cluster: features 121, 133, 135, 187, 203, 220, 230, 236, 243. The *transferable insight* is the **append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log** septuple-primitive.
+
+**Out of scope (defer artifact):**
+- Any change to LE31 v1's data model.
+- Any change to the waiter web UI.
+- Any change to the cook Telegram bot.
+- Any change to the `audit_logs` schema.
+- Any change to the `StockEntry` schema.
+- Any customer-facing AI surface (charter §3.4 explicit invariant: NO customer-facing AI; this artifact is operator-tooling AI, not customer-facing AI).
+- Any v2 surface in v1 (charter §3.1 + §3.2 invariant: v1 surface expansion is the next boundary; cross-section is informative, not a v2 expansion trigger).
+- Any v2-AI surface in v2 (charter §3.1 + §3.2 invariant: v2 surface expansion is the next boundary; this is a vocabulary reference, not a v2-AI expansion trigger).
+- Any v1 AI-decision-attribution implementation in v1 (the artifact is vocabulary-only; the implementation would require explicit owner/charter sign-off + a real v2-AI surface to exist first).
+
+## Description
+
+The pick is **`yaoyuxiang-gnn/agent-ledger`** — a Python + Apache-2.0 + append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log vocabulary artifact. **Charter §3.4 NOT triggered for the vocabulary** because the *audit-ledger-for-AI-agent-delegations* surface is operator-tooling AI (the owner + staff review AI-decision attribution; no AI surface is exposed to restaurant diners). **Charter §3.1 + §3.2 STRICTLY-COMPATIBLE** (Apache-2.0 permissive + 0★/0⑂ community traction start + 405 KB modest repo size + 2026-09-30 created + 2026-10-01 fresh-push = sustained-active-developer signal). The artifact is the persistent cross-section reference for the verbatim description + the 7 named primitives + the 5 topics.
+
+**Why the *in-window by BOTH `pushed_at` AND `created_at` + 0★/0⑂ + 405 KB modest + 1-day-old repo with TODAY's push* matters**: the `pushed_at=2026-10-01T01:57:14Z` (TODAY = parent-verified via GitHub API direct-GET) = today's NEW PUSH signal; the `created_at=2026-09-30T16:50:15Z` (YESTERDAY) = **IN-WINDOW BY BOTH FIELDS** = the strongest in-window discovery by both-field criterion of the 63-pass series (the parent-fixed both-field gate that was introduced on 2026-09-22); the 405 KB modest-repo size + 0★/0⑂ community traction + 5/5 topics on the literal AI-decision-attribution-axis = the *highest AI-decision-attribution-vocabulary density* pick of today's g5 cluster. The artifact is the persistent cross-section reference for the **append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log** septuple-primitive, not just for the verbatim description.
+
+## Data model
+
+No data model changes today. The artifact is a vocabulary reference, not a code change. Future v2-AI surface that adopts the *append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log* primitive would extend the LE31 v1 data model with appropriate new tables (e.g., an `AIAgentDelegation` SQLModel table with `delegation_id, parent_agent_id, child_agent_id, delegating_user_id, signed_at, signature_hash`; an `AIAgentAction` SQLModel table with `action_id, agent_id, action_type, action_payload, audit_trail_id, recorded_at`; an `AIAuditTrail` SQLModel table with `audit_trail_id, action_id, recorded_at, signature_hash`; or an `AITransparencyLog` SQLModel table with `transparency_log_id, audit_trail_id, public_recorded_at, public_signature_hash`). All future schema extensions are explicitly out-of-scope for this defer artifact.
+
+## Implementation steps
+
+Zero implementation today (defer artifact). If a future v2-AI PR is triggered by the trigger condition below, the implementation would:
+1. Read the `yaoyuxiang-gnn/agent-ledger` README at https://github.com/yaoyuxiang-gnn/agent-ledger for the *append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log* septuple-primitive.
+2. Cross-reference with LE31 v1's existing `audit_logs` + `StockEntry` to identify the *delta* (the *delta* = `yaoyuxiang-gnn/agent-ledger` introduces *AI-agent-delegation-tracking + signed-audit-trail + multi-agent-coordination + transparency-log* primitives that LE31 v1's `audit_logs` table does not yet model).
+3. Apply charter §3.1 *Python 3.13 + FastAPI + SQLModel + Postgres + minimal HTML/HTMX* posture review to the *delta* (LE31 v2-AI would extend the existing Postgres schema with `AIAgentDelegation` + `AIAgentAction` + `AIAuditTrail` + `AITransparencyLog` tables; the *signed* discipline would use Python's `hashlib` + `cryptography` stdlib modules = no third-party dependency required = the *zero-dependencies* posture).
+4. Implement the surface with the LE31 v1 + FastAPI + SQLModel + aiogram stack; the `yaoyuxiang-gnn/agent-ledger` reference is the *vocabulary* for *append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log*, NOT for *waiter-web-UI replacement* or *cook-Telegram-bot replacement*.
+
+## Telegram interaction
+
+No Telegram interaction today (defer artifact). If a future v2-AI PR is triggered, the implementation would extend the cook-Telegram-bot (operator-tooling only; not customer-facing) with a `/ai-audit list` / `/ai-audit show <delegation_id>` / `/ai-audit verify <delegation_id>` command set for owner-only review of AI-decision attribution. The *transparency-log* primitive would expose a *public-read-only* view of the audit trail to the owner-only channel via the existing `aiogram` bot.
+
+## Dependencies
+
+Zero new dependencies today (defer artifact). If a future v2-AI PR is triggered, the implementation would require:
+- LE31 v1's existing `audit_logs` + `StockEntry` schema (the *append-only* primitive would extend the existing schema, not replace it)
+- Python 3.13 stdlib `hashlib` + `cryptography` modules (the *signed + zero-dependencies* primitive would use stdlib only = the charter §3.2 *dependency-surface-minimization* principle applied to AI-tooling)
+- LE31 v1's existing `aiogram` bot framework for the operator-tooling Telegram surface
+- Charter §3.4 owner decision: whether the *transparency-log* primitive is exposed publicly or owner-only (the `yaoyuxiang-gnn/agent-ledger` reference is operator-only; the *public-read-only* transparency-log would require a charter §3.4 amendment)
+
+## Open questions
+
+1. **Open question that may kill any future PR**: what is the operational value of *AI-decision-attribution* for a single-tenant single-operator restaurant? LE31 has exactly one stakeholder (the owner) who can just ask the AI what it did; the *audit-ledger-for-AI-agent-delegations* may be over-engineering for a single-tenant scenario. The artifact is vocabulary-only; the implementation would require explicit owner sign-off.
+2. **Open question on the *zero-dependencies* posture**: does LE31 v1 currently use `cryptography` as a stdlib or as a third-party dependency? If `cryptography` is not yet in LE31 v1's dependency tree, the *zero-dependencies* posture would require either (a) adding `cryptography` to the dependency tree = charter §3.2 charter-amendment-required, or (b) using `hashlib.sha256` only = the *signed* discipline is reduced to a *hash-chain* discipline = *weaker* attribution.
+3. **Open question on the *transparency-log* primitive**: should the *transparency-log* be exposed publicly (e.g., as an HTTP endpoint that any stakeholder can read) or owner-only (e.g., via the cook-Telegram-bot)? The *public-read-only* surface would be a charter §3.4 review item; the *owner-only* surface would be §3.4 NOT triggered.
+4. **Open question on the *multi-agent* primitive**: LE31 v1 has no multi-agent coordination today; the *multi-agent* primitive would only become actionable when LE31 v2-AI introduces a multi-agent surface (e.g., one agent for prep-scheduling + one for menu-pricing + one for staff-coordination). The artifact is vocabulary-only; the *multi-agent* primitive is the most speculative of the seven.
+
+## Why this matters
+
+The **append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log** septuple-primitive is the **canonical v2-AI append-only-decision-ledger vocabulary of the 63-pass daily-research series**. The *signed + transparency-log + zero-dependencies* triple is the **strongest attribution primitive cluster** in any LE31 watch-list vocabulary reference to date; the *append-only + audit-trail* double is the **strongest record-keeping discipline match** to LE31's existing `audit_logs` + `StockEntry` invariant; the *AI-agent-delegations + multi-agent* double is the **strongest AI-coordination vocabulary** in any LE31 watch-list vocabulary reference to date. Today's verdict is **`defer (parking-lot)`** because LE31 v1 has no AI surface today; the cross-section reference is informative, not a v2-AI build-trigger.
+
+**Why the *Apache-2.0 + 0★/0⑂ + 405 KB + 1-day-old repo with TODAY's push + IN-WINDOW BY BOTH FIELDS* signature matters**: the parent-verified direct GitHub API GET confirms Apache-2.0 permissive (charter §3.2 STRICTLY-COMPATIBLE); the 0★/0⑂ community traction is at the *start-of-life* stage (LE31 v1 has zero v2-AI surfaces today; the *start-of-life* stage is the *earliest observation window* possible); the 405 KB modest repo size = the smallest of today's 3 picks but consistent with a *minimal-vocabulary-only* implementation (the pick is not building a full agent framework; it's documenting the *audit-ledger-for-AI-agent-delegations* primitive); the *IN-WINDOW BY BOTH FIELDS* + 1-day-old-freshness + TODAY's NEW PUSH = the strongest in-window signal of today's g5 cluster.
+
+**Cross-section with prior v2-AI append-only-ledger + AI-decision-attribution cluster**: features 121 (`ledger-commitment-field-tier-minimization` arXiv) + 133 (`hansard-runtime-witnessing-ledger-architecture`) + 135 (`dreamledger-execution-settled-credit-ledger-architecture`) + 187 (`traust-ledger` Apache-2.0) + 203 (`docentesIA/dagwell` carry-over) + 220 (`commit-replay-bench` Apache-2.0) + 230 (`mentu-ai/commitment-protocol` MIT 10★/4⑂ = today's parent-verified v2-AI pick from 09-26) + 236 (`shawn-durrani/membro` MIT = today's parent-verified v2-AI pick from 09-27) + 243 (`Jita81/commit-replay-bench` Apache-2.0 = today's parent-verified v2-AI pick from 09-27). The *transferable insight* is the **append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log** septuple-primitive; the artifact is the persistent cross-section reference for this primitive.
+
+**Trigger condition**: first v2-AI PR that adds an `AIAgentDelegation` SQLModel table, an `AIAgentAction` SQLModel table, an `AIAuditTrail` SQLModel table, an `AITransparencyLog` SQLModel table, a `/ai-audit list` / `/ai-audit show <delegation_id>` / `/ai-audit verify <delegation_id>` Telegram command set on the cook-bot (operator-tooling only; **Telegram-client exposure to restaurant diners requires explicit §3.4 review**), or a stdlib-only `cryptography` + `hashlib` extension to the `audit_logs` write-path.
+
+**Trigger condition NOT met today**: LE31 v1 has no v2-AI surface; the artifact is vocabulary-only; the implementation would require explicit owner/charter sign-off + a real v2-AI surface to exist first.
+
+**Why this artifact is reversible**: zero code shipped; zero schema changes; zero dependency changes; the artifact is a Markdown file in `/opt/data/le31_mmm3_research_work/features/257-...md` = full reversible at any time.
+
+**Why this matters for the LE31 stack**: the artifact documents the *append-only + signed + AI-agent-delegations + audit-trail + multi-agent + zero-dependencies + transparency-log* septuple-primitive as the canonical v2-AI append-only-decision-ledger vocabulary. If a future v2-AI PR is triggered, the implementation would extend LE31 v1's existing `audit_logs` + `StockEntry` schema with the four primitive tables + the corresponding Telegram command set + the stdlib-only `cryptography` + `hashlib` extension. The artifact is the *vocabulary*; the implementation is the *code*.
+
+**Charter compatibility**: §3.1 partial alignment (the *signed + audit-trail* discipline is the *explicit-state-transition* primitive applied to AI-decision-attribution); §3.2 STRICTLY-COMPATIBLE (Apache-2.0 permissive + *zero-dependencies* posture = the charter §3.2 *dependency-surface-minimization* principle applied to AI-tooling); §3.4 NOT triggered (the *audit-ledger-for-AI-agent-delegations* is operator-tooling AI, not customer-facing AI; the *transparency-log* primitive would require explicit §3.4 review if exposed publicly); §3.6 N/A (no money primitive); §3.7 N/A (no privacy primitive change).
