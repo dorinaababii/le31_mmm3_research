@@ -1,0 +1,56 @@
+{
+  "linear_status": "blocked",
+  "linear_error": "Error: invalid_request - You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.",
+  "linear_status_code": 400,
+  "linear_request_id": "a44a0ee95f8a34ac",
+  "linear_attempts": [
+    {
+      "attempt": 1,
+      "team": "le31 Workflow",
+      "error": "Could not find team \"le31 Workflow\""
+    },
+    {
+      "attempt": 2,
+      "team": null,
+      "error": "team is required when creating an issue"
+    },
+    {
+      "attempt": 3,
+      "team": "Hmm3",
+      "project": "le31 Research",
+      "title": "Brainstorm 2026-10-03 \u2014 daily",
+      "labels": ["Feature"],
+      "priority": 4,
+      "error": "invalid_request - exceeded free issue limit (14th consecutive day)",
+      "requestId": "a44a0ee95f8a34ac"
+    }
+  ],
+  "intended_issue": {
+    "team": "Hmm3",
+    "project": "le31 Research",
+    "title": "Brainstorm 2026-10-03 \u2014 daily",
+    "labels": ["Feature"],
+    "priority": 4,
+    "status_intended": "Done",
+    "body_summary": "65th consecutive daily-brainstorm pass. 3 net-new cross-section picks (all defer, parking-lot, vocabulary references): Pick A `wraplet-app/openpocket-pos` v2 owner-pains no-account-phone-POS-vocabulary + Pick B `Pizzylee001/Covers` v1 restaurant-real-time-walk-in-triage-vocabulary + Pick C `escarletdesign/ux-laws-auditor` v1 HCI-usability-audit-vocabulary. Anti-fabrication canary 0/LE31-mentions on raw files. Full report at /opt/data/le31-brainstorm-2026-10-03.md. Raw fetches at /tmp/le31-brainstorm-2026-10-03/. Feature contracts 266/267/268 + HANDOFFs at /opt/data/le31_mmm3_research_work/{features,specs}/. Git push pending."
+  },
+  "context": {
+    "pass": "65th consecutive daily-brainstorm pass on 2026-10-03",
+    "raw_fetches_dir": "/tmp/le31-brainstorm-2026-10-03/",
+    "report_path": "/opt/data/le31-brainstorm-2026-10-03.md",
+    "feature_contracts": [
+      "/opt/data/le31_mmm3_research_work/features/266-wraplet-app-openpocket-pos-mit-expo-react-native-sqlite-offline-first-phone-pos-no-account-optional-cloud-sync-v2-owner-pains-no-account-phone-pos-vocabulary.md",
+      "/opt/data/le31_mmm3_research_work/features/267-Pizzylee001-Covers-mit-nextjs-html-real-time-restaurant-occupancy-from-live-blackbird-check-ins-v1-restaurant-realtime-walk-in-triage-vocabulary.md",
+      "/opt/data/le31_mmm3_research_work/features/268-escarletdesign-ux-laws-auditor-mit-cursor-agent-skill-ux-auditor-20-hci-psychology-laws-hick-fitts-jakob-miller-peak-end-v1-hci-usability-audit-vocabulary.md"
+    ],
+    "handoff_contracts": [
+      "/opt/data/le31_mmm3_research_work/specs/266-wraplet-app-openpocket-pos-mit-expo-react-native-sqlite-offline-first-phone-pos-no-account-optional-cloud-sync-v2-owner-pains-no-account-phone-pos-vocabulary-HANDOFF.md",
+      "/opt/data/le31_mmm3_research_work/specs/267-Pizzylee001-Covers-mit-nextjs-html-real-time-restaurant-occupancy-from-live-blackbird-check-ins-v1-restaurant-realtime-walk-in-triage-vocabulary-HANDOFF.md",
+      "/opt/data/le31_mmm3_research_work/specs/268-escarletdesign-ux-laws-auditor-mit-cursor-agent-skill-ux-auditor-20-hci-psychology-laws-hick-fitts-jakob-miller-peak-end-v1-hci-usability-audit-vocabulary-HANDOFF.md"
+    ],
+    "antifabrication_canary": "grep -lF 'LE31' /tmp/le31-brainstorm-2026-10-03/* = 0 matches (PASS)",
+    "dedup_verification": "All 3 picks ripgrep-confirmed unique vs features 1-265"
+  },
+  "consecutive_blocked_days": 14,
+  "date": "2026-10-03"
+}
