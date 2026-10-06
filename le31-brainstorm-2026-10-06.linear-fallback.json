@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-06",
+  "pass_number": 68,
+  "cron_type": "le31-daily-brainstorm",
+  "status": "linear-mcp-write-blocked",
+  "error": {
+    "type": "invalid_request",
+    "message": "You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.",
+    "status": 400,
+    "parent_requestId": "a462cc016d355d8a",
+    "sub_issue_requestIds": ["a462cc2fca5a0efe", "(linear MCP unreachable after 3 consecutive failures on sub-issue 1, 2, and 3)"],
+    "consecutive_days_blocked": 17,
+    "note": "Same workspace plan-limit error as the daily-research cron on 2026-10-06; same as 10-05 (16th consecutive). Verified today via 1 write-probe for parent issue + 3 write-probes for sub-issues, all HTTP 400. After the 3rd sub-issue attempt, the Linear MCP went 'unreachable after 3 consecutive failures' for ~58s, which is consistent with the workspace plan-limit backoff."
+  },
+  "report_file": "/opt/data/le31-brainstorm-2026-10-06.md",
+  "raw_fetches_dir": "/tmp/le31-brainstorm-2026-10-06/",
+  "raw_fetches_count": 62,
+  "headline": "3 net-new cross-section picks (all `defer` parking-lot vocabulary references): 1 v2 owner-pains decision-rationale-ledger (`S0tman/irp-capture`, MIT ✓, 3★/0⑂, 1498 KB modest, pushed 2026-10-05T18:51:11Z = in-window by push only) + 1 v1 HCI-usability-evaluation-vocabulary (`uniovi-hci/pywib`, Apache-2.0 ✓, 3★/0⑂, 51204 KB substantial, pushed 2026-10-05T13:26:18Z = in-window by push only) + 1 v2-AI MCP-server-for-AI-receptionist (`gadyamedia/vocenya-mcp`, MIT ✓, 0★/0⑂, 32 KB tiny, pushed 2026-10-05T22:05:47Z = in-window by push only AND created 2026-10-04T21:33:27Z = IN-WINDOW BY BOTH FIELDS = 2-day-old repo).",
+  "three_picks": [
+    {
+      "slot": "A",
+      "full_name": "S0tman/irp-capture",
+      "bucket": "v2 owner-pains",
+      "license": "MIT",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 1498,
+      "language": "Python",
+      "in_window": "pushed only (created 2026-04-08 out-of-window by ~150 days)",
+      "pushed_at": "2026-10-05T18:51:11Z",
+      "created_at": "2026-04-08T19:56:35Z",
+      "topics": ["ai", "append-only", "claude", "decision-log", "devtools", "knowledge-management", "local-first", "python"],
+      "description": "An append-only ledger that records why decisions were made.",
+      "feature_file": "/opt/data/le31_mmm3_research_work/features/284-S0tman-irp-capture-mit-append-only-ledger-records-why-decisions-were-made-decision-log-knowledge-management-local-first-v2-owner-pains-decision-rationale-ledger-vocabulary.md",
+      "spec_file": "/opt/data/le31_mmm3_research_work/specs/284-S0tman-irp-capture-mit-append-only-ledger-records-why-decisions-were-made-decision-log-knowledge-management-local-first-v2-owner-pains-decision-rationale-ledger-vocabulary-HANDOFF.md",
+      "verdict": "defer (parking-lot, vocabulary reference)"
+    },
+    {
+      "slot": "B",
+      "full_name": "uniovi-hci/pywib",
+      "bucket": "v1",
+      "license": "Apache-2.0",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 51204,
+      "language": "Python",
+      "in_window": "pushed only (created 2025-09-29 out-of-window by ~373 days)",
+      "pushed_at": "2026-10-05T13:26:18Z",
+      "created_at": "2025-09-29T20:56:26Z",
+      "topics": ["eye-tracking", "hci", "human-computer-interaction", "keyboard-dynamics", "mouse-tracking"],
+      "description": "Pywib (Python Web Interaction Behaviour) is a library designed for analysing and obtaining metrics from users interaction with web pages.",
+      "feature_file": "/opt/data/le31_mmm3_research_work/features/285-uniovi-hci-pywib-apache-2-0-python-web-interaction-behaviour-eye-tracking-keyboard-dynamics-mouse-tracking-hci-v1-hci-usability-evaluation-vocabulary.md",
+      "spec_file": "/opt/data/le31_mmm3_research_work/specs/285-uniovi-hci-pywib-apache-2-0-python-web-interaction-behaviour-eye-tracking-keyboard-dynamics-mouse-tracking-hci-v1-hci-usability-evaluation-vocabulary-HANDOFF.md",
+      "verdict": "defer (parking-lot, vocabulary reference)"
+    },
+    {
+      "slot": "C",
+      "full_name": "gadyamedia/vocenya-mcp",
+      "bucket": "v2-AI",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 32,
+      "language": null,
+      "in_window": "pushed + created (IN-WINDOW BY BOTH FIELDS, 2-day-old repo)",
+      "pushed_at": "2026-10-05T22:05:47Z",
+      "created_at": "2026-10-04T21:33:27Z",
+      "topics": ["ai-agents", "ai-receptionist", "chatgpt", "claude", "claude-code", "claude-code-plugin", "cursor", "mcp", "mcp-server", "model-context-protocol", "remote-mcp", "small-business", "streamable-http", "vocenya", "voice-ai", "vscode"],
+      "description": "Official MCP servers for Vocenya, the AI receptionist for small businesses: registry entries, Claude Code plugin and setup.",
+      "feature_file": "/opt/data/le31_mmm3_research_work/features/286-gadyamedia-vocenya-mcp-mit-mcp-servers-ai-receptionist-small-business-voice-ai-v2-ai-mcp-server-ai-receptionist-vocabulary.md",
+      "spec_file": "/opt/data/le31_mmm3_research_work/specs/286-gadyamedia-vocenya-mcp-mit-mcp-servers-ai-receptionist-small-business-voice-ai-v2-ai-mcp-server-ai-receptionist-vocabulary-HANDOFF.md",
+      "verdict": "defer (parking-lot, vocabulary reference)"
+    }
+  ],
+  "linear_intent_paper_title": "Brainstorm 2026-10-06 — daily",
+  "linear_intent_paper_project": "le31 Research (P-HMM-1)",
+  "linear_intent_paper_team": "Hmm3",
+  "linear_intent_paper_state_intent": "Done",
+  "linear_intent_paper_attempt_count": 1,
+  "linear_intent_paper_status": "BLOCKED — fallback JSON written",
+  "linear_intent_sub_issues_attempt_count": 3,
+  "linear_intent_sub_issues_status": "BLOCKED — fallback JSON written; Linear MCP 'unreachable after 3 consecutive failures' on sub-issue 2 + 3; sub-issue 1 returned HTTP 400 with requestId a462cc2fca5a0efe",
+  "duplicate_picks": [
+    "jerzy99jerzy/air-alert-early-warning (already feature 241)",
+    "nhobin219/litelink (already feature 175)",
+    "truongpx396/intel-audit (already feature 273)",
+    "11pyo/ai-collab-dashboard (already feature 280)",
+    "45ck/eija-studio (already feature 264)",
+    "alxndr-bnd/javi (already feature 211)"
+  ],
+  "rejected_as_blockers": [
+    "Jindequan/mainstreettoolbox — §3.2 NOASSERTION (Astro); not surfaced in today's brainstorm (was a 10-05 carry-over)"
+  ],
+  "documented_as_adjacent_evidence_only": [
+    "ImFeH2/fora — Apache-2.0 264★/14⑨ highest-star brainstorm pick of the 68-pass series + 29061 KB substantial + 17-topic array (Run-your-own-organization-of-agents + agent-runtime + agentic-workflows + ai-workspace + fastapi + mcp + react + rust + tauri + telegram-bot + workflow-automation) = strongest v2-AI multi-agent-orchestrator vocabulary of the 68-pass series but close-shape to today's daily-research picks 282 AllStreets/ONEXUS + 283 NovasPlace/CSM already filed; rejected as duplicate-shape to avoid back-to-back same-cluster",
+    "mohd-faizy/touchless-hci-controller — MIT Python real-time-HCI + computer-vision + MediaPipe + touchless-mouse-via-webcam IN-WINDOW BY BOTH FIELDS (9-day-old repo) carry-over from yesterday's 10-05 adjacent-evidence; computer-vision off-stack, vocabulary-only"
+  ],
+  "charter_compatibility": {
+    "284_S0tman_irp_capture": "§3.1 + §3.2 STRICTLY-COMPATIBLE; §3.4 RIPGL_REVIEW REQUIRED if any customer-facing surface is added (the decision-log surface is operator-tooling per charter §3.4 invariant; the records-why-decisions is a deterministic append-only primitive, not customer-facing AI; the claude topic in the topic array is vocabulary-only)",
+    "285_uniovi_hci_pywib": "§3.1 + §3.2 STRICTLY-COMPATIBLE; §3.4 NOT TRIGGERED (the HCI-research-library surface is operator-tooling + observable-evidence per charter §3.4 invariant; the eye-tracking + keyboard-dynamics + mouse-tracking primitives are deterministic telemetry primitives, not customer-facing AI; any future v1 surface adopting the web-page-telemetry vocabulary that exposes customer-facing eye-tracking requires explicit §3.4 review for privacy); §3.7 RIPGL_REVIEW REQUIRED (eye-tracking is borderline §3.7 privacy if the waiter-eye-tracking surface captures the waiter's gaze on a customer-facing page; the waiter-web-UI is operator-tooling, not customer-facing, so §3.7 is NOT triggered for the operator-side use; the §3.7 review is required only if the web-page-telemetry surface is extended to a customer-facing page)",
+    "286_gadyamedia_vocenya_mcp": "§3.1 + §3.2 STRICTLY-COMPATIBLE; §3.4 RIPGL_REVIEW REQUIRED (the ai-receptionist surface is borderline customer-facing if the receptionist answers diner calls; the claude-code-plugin + setup-as-deployment-blueprint posture is operator-tooling; the voice-ai primitive is borderline customer-facing — explicit §3.4 review needed for any v2-AI surface that exposes the AI-receptionist to diners; the claude + chatgpt + ai-agents posture in the topic array is on the topic array but is NOT a v1 customer-facing-AI surface; any future v2-AI surface that exposes claude + chatgpt + ai-agents to the owner would require explicit §3.4 review)"
+  },
+  "per_source_counts": {
+    "hn_algolia": "9/9 HTTP 200, total nbHits = 2 titled stories across 9 queries (only solo-founder-saas=2 carry-over = Show HN EventSend event-tracking-for-SaaS 2026-09-30 + Ask HN selling-bootstrapped-SaaS 2026-09-22; both off-domain; 68th consecutive day with 0 LE31-actionable)",
+    "github_search_date": "6/6 HTTP 200, all 6 date-filtered queries returned 73-byte empty stubs with total_count:0 (6-observation streak of GitHub Search index-permutation phenomenon of 09-14 + 09-21 + 09-28 + 10-04 + 10-05 + 10-06)",
+    "github_search_nodate": "6/6 HTTP 200, total_count_sum = 44033 + 253 in-window items + 247 unique-by-name + 32 in-window §3.2-clean-license Python candidates across 6 topic queries",
+    "github_search_restaurant_adjacent": "5/5 HTTP 200, all 5 returned 73-byte empty stubs with total_count:0 (5-observation streak of zero restaurant-titled clusters)",
+    "github_direct_repo_get": "32 verify_*.json direct API GETs (28 subagent + 4 parent top-picks) all HTTP 200",
+    "openalex": "3/3 HTTP 200 with meta_count_sum = 2962 and in_window_sum = 53 across 3 clusters (creativity-product=2959/50 + restaurant-hospitality-hci=3/3 shrunk to 3 from 10-05's 15, all off-domain Turkish tourism / Nigerian bank HR / Irish agri-food VET + htmx-no-build-single-page=0/0 silent cluster — 11th consecutive day)",
+    "producthunt": "1/1 HTTP 200 with 0 LE31-relevant signal",
+    "sciencedirect": "BLOCKED on this VPS"
+  },
+  "anti_fabrication_canary": "grep -cF 'LE31' on 62 raw files = 0/3 PASS (third-party content only)",
+  "window_correction": "The 67-pass series used 2026-09-05 as 30-day window start (1-day-stale). Today's subagent correctly computed the 30-day window as 2026-09-06 via date -u -d '2026-09-06 00:00:00' +%s = 1788652800 and flagged the discrepancy in the manifest. The window for 2026-10-06 is 2026-09-06T00:00:00Z..2026-10-06T23:59:59Z (epoch 1788652800..1791331199).",
+  "git_commit_message": "Daily brainstorm 2026-10-06",
+  "repo": "le31_mmm3_research"
+}
