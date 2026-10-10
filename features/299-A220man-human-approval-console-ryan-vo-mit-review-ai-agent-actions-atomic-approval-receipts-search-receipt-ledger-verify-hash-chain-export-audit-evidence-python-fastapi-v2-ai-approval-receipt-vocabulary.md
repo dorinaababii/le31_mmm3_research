@@ -23,6 +23,10 @@ Retain the **`atomic approval receipts + search the receipt ledger + verify its 
 - Cross-pollination with the v2-AI approval primitive in v1 (LE31 v1 has no AI agent).
 - Cross-pollination with the React + TypeScript frontend (LE31 uses HTMX + minimal HTML, not React).
 
+## Out of scope
+
+- See "Scope" section above for the explicit defer-artifact out-of-scope list. The defer artifact is **vocabulary-only**; no v1/v2 code is shipped today.
+
 ## Evidence / JTBD
 
 When a future LE31 v2-AI surface proposes "the operator-approval of AI-agent actions with atomic approval receipts + search + verify + export audit evidence primitive" (e.g., a v2 surface that introduces an AI-assisted owner-side workflow like "the owner asks the AI assistant to add a new menu item, the AI assistant proposes a draft, the owner approves the draft with an atomic approval-receipt, the receipt is recorded in the audit-log + the chain is searchable + verifiable + exportable"), the owner wants *a primitive that proves the demand for this shape exists in 2026*, but struggles because *LE31 has no documented evidence that "operator-approval-of-AI-agent-actions with atomic approval-receipts + hash-chained-audit-trail + search + verify + export" is a real demand signal*, so that *the v2-AI surface can be defended with "this is what an independent maintainer shipped in 2026 with the same stack as LE31"*.

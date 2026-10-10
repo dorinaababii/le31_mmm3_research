@@ -23,6 +23,10 @@ Retain the **`verifiable cognition + tamper-evident + replayable + ledger of wha
 - Cross-pollination with the v2-AI verifiable-cognition primitive in v1 (LE31 v1 has no AI agent).
 - Cross-pollination with the korg-core runtime in v1 (LE31 v1 is aiogram + FastAPI, not korg-core).
 
+## Out of scope
+
+- See "Scope" section above for the explicit defer-artifact out-of-scope list. The defer artifact is **vocabulary-only**; no v1/v2 code is shipped today.
+
 ## Evidence / JTBD
 
 When a future LE31 v2-AI surface proposes "the deterministic-replay + tamper-evident + what-did-the-agent-do-and-why + named-spec (korg-ledger spec) primitive" (e.g., a v2-AI surface that asks "what did the AI assistant do between 14:00 and 16:00 yesterday?" and the owner wants a deterministic replay of the agent's actions + the reasoning behind each action), the owner wants *a primitive that proves the demand for this shape exists in 2026 with a deterministic-replay + named-spec framing*, but struggles because *most v2-AI audit-ledger candidates lack deterministic-replay semantics OR lack a named-spec framing*, so that *the v2-AI surface has a credible peer reference with a named spec (korg-ledger spec) that any future v2 surface can reference*.

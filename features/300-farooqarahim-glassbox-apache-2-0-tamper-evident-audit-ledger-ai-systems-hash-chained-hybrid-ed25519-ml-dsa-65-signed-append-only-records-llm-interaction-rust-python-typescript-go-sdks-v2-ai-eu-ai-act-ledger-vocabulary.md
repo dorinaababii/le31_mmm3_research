@@ -25,6 +25,10 @@ Retain the **`tamper-evident + hash-chained + hybrid Ed25519 + ML-DSA-65 signed 
 - Cross-pollination with the v2-AI audit primitive in v1 (LE31 v1 has no LLM).
 - Cross-pollination with the EU AI Act Article 50 in v1 (LE31 v1 has no LLM, no EU AI Act applicability).
 
+## Out of scope
+
+- See "Scope" section above for the explicit defer-artifact out-of-scope list. The defer artifact is **vocabulary-only**; no v1/v2 code is shipped today.
+
 ## Evidence / JTBD
 
 When a future LE31 v2-AI surface proposes "the EU AI Act Article 50 + post-quantum-signature + MCP-server + hash-chained + Python SDK primitive" (e.g., a v2-AI surface that registers an AI assistant + requires EU AI Act Article 50 label + posts an audit-log entry to MCP for external verification + signs the entry with both Ed25519 + ML-DSA-65 for post-quantum forward-compatibility), the owner wants *a primitive that proves the demand for this shape exists in 2026 with a post-quantum-signature + EU-AI-Act + Python-SDK shape*, but struggles because *most v2-AI audit-ledger candidates are off-stack OR lack post-quantum readiness OR lack EU AI Act awareness OR lack Python SDK*, so that *the v2-AI surface has a credible peer reference with a forward-compatible signature scheme*.
