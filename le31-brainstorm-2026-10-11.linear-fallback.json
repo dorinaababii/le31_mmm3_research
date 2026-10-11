@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-11",
+  "linear_write_endpoint_status": "blocked",
+  "blocked_reason": "invalid_request: You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.",
+  "blocked_request_id": "a48bf91df93ebba4",
+  "consecutive_blocked_days": 22,
+  "linear_read_endpoint_status": "reachable",
+  "parent_issue": {
+    "intended_team": "HMM",
+    "intended_project": "le31 Research",
+    "intended_project_id": "P-HMM-1",
+    "intended_title": "Brainstorm 2026-10-11 — daily",
+    "intended_state": "Done",
+    "intended_body": "74th consecutive daily-brainstorm pass — 3 net-new cross-section picks filed (all `defer` parking-lot vocabulary references).\n\n**Three picks:**\n- Pick A — `305-footprintjs-hcifootprint-mit-typed-traversable-skill-graph-llm-can-plan-over-hci-frontend-sibling-mcp-server-agentic-apps-v1-hci-typed-skill-graph-vocabulary` (v1, HCI-typed-skill-graph-vocabulary) — MIT, 10★/1⑂ = highest-star brainstorm pick of the 74-pass series, 5577 KB modest, TypeScript off-stack but the typed-traversable-skill-graph vocabulary IS portable to any web UI; in-window by `pushed_at` 2026-10-10T03:28:23Z ONLY, created 2026-07-02 (~3-month-old repo with in-window push).\n- Pick B — `306-gtheonse-resortflow-apache-2-0-multi-agent-resort-concierge-langgraph-supervisor-hold-then-confirm-sagas-mcp-tool-gateway-code-enforced-policy-hybrid-rag-eval-merge-gate-v2-ai-hold-then-confirm-saga-concierge-vocabulary` (v2-AI, hold-then-confirm-saga-concierge-vocabulary) — Apache-2.0, 0★/0⑂, 1643 KB modest, Python ✓ ON-STACK + FastAPI + langgraph + langfuse + fastmcp + MCP + azure-openai + qdrant + opentelemetry + ragas + docker-compose; IN-WINDOW BY BOTH FIELDS (created 2026-10-09T07:45:00Z AND pushed 2026-10-09T08:11:05Z = 2-day-old repo with same-day-pushed = the freshest today-pushed creation for a v2-AI concierge-saga-vocabulary candidate).\n- Pick C — `307-felipesauer-mnema-apache-2-0-signed-append-only-ai-coding-agents-decision-records-adr-tamper-evident-mcp-server-claude-code-codex-copilot-opencode-vscode-cursor-guardrails-audit-trail-v2-ai-vocab` (v2-AI, signed-append-only-AI-coding-agents-decision-records-vocabulary) — Apache-2.0, 4★/0⑂, 22954 KB substantial = 2nd-largest in-window v2-AI append-only-decision-record of the 74-pass series, TypeScript off-stack but the signed-append-only-decision-record vocabulary IS portable to Python; pushed 2026-10-11T05:45:12Z = TODAY, created 2026-05-06 (~5-month-old repo with today's push).\n\n**Full report:** `/opt/data/le31-brainstorm-2026-10-11.md`\n**Raw fetches:** `/tmp/le31-brainstorm-2026-10-11/` (38 raw files; canary clean)\n\n**Source summary:** 17/17 GitHub Search queries returned real data (6th consecutive productive-pass day; the 6-day 09-14..10-07 zero-streak is fully broken); 9/9 HN Algolia HTTP 200 (74th consecutive day with 0 LE31-actionable titled hit; only `solo-founder+SaaS`=3 off-domain); 3/3 OpenAlex HTTP 200 (132 in-window papers, 0 LE31-relevant); ProductHunt RSS HTTP 200; ScienceDirect BLOCKED.\n\n**Anti-fabrication canary PASS** — `grep -cF 'LE31' /tmp/le31-brainstorm-2026-10-11/*.json /tmp/le31-brainstorm-2026-10-11/*.rss /tmp/le31-brainstorm-2026-10-11/verify/*.json 2>/dev/null | grep -v ':0'` = 0 matches.\n\n**All 3 picks ripgrep-verified unique vs features/1..304.**\n\n**Active pipeline carry-over:** features 305/306/307 (today's picks)."
+  },
+  "sub_issues": [
+    {
+      "intended_team": "HMM",
+      "intended_project": "le31 Research (P-HMM-1)",
+      "intended_title": "Feature 305 — footprintjs-hcifootprint — v1 HCI-typed-skill-graph-vocabulary",
+      "intended_state": "Backlog",
+      "intended_label": "Feature",
+      "intended_bucket": "v1",
+      "intended_feature_path": "features/305-footprintjs-hcifootprint-mit-typed-traversable-skill-graph-llm-can-plan-over-hci-frontend-sibling-mcp-server-agentic-apps-v1-hci-typed-skill-graph-vocabulary.md",
+      "intended_handoff_path": "specs/305-footprintjs-hcifootprint-mit-typed-traversable-skill-graph-llm-can-plan-over-hci-frontend-sibling-mcp-server-agentic-apps-v1-hci-typed-skill-graph-vocabulary-HANDOFF.md",
+      "intended_parent_id": "Brainstorm 2026-10-11 — daily",
+      "verdict": "defer (parking-lot)",
+      "rationale": "TypeScript off-§3.1 stack for LE31 v1 today; vocabulary-only artifact; ready-made named primitive for any future v1 HCI-research-grounded-web-page-telemetry surface"
+    },
+    {
+      "intended_team": "HMM",
+      "intended_project": "le31 Research (P-HMM-1)",
+      "intended_title": "Feature 306 — gtheonse-resortflow — v2-AI hold-then-confirm-saga-concierge-vocabulary",
+      "intended_state": "Backlog",
+      "intended_label": "Feature",
+      "intended_bucket": "v2-AI",
+      "intended_feature_path": "features/306-gtheonse-resortflow-apache-2-0-multi-agent-resort-concierge-langgraph-supervisor-hold-then-confirm-sagas-mcp-tool-gateway-code-enforced-policy-hybrid-rag-eval-merge-gate-v2-ai-hold-then-confirm-saga-concierge-vocabulary.md",
+      "intended_handoff_path": "specs/306-gtheonse-resortflow-apache-2-0-multi-agent-resort-concierge-langgraph-supervisor-hold-then-confirm-sagas-mcp-tool-gateway-code-enforced-policy-hybrid-rag-eval-merge-gate-v2-ai-hold-then-confirm-saga-concierge-vocabulary-HANDOFF.md",
+      "intended_parent_id": "Brainstorm 2026-10-11 — daily",
+      "verdict": "defer (parking-lot)",
+      "rationale": "v2-AI roadmap not yet active; Python ✓ ON-STACK but azure-openai + langgraph + qdrant off-§3.1; vocabulary-only artifact; ready-made named primitive for any future v2-AI multi-agent-concierge-with-hold-then-confirm-saga surface"
+    },
+    {
+      "intended_team": "HMM",
+      "intended_project": "le31 Research (P-HMM-1)",
+      "intended_title": "Feature 307 — felipesauer-mnema — v2-AI signed-append-only-AI-coding-agents-decision-records-vocabulary",
+      "intended_state": "Backlog",
+      "intended_label": "Feature",
+      "intended_bucket": "v2-AI",
+      "intended_feature_path": "features/307-felipesauer-mnema-apache-2-0-signed-append-only-ai-coding-agents-decision-records-adr-tamper-evident-mcp-server-claude-code-codex-copilot-opencode-vscode-cursor-guardrails-audit-trail-v2-ai-vocab.md",
+      "intended_handoff_path": "specs/307-felipesauer-mnema-apache-2-0-signed-append-only-ai-coding-agents-decision-records-adr-tamper-evident-mcp-server-claude-code-codex-copilot-opencode-vscode-cursor-guardrails-audit-trail-v2-ai-vocab-HANDOFF.md",
+      "intended_parent_id": "Brainstorm 2026-10-11 — daily",
+      "verdict": "defer (parking-lot)",
+      "rationale": "v2-AI roadmap not yet active; TypeScript off-§3.1 stack; vocabulary-only artifact; ready-made named primitive for any future v2-AI signed-append-only-AI-coding-agents-decision-records surface"
+    }
+  ],
+  "note": "Per le31-feature-pipeline/SKILL.md line 33, all 3 picks attach to le31 Research (P-HMM-1) as the parent research project; the 'le31 v2 owner-pains' and 'le31 v2-AI' projects do NOT exist in this workspace."
+}
