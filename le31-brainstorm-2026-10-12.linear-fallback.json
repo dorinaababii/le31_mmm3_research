@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-12",
+  "linear_write_endpoint_status": "blocked",
+  "blocked_reason": "invalid_request: You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.",
+  "blocked_request_id": "a49446a92ff5d9d4",
+  "consecutive_blocked_days": 23,
+  "linear_read_endpoint_status": "reachable",
+  "workspace_state_confirmed_via_list_projects": [
+    {"id": "P-HMM-3", "name": "le31 v1 — Core MVP", "uuid": "fdb233e0-044c-4425-8574-1b72c3787563"},
+    {"id": "P-HMM-2", "name": "le31 Workflow", "uuid": "aca5656d-3104-43b3-bac1-e516d49356ec"},
+    {"id": "P-HMM-1", "name": "le31 Research", "uuid": "b7e98389-2e15-4892-be63-cd705912b9fa"}
+  ],
+  "feature_label_id": "972f1a1c-5e66-488c-923f-f6a4ea3ef2bb",
+  "parent_issue": {
+    "intended_team": "Hmm3",
+    "intended_team_id": "814776ed-e617-427b-8b94-efab04bc06e9",
+    "intended_project": "le31 Research",
+    "intended_project_id": "P-HMM-1",
+    "intended_title": "Brainstorm 2026-10-12 — daily",
+    "intended_state": "Done",
+    "intended_body": "75th consecutive daily-brainstorm pass — 3 net-new cross-section picks filed (all `defer` parking-lot vocabulary references).\n\n**Three picks:**\n- Pick A — `311-imfeh2-fora-apache-2-0-self-hosted-organization-of-agents-fastapi-react-tauri-telegram-bot-mcp-agent-runtime-agentic-workflows-ai-workspace-workflow-automation-v1-self-hosted-organization-of-agents-vocabulary` (v1, self-hosted-organization-of-agents-vocabulary) — Apache-2.0, 256★/12⑂ = the broadest v1 self-hosted-organization-of-agents-vocabulary topic array of the 75-pass series (17 topics), 30345 KB modest, Python ✓ ON-STACK + FastAPI + React + Rust + Tauri + Telegram-bot + MCP + agent-runtime + agentic-workflows + ai-workspace + workflow-automation; pushed 2026-10-11T13:26:51Z = YESTERDAY, in-window by push only, created 2026-02-19T06:57:36Z = ~8-month-old repo with yesterday's push.\n- Pick B — `312-Alex8791-cyber-cognithor-apache-2-0-local-first-agent-os-19-llm-providers-18-channels-145-mcp-tools-6-tier-memory-agent-packs-marketplace-zero-telemetry-python-v2-ai-local-first-agent-os-vocabulary` (v2-AI, local-first-agent-OS-vocabulary) — Apache-2.0, 158★/25⑂, 64157 KB substantial = 2nd-largest in-window v2-AI local-first-agent-OS-vocabulary of the 75-pass series, Python ✓ ON-STACK + 19-LLM-providers + 18-channels + 145-MCP-tools + 6-tier-memory + Agent-Packs-marketplace + zero-telemetry + gdpr-compliant + knowledge-graph + knowledge-vault + knowledge-synthesis + hierarchical-retrieval + document-analysis; pushed 2026-10-05T09:23:04Z, in-window by push only, created 2026-02-25T01:24:40Z = ~8-month-old repo with in-window push, 20-topic array = strongest v2-AI local-first-agent-OS-vocabulary topic array of the 75-pass series.\n- Pick C — `313-jklthinking-retinue-mit-self-hosted-ai-worker-coordination-per-task-graphs-device-model-timelines-progress-receipts-source-aware-usage-fastapi-react-sqlite-mcp-multi-agent-systems-telegram-bot-v2-ai-self-hosted-ai-worker-coordination-vocabulary` (v2-AI, self-hosted-ai-worker-coordination-vocabulary) — MIT, 117★/3⑂, 7072 KB modest, Python ✓ ON-STACK + FastAPI + React + SQLite + MCP + model-context-protocol + multi-agent-systems + claude + codex + feishu + kanban + task-board + self-hosted + agent-orchestration; pushed 2026-10-08T10:42:34Z, in-window by push only, created 2026-08-13T01:29:28Z = ~2-month-old repo with in-window push, 20-topic array.\n\n**Full report:** `/opt/data/le31-brainstorm-2026-10-12.md`\n**Raw fetches:** `/tmp/le31-brainstorm-2026-10-12/` (44 raw files; canary clean)\n**Raw-fetches manifest:** `/opt/data/le31-brainstorm-2026-10-12-raw-fetches-manifest.json`\n\n**Source summary:** HN Algolia 9/9 HTTP 200 but 9/9 silent (the most-quiet HN-day of the 75-pass series; vs 10-11's 3 carry-over off-domain `solo-founder+SaaS` = the `solo-founder+SaaS` bucket itself went 3→0 today); GitHub Search date-filtered cluster 11/11 HTTP 200 but 11/11 zero results (the GitHub Search index-permutation phenomenon is BACK after the 6-day 10-08..10-11 productive streak = the 1st broken day after a 6-day productive streak; the 6-day 09-14..10-07 zero-streak ↔ 6-day 10-08..10-11 productive-streak oscillation suggests the index-permutation rotates on a roughly weekly cadence); GitHub Search no-date 6/6 HTTP 200 (44,578 total_count aggregate); GitHub Search creative-aggregate 6/6 HTTP 200 (8 total_count aggregate); GitHub Search sanity-no-topic 7/7 HTTP 200 but 7/7 zero results (confirms the date-filter is broken cluster-wide, not just on `topic:`-prefixed queries); GitHub direct API GET 3/3 HTTP 200 (today's 3 picks parent-verified); OpenAlex 3/3 HTTP 200 (132 in-window papers, 0 LE31-relevant); ProductHunt RSS HTTP 200 (50 entries, 0 LE31-relevant); ScienceDirect BLOCKED.\n\n**Anti-fabrication canary PASS** — `grep -cF 'LE31' /tmp/le31-brainstorm-2026-10-12/*.json /tmp/le31-brainstorm-2026-10-12/*.rss /tmp/le31-brainstorm-2026-10-12/verify/*.json 2>/dev/null | grep -v ':0'` = 0 matches.\n\n**All 3 picks ripgrep-verified unique vs features/1..310.** No duplicates.\n\n**Active pipeline carry-over:** features 311/312/313 (today's picks)."
+  },
+  "sub_issues": [
+    {
+      "intended_team": "Hmm3",
+      "intended_team_id": "814776ed-e617-427b-8b94-efab04bc06e9",
+      "intended_project": "le31 Research (P-HMM-1)",
+      "intended_title": "Feature 311 — imfeh2-fora — v1 self-hosted-organization-of-agents-vocabulary",
+      "intended_state": "Backlog",
+      "intended_label": "Feature",
+      "intended_label_id": "972f1a1c-5e66-488c-923f-f6a4ea3ef2bb",
+      "intended_bucket": "v1",
+      "intended_feature_path": "features/311-imfeh2-fora-apache-2-0-self-hosted-organization-of-agents-fastapi-react-tauri-telegram-bot-mcp-agent-runtime-agentic-workflows-ai-workspace-workflow-automation-v1-self-hosted-organization-of-agents-vocabulary.md",
+      "intended_handoff_path": "specs/311-imfeh2-fora-apache-2-0-self-hosted-organization-of-agents-fastapi-react-tauri-telegram-bot-mcp-agent-runtime-agentic-workflows-ai-workspace-workflow-automation-v1-self-hosted-organization-of-agents-vocabulary-HANDOFF.md",
+      "intended_parent_id": "Brainstorm 2026-10-12 — daily",
+      "verdict": "defer (parking-lot)",
+      "rationale": "v1 charter has no self-hosted-organization-of-agents surface (LE31 v1 is waiter web UI + cook Telegram bot + owner daily-recap); vocabulary-only artifact; ready-made named primitive for any future v1 self-hosted-organization-of-agents surface; 17-topic array = broadest v1 self-hosted-organization-of-agents-vocabulary topic array of the 75-pass series"
+    },
+    {
+      "intended_team": "Hmm3",
+      "intended_team_id": "814776ed-e617-427b-8b94-efab04bc06e9",
+      "intended_project": "le31 Research (P-HMM-1)",
+      "intended_title": "Feature 312 — Alex8791-cyber-cognithor — v2-AI local-first-agent-OS-vocabulary",
+      "intended_state": "Backlog",
+      "intended_label": "Feature",
+      "intended_label_id": "972f1a1c-5e66-488c-923f-f6a4ea3ef2bb",
+      "intended_bucket": "v2-AI",
+      "intended_feature_path": "features/312-Alex8791-cyber-cognithor-apache-2-0-local-first-agent-os-19-llm-providers-18-channels-145-mcp-tools-6-tier-memory-agent-packs-marketplace-zero-telemetry-python-v2-ai-local-first-agent-os-vocabulary.md",
+      "intended_handoff_path": "specs/312-Alex8791-cyber-cognithor-apache-2-0-local-first-agent-os-19-llm-providers-18-channels-145-mcp-tools-6-tier-memory-agent-packs-marketplace-zero-telemetry-python-v2-ai-local-first-agent-os-vocabulary-HANDOFF.md",
+      "intended_parent_id": "Brainstorm 2026-10-12 — daily",
+      "verdict": "defer (parking-lot)",
+      "rationale": "v2-AI roadmap not yet active; Python ✓ ON-STACK but 19-LLM-providers + 18-channels + 145-MCP-tools + 6-tier-memory + Agent-Packs-marketplace off-§3.1; vocabulary-only artifact; ready-made named primitive for any future v2-AI local-first-agent-OS surface; 20-topic array = strongest v2-AI local-first-agent-OS-vocabulary topic array of the 75-pass series"
+    },
+    {
+      "intended_team": "Hmm3",
+      "intended_team_id": "814776ed-e617-427b-8b94-efab04bc06e9",
+      "intended_project": "le31 Research (P-HMM-1)",
+      "intended_title": "Feature 313 — jklthinking-retinue — v2-AI self-hosted-ai-worker-coordination-vocabulary",
+      "intended_state": "Backlog",
+      "intended_label": "Feature",
+      "intended_label_id": "972f1a1c-5e66-488c-923f-f6a4ea3ef2bb",
+      "intended_bucket": "v2-AI",
+      "intended_feature_path": "features/313-jklthinking-retinue-mit-self-hosted-ai-worker-coordination-per-task-graphs-device-model-timelines-progress-receipts-source-aware-usage-fastapi-react-sqlite-mcp-multi-agent-systems-telegram-bot-v2-ai-self-hosted-ai-worker-coordination-vocabulary.md",
+      "intended_handoff_path": "specs/313-jklthinking-retinue-mit-self-hosted-ai-worker-coordination-per-task-graphs-device-model-timelines-progress-receipts-source-aware-usage-fastapi-react-sqlite-mcp-multi-agent-systems-telegram-bot-v2-ai-self-hosted-ai-worker-coordination-vocab-HANDOFF.md",
+      "intended_parent_id": "Brainstorm 2026-10-12 — daily",
+      "intended_parent_id": "Brainstorm 2026-10-12 — daily",
+      "verdict": "defer (parking-lot)",
+      "rationale": "v2-AI roadmap not yet active; Python ✓ ON-STACK + FastAPI ✓ ON-STACK + SQLite ✓ ON-STACK but MCP + multi-agent-systems + claude + codex + feishu + kanban + task-board off-§3.1; vocabulary-only artifact; ready-made named primitive for any future v2-AI self-hosted-AI-worker-coordination surface; 20-topic array = strongest v2-AI self-hosted-ai-worker-coordination-vocabulary topic array of the 75-pass series; HANDOFF filename uses `vocab` abbreviation to stay under 256-char filesystem limit"
+    }
+  ],
+  "note": "Per le31-feature-pipeline/SKILL.md line 33, all 3 picks attach to le31 Research (P-HMM-1) as the parent research project; the 'le31 v2 owner-pains' and 'le31 v2-AI' projects do NOT exist in this workspace. Confirmed via mcp__linear__list_projects 2026-10-12: only 3 projects exist (P-HMM-1 le31 Research, P-HMM-2 le31 Workflow, P-HMM-3 le31 v1 — Core MVP).",
+  "picks_dedup_verified": {
+    "method": "ripgrep vs features/ 1..310 (parent-verified)",
+    "picks_unique": ["311-imfeh2-fora", "312-Alex8791-cyber-cognithor", "313-jklthinking-retinue"],
+    "carry_overs_in_raw_fetches": [
+      "footprintjs/hcifootprint (feature 305 from 10-11)",
+      "gtheonse/resortflow (feature 306 from 10-11)",
+      "felipesauer/mnema (feature 307 from 10-11)",
+      "kyle-visner/stellarjay (carry-over reference, AGPL-3.0 blocker)",
+      "nirholas/provenance-mcp (carry-over reference, off-stack JavaScript)",
+      "laravel-chronicle/core (carry-over reference, off-stack PHP)",
+      "S0tman/irp-capture (feature 284 from 10-06)",
+      "nhobin219/litelink (feature 175 from 09-30)",
+      "SGrappelli/pronto (feature 90 from 08-29)",
+      "jblattgerste/sus-analysis-toolkit (feature 256 from 10-02)",
+      "1j01/tracky-mouse (carry-over reference, off-stack JavaScript)",
+      "uniovi-hci/pywib (feature 285 from 10-06)",
+      "gadyamedia/vocenya-mcp (feature 286 from 10-06)",
+      "AlvaroVerona/prime-cost (feature 290 from 10-08)",
+      "drwjkirkpatrick-web/the-pass (feature 304 from 10-10)",
+      "satisfecho/pos (carry-over reference, AGPL-3.0 blocker)"
+    ]
+  }
+}
