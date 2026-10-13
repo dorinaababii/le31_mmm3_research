@@ -1,0 +1,338 @@
+{
+  "task": "le31-brainstorm-raw-fetches-2026-10-13",
+  "date": "2026-10-13",
+  "window_utc": "2026-09-13T00:00:00Z..2026-10-13T23:59:59Z",
+  "epoch_window": [
+    1789257600,
+    1791935999
+  ],
+  "total_files": 36,
+  "files": [
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_creative_hospitality_lang_py_created.json",
+      "filename": "gh_creative_hospitality_lang_py_created.json",
+      "source_family": "GitHub Search Repositories (creative no-date)",
+      "size_bytes": 136038,
+      "sha256": "0510105c1c53f009a025935e6bf422b2eb286d77f4bceba2483a0ae153f4e23e",
+      "total_count": 18
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_creative_pos_lang_py_created.json",
+      "filename": "gh_creative_pos_lang_py_created.json",
+      "source_family": "GitHub Search Repositories (creative no-date)",
+      "size_bytes": 164639,
+      "sha256": "3e129bbcec2cc79a197eff678612fc9a6eaab657a4ef4c8f970713fa184491c9",
+      "total_count": 24
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_creative_restaurant_lang_py_created.json",
+      "filename": "gh_creative_restaurant_lang_py_created.json",
+      "source_family": "GitHub Search Repositories (creative no-date)",
+      "size_bytes": 132759,
+      "sha256": "b2656550d826d8c8ba1e9a602699932cccdcb298af4dc9f4cef89d421b8b0761",
+      "total_count": 19
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_creative_topic_small_business_fastapi.json",
+      "filename": "gh_creative_topic_small_business_fastapi.json",
+      "source_family": "GitHub Search Repositories (creative no-date)",
+      "size_bytes": 353473,
+      "sha256": "404cf70ec0f985e31d72f8bfaa2c2d8b5143fe1a478523b96657ef29da99580a",
+      "total_count": 61
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_creative_topic_small_business_telegram_py.json",
+      "filename": "gh_creative_topic_small_business_telegram_py.json",
+      "source_family": "GitHub Search Repositories (creative no-date)",
+      "size_bytes": 86031,
+      "sha256": "e672056a7b3c74ccc3b853b4a347a581da4205bf8970eff874f29f00bea8e26c",
+      "total_count": 12
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_dated_topic_append_only_created.json",
+      "filename": "gh_dated_topic_append_only_created.json",
+      "source_family": "GitHub Search Repositories (date-filtered creative)",
+      "size_bytes": 114110,
+      "sha256": "72c3b19a66e129e71a19c289eef860c8f07df2af7a2abdbb86103e4611695623",
+      "total_count": 17
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_dated_topic_hci_created.json",
+      "filename": "gh_dated_topic_hci_created.json",
+      "source_family": "GitHub Search Repositories (date-filtered creative)",
+      "size_bytes": 346215,
+      "sha256": "f01ded5166db6ad538e5a1c29994b5f3e9b0197e01782a2a5828f7a5bd2ca3a2",
+      "total_count": 50
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_dated_topic_mobile_ux_created.json",
+      "filename": "gh_dated_topic_mobile_ux_created.json",
+      "source_family": "GitHub Search Repositories (date-filtered creative)",
+      "size_bytes": 14900,
+      "sha256": "2dcd95290ea60b63508e3b8566e9861ab1d57328b1306762b2d3c9e74021676d",
+      "total_count": 2
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_dated_topic_real_time_created.json",
+      "filename": "gh_dated_topic_real_time_created.json",
+      "source_family": "GitHub Search Repositories (date-filtered creative)",
+      "size_bytes": 340746,
+      "sha256": "ee067186cefd23862585a7602c2b2d6f93eef720510d12c87143fab4e745a134",
+      "total_count": 514
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_dated_topic_small_business_created.json",
+      "filename": "gh_dated_topic_small_business_created.json",
+      "source_family": "GitHub Search Repositories (date-filtered creative)",
+      "size_bytes": 354095,
+      "sha256": "bb9dd40bbd2167b5c8223b8d5808db971e26d7db771a82d9960a3d19b8b82aca",
+      "total_count": 353
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_dated_topic_telegram_bot_created.json",
+      "filename": "gh_dated_topic_telegram_bot_created.json",
+      "source_family": "GitHub Search Repositories (date-filtered creative)",
+      "size_bytes": 346453,
+      "sha256": "1b626a190e51d3e1681241486ca87f4d0f4e7fac30415a1db0a97d93e31a6d22",
+      "total_count": 1270
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_nodate_topic_append_only.json",
+      "filename": "gh_nodate_topic_append_only.json",
+      "source_family": "GitHub Search Repositories (no-date, sorted by updated)",
+      "size_bytes": 338337,
+      "sha256": "927619d46eb64266c9eda61118371fcdceb7908d4b61030becf856a9a16d6666",
+      "total_count": 193
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_nodate_topic_hci.json",
+      "filename": "gh_nodate_topic_hci.json",
+      "source_family": "GitHub Search Repositories (no-date, sorted by updated)",
+      "size_bytes": 344188,
+      "sha256": "60289eb75769a9600bf1f529abe460ebbb712e105ec178abfce06d5b5ee8ff49",
+      "total_count": 1028
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_nodate_topic_mobile_ux.json",
+      "filename": "gh_nodate_topic_mobile_ux.json",
+      "source_family": "GitHub Search Repositories (no-date, sorted by updated)",
+      "size_bytes": 56408,
+      "sha256": "1b415a670d374190c509e1327699c893a4d965b9dbeabc5514cbdc4998bf1b83",
+      "total_count": 8
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_nodate_topic_real_time.json",
+      "filename": "gh_nodate_topic_real_time.json",
+      "source_family": "GitHub Search Repositories (no-date, sorted by updated)",
+      "size_bytes": 349969,
+      "sha256": "5440d11c250ab11fea17fa811a8750766e92cfa56585f4ff49d78eae83d987c1",
+      "total_count": 14640
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_nodate_topic_small_business.json",
+      "filename": "gh_nodate_topic_small_business.json",
+      "source_family": "GitHub Search Repositories (no-date, sorted by updated)",
+      "size_bytes": 349244,
+      "sha256": "917f4643bda7d5473d8f9d20668772e2523da54b0c1172bcc41937e05d735e08",
+      "total_count": 1923
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_nodate_topic_telegram_bot.json",
+      "filename": "gh_nodate_topic_telegram_bot.json",
+      "source_family": "GitHub Search Repositories (no-date, sorted by updated)",
+      "size_bytes": 337674,
+      "sha256": "4bb2e9346e8171d5e5544456217fdde14b39cbb7c676c8f6c825a6093893aaf0",
+      "total_count": 26999
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_sanity_kitchen_telegram_py_window.json",
+      "filename": "gh_sanity_kitchen_telegram_py_window.json",
+      "source_family": "GitHub Search Repositories (sanity sweep)",
+      "size_bytes": 73,
+      "sha256": "08c082fdf7ca87ba911a2aabb0f0cf2d3e482a6feeaac9713e4578c20b2600b2",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_sanity_pos_aiogram_py.json",
+      "filename": "gh_sanity_pos_aiogram_py.json",
+      "source_family": "GitHub Search Repositories (sanity sweep)",
+      "size_bytes": 13927,
+      "sha256": "44652d958c457ef8b25d36eebf2076169ec7f6d34eaac092ad23dc503bdde040",
+      "total_count": 2
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_sanity_pos_lang_py_window.json",
+      "filename": "gh_sanity_pos_lang_py_window.json",
+      "source_family": "GitHub Search Repositories (sanity sweep)",
+      "size_bytes": 322939,
+      "sha256": "7635099450b7120320195f593b7e104f588406928e5f7be755cf619534b7ba0a",
+      "total_count": 3705
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_sanity_restaurant_bot_py.json",
+      "filename": "gh_sanity_restaurant_bot_py.json",
+      "source_family": "GitHub Search Repositories (sanity sweep)",
+      "size_bytes": 130977,
+      "sha256": "c927bd31f0233bbede10b52524f8ea096391599f0aa5b313faa1c2cf1496ab8d",
+      "total_count": 19
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_sanity_restaurant_lang_py_window.json",
+      "filename": "gh_sanity_restaurant_lang_py_window.json",
+      "source_family": "GitHub Search Repositories (sanity sweep)",
+      "size_bytes": 330922,
+      "sha256": "ffd104cda85decfb51c54e0b4012321af6e4c00c34c2e415f789f720887d4e97",
+      "total_count": 1621
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/gh_sanity_restaurant_telegram_py_window.json",
+      "filename": "gh_sanity_restaurant_telegram_py_window.json",
+      "source_family": "GitHub Search Repositories (sanity sweep)",
+      "size_bytes": 36174,
+      "sha256": "34c6617c7a8af74c67ef7ce88cf1818672bcf8af38877c906f886e7db0d22e41",
+      "total_count": 5
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_append_only_shift_journal.json",
+      "filename": "hn_append_only_shift_journal.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 503,
+      "sha256": "13c2a0ba007dedb26fc9aabe631577f5c64493c38259b0c3bf4d71440da2f07e",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_crossover_restaurant_app.json",
+      "filename": "hn_crossover_restaurant_app.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 511,
+      "sha256": "0cf2e88159bed1633c334375f3b43942be0218c03dac32070284cda150ba5f3e",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_glanceable_operator_dashboard.json",
+      "filename": "hn_glanceable_operator_dashboard.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 522,
+      "sha256": "553e051fdc4d930a1e0fe4d918bb5b20681bc8ea7d079cff12de884eef7177b2",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_kitchen_workflow.json",
+      "filename": "hn_kitchen_workflow.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 498,
+      "sha256": "ef9cbe1a771a53915e7f2ed16a8aa8c741e49087d1191c8989c191f570618562",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_low_effort_ux.json",
+      "filename": "hn_low_effort_ux.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 488,
+      "sha256": "db2f030bfd5d10198ad54177ce53a119dc019d7211cddb9d52e1000f8fd25591",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_micro_saas_small_business.json",
+      "filename": "hn_micro_saas_small_business.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 514,
+      "sha256": "af2f82d89bcc37e16e8a63fd2a5c05fe621e1b1bc7aaadd559694fbd0c1dadea",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_no_account_live_floor_link.json",
+      "filename": "hn_no_account_live_floor_link.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 505,
+      "sha256": "769fb4280ccf0fee0dd7c24bbe8ceb96506de9ba8a27eb9fe6ff7dcc83ba36d2",
+      "total_count": 0
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_phone_first_pos.json",
+      "filename": "hn_phone_first_pos.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 50367,
+      "sha256": "08f183ec5aad40c8bfda3b9b360d87bbcd180bae2612845d89124ea17947994a",
+      "total_count": 8
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/hn_solo_founder_saas.json",
+      "filename": "hn_solo_founder_saas.json",
+      "source_family": "HN Algolia search_by_date (30-day window)",
+      "size_bytes": 14464,
+      "sha256": "d1e3edfcc7f62d046790da4ae5cb90941d7c7e130ea9fd109d01a88eeac22449",
+      "total_count": 3
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/openalex_creativity_AND_product.json",
+      "filename": "openalex_creativity_AND_product.json",
+      "source_family": "OpenAlex /works (in-window)",
+      "size_bytes": 907058,
+      "sha256": "79eb36a62d94e96707043483c4dda32bdace93e1e09ffd2ca4998867161038c9",
+      "total_count": 3425
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/openalex_htmx_OR_no_build_OR_single_page.json",
+      "filename": "openalex_htmx_OR_no_build_OR_single_page.json",
+      "source_family": "OpenAlex /works (in-window)",
+      "size_bytes": 649363,
+      "sha256": "8eaf6c72ac3bd8aec09861ad633c825e59ba8732aebb19f977546439d5652b4f",
+      "total_count": 43429
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/openalex_restaurant_OR_hospitality_AND_hci.json",
+      "filename": "openalex_restaurant_OR_hospitality_AND_hci.json",
+      "source_family": "OpenAlex /works (in-window)",
+      "size_bytes": 576878,
+      "sha256": "1c283bfbed7f132aac33c74608556d130b7b5a622a6a744573b713008a72df00",
+      "total_count": 30
+    },
+    {
+      "path": "/tmp/le31-brainstorm-2026-10-13/producthunt_feed.rss",
+      "filename": "producthunt_feed.rss",
+      "source_family": "ProductHunt public RSS (soft)",
+      "size_bytes": 44092,
+      "sha256": "a4ff402c7a27ff84f9996cd0dde3911ac05caee9d7babb44a1cb7a2ce5389c1e",
+      "total_count": 50
+    }
+  ],
+  "totals_summary": {
+    "gh_creative_hospitality_lang_py_created.json": 18,
+    "gh_creative_pos_lang_py_created.json": 24,
+    "gh_creative_restaurant_lang_py_created.json": 19,
+    "gh_creative_topic_small_business_fastapi.json": 61,
+    "gh_creative_topic_small_business_telegram_py.json": 12,
+    "gh_dated_topic_append_only_created.json": 17,
+    "gh_dated_topic_hci_created.json": 50,
+    "gh_dated_topic_mobile_ux_created.json": 2,
+    "gh_dated_topic_real_time_created.json": 514,
+    "gh_dated_topic_small_business_created.json": 353,
+    "gh_dated_topic_telegram_bot_created.json": 1270,
+    "gh_nodate_topic_append_only.json": 193,
+    "gh_nodate_topic_hci.json": 1028,
+    "gh_nodate_topic_mobile_ux.json": 8,
+    "gh_nodate_topic_real_time.json": 14640,
+    "gh_nodate_topic_small_business.json": 1923,
+    "gh_nodate_topic_telegram_bot.json": 26999,
+    "gh_sanity_kitchen_telegram_py_window.json": 0,
+    "gh_sanity_pos_aiogram_py.json": 2,
+    "gh_sanity_pos_lang_py_window.json": 3705,
+    "gh_sanity_restaurant_bot_py.json": 19,
+    "gh_sanity_restaurant_lang_py_window.json": 1621,
+    "gh_sanity_restaurant_telegram_py_window.json": 5,
+    "hn_append_only_shift_journal.json": 0,
+    "hn_crossover_restaurant_app.json": 0,
+    "hn_glanceable_operator_dashboard.json": 0,
+    "hn_kitchen_workflow.json": 0,
+    "hn_low_effort_ux.json": 0,
+    "hn_micro_saas_small_business.json": 0,
+    "hn_no_account_live_floor_link.json": 0,
+    "hn_phone_first_pos.json": 8,
+    "hn_solo_founder_saas.json": 3,
+    "openalex_creativity_AND_product.json": 3425,
+    "openalex_htmx_OR_no_build_OR_single_page.json": 43429,
+    "openalex_restaurant_OR_hospitality_AND_hci.json": 30,
+    "producthunt_feed.rss": 50
+  }
+}

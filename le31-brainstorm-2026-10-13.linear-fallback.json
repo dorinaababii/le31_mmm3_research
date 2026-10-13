@@ -1,0 +1,45 @@
+{
+  "task": "le31-brainstorm-linear-fallback-2026-10-13",
+  "date": "2026-10-13",
+  "linear_mcp_status": "BLOCKED",
+  "linear_mcp_block_reason": "HTTP 400 *You've exceeded the free issue limit for this workspace* — verified today via get_workspace read (works) + attempted save_issue write probe (fails). Carry-over from 10-12's 24-day streak. **25th consecutive day of Linear MCP write endpoint BLOCKED**.",
+  "intended_parent_research_issue": {
+    "title": "Brainstorm 2026-10-13 — daily",
+    "team": "le31 Research",
+    "project": "le31 Research (P-HMM-1)",
+    "state": "Done",
+    "description": "# Brainstorm 2026-10-13 — daily\n\n**76th consecutive daily-brainstorm pass.**\n\n## Headline\n\n3 net-new cross-section picks filed (all `defer` parking-lot vocabulary references):\n\n1. **Pick A** — `Samarty-1/payout-recon` (MIT, 0★/0⑂, 28 KB, Python ✓ ON-STACK, **IN-WINDOW BY BOTH FIELDS**): **v1 payment-processor-payout-reconciliation-vocabulary** — POS + Stripe + GrabFood/foodpanda payouts + bank-statement 4-way reconciliation (DuckDB, FastAPI).\n2. **Pick B** — `Samarty-1/fairshift` (MIT, 0★/0⑂, 31 KB, Python ✓ ON-STACK, **IN-WINDOW BY BOTH FIELDS**): **v1 small-business-roster-with-sick-call-replanning-vocabulary** — rosters for shops and cafés: legal + fair + costed + minimal-change-re-planning-when-someone-calls-in-sick (OR-Tools CP-SAT, FastAPI).\n3. **Pick C** — `selmakcby/a-sirketi` (MIT, 81★/21⑂ = highest-star v2-AI pick of the 76-pass series, Python ✓ ON-STACK, **IN-WINDOW BY BOTH FIELDS**): **v2-AI closed-loop-multi-agent-with-human-publish-button-vocabulary** — 3 Claude Code agents + bekçi-guard + dağıtıcı-dispatcher + closed-loop + human-publish-button + Telegram-bot.\n\nAll 3 picks are `defer` (parking-lot, vocabulary references); no v1 build today; no quota-filling.\n\n## Sources\n\n- HN Algolia 9/9 HTTP 200 (76th consecutive quiet day for HN = 0 LE31-titled hits)\n- GitHub Search 17/17 HTTP 200 (most-productive single-day cluster of the 76-pass series)\n- OpenAlex 3/3 HTTP 200 (1 LE31-relevant paper: `W7221315625` DOI 10.1080/23311886.2026.2727741 \"Redefining product development in restaurant kitchens\")\n- ProductHunt RSS 1/1 HTTP 200 (0 LE31-relevant)\n- ScienceDirect BLOCKED on this VPS\n\n## Full report\n\nSee `/opt/data/le31-brainstorm-2026-10-13.md` for full report.\n\n## Anti-fabrication canary\n\n`grep -cF 'LE31' /tmp/le31-brainstorm-2026-10-13/*.json /tmp/le31-brainstorm-2026-10-13/*.rss` = **0** (parent-verified across all 36 files).\n\n## Verification\n\n- All 3 picks ripgrep-verified unique vs features 1–305\n- All 3 picks parent-direct-GitHub-API-GET verified (3/3 matches)\n- All 3 picks parent-ripgrep-verified NOT in features/ (parent-ripgrep on each bare-name; 0 matches for all 3)\n- All 3 picks charter §3.1 + §3.2 ON-PATTERN; §3.4 RIPGL_REVIEW for v2-AI pick\n- 4 parent-overrides of subagent's first-pass top-3 (chatty = DUP-EXISTS feature 227 + ALdia = DUP-EXISTS feature 297 + business-state-machine-mcp = DUP-EXISTS feature 263 + telegram-business-bot = DUP-EXISTS feature 165)"
+  },
+  "intended_sub_issues": [
+    {
+      "title": "Feature: Samarty-1/payout-recon payment-processor-payout-reconciliation-vocabulary (defer, parking-lot)",
+      "project_intended": "le31 Research (P-HMM-1) — v1 bucket (per le31-feature-pipeline/SKILL.md line 33; le31 v1 — Core MVP P-HMM-3 handles v1 picks only when feature is being built; defer artifacts go to le31 Research)",
+      "labels": ["Feature"],
+      "state": "Backlog",
+      "linked_artifact": "/opt/data/le31_mmm3_research/features/314-Samarty-1-payout-recon-mit-payment-processor-payout-reconciliation-pos-stripe-grabfood-foodpanda-bank-statement-duckdb-fastapi-v1-payment-processor-payout-reconciliation-vocabulary.md",
+      "linked_handoff": "/opt/data/le31_mmm3_research/specs/314-Samarty-1-payout-recon-mit-payment-processor-payout-reconciliation-pos-stripe-grabfood-foodpanda-bank-statement-duckdb-fastapi-v1-payment-processor-payout-reconciliation-vocabulary-HANDOFF.md"
+    },
+    {
+      "title": "Feature: Samarty-1/fairshift small-business-roster-with-sick-call-replanning-vocabulary (defer, parking-lot)",
+      "project_intended": "le31 Research (P-HMM-1) — v1 bucket (per le31-feature-pipeline/SKILL.md line 33)",
+      "labels": ["Feature"],
+      "state": "Backlog",
+      "linked_artifact": "/opt/data/le31_mmm3_research/features/315-Samarty-1-fairshift-mit-shops-and-cafes-rosters-legal-fair-costed-constraint-programming-or-tools-cp-sat-minimal-change-re-planning-when-someone-calls-in-sick-fastapi-v1-small-business-roster-with-sick-call-replanning-vocabulary.md",
+      "linked_handoff": "/opt/data/le31_mmm3_research/specs/315-Samarty-1-fairshift-mit-shops-and-cafes-rosters-legal-fair-costed-constraint-programming-or-tools-cp-sat-minimal-change-re-planning-when-someone-calls-in-sick-fastapi-v1-small-business-roster-with-sick-call-replanning-vocabulary-HANDOFF.md"
+    },
+    {
+      "title": "Feature: selmakcby/a-sirketi closed-loop-multi-agent-with-human-publish-button-vocabulary (defer, parking-lot)",
+      "project_intended": "le31 Research (P-HMM-1) — v2-AI bucket (per le31-feature-pipeline/SKILL.md line 33; le31 v2-AI does NOT exist so v2-AI bucket sub-issue attaches to le31 Research)",
+      "labels": ["Feature"],
+      "state": "Backlog",
+      "linked_artifact": "/opt/data/le31_mmm3_research/features/316-selmakcby-a-sirketi-mit-3-claude-code-agents-bekci-guard-dagatici-dispatcher-closed-loop-human-publish-button-python-telegram-bot-v2-ai-closed-loop-multi-agent-with-human-publish-button-vocabulary.md",
+      "linked_handoff": "/opt/data/le31_mmm3_research/specs/316-selmakcby-a-sirketi-mit-3-claude-code-agents-bekci-guard-dagatici-dispatcher-closed-loop-human-publish-button-python-telegram-bot-v2-ai-closed-loop-multi-agent-with-human-publish-button-vocabulary-HANDOFF.md"
+    }
+  ],
+  "report_path": "/opt/data/le31-brainstorm-2026-10-13.md",
+  "raw_fetches_path": "/tmp/le31-brainstorm-2026-10-13/",
+  "raw_fetches_manifest": "/opt/data/le31-brainstorm-2026-10-13-raw-fetches-manifest.json",
+  "index_row": "/opt/data/INDEX.md (3 new rows appended for 2026-10-13 brainstorm picks)",
+  "blizzard_streak": "25th consecutive day",
+  "carry_over_picks_active": "features 1..305 cluster + features 307 + 308 + 309 + 310 + 311 + 312 + 313 (10-12 daily-brainstorm) + features 296 + 297 + 298 (10-13 daily-research) + features 314 + 315 + 316 (10-13 daily-brainstorm) all carry-over as defer vocabulary references; no v1 build today"
+}
