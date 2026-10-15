@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-15",
+  "pass_number": 77,
+  "pass_type": "daily-brainstorm",
+  "headline": "3 net-new cross-section picks filed (all defer parking-lot vocabulary references) — 1 v1 tiny-FastAPI+WebSocket+crossover-restaurant-stack-shape-vocabulary (movsarusumov172-crypto/KitchenQ, MIT, 43 KB tiny, Python+FastAPI+SQLite+WebSocket+vanilla-JS, IN-WINDOW BY BOTH FIELDS) + 1 v2-AI TabPFN+local-Gemma+small-motel-no-show-forecasting-vocabulary (My-CMDhub/no-show-desk, MIT, 270 KB modest, Python+FastAPI+LangGraph+TabPFN+local-Gemma+Telegram-bot+code-checks-every-fact, IN-WINDOW BY BOTH FIELDS) + 1 v1 QR-code-table-ordering-UX-vocabulary-reference (AlexisLD-DEV/qramen, MIT, 267756 KB substantial, OFF-STACK flag — actual impl is n8n+Airtable+vanilla-JS, IN-WINDOW BY BOTH FIELDS) — 3 picks IN-WINDOW BY BOTH FIELDS for the 1st time in the 77-pass series",
+  "report_path": "/opt/data/le31-brainstorm-2026-10-15.md",
+  "raw_fetches_path": "/tmp/le31-brainstorm-2026-10-15/",
+  "linear_status": "blocked",
+  "linear_blocker": "HTTP 400 'You''ve exceeded the free issue limit for this workspace' (write endpoint blocked for 26th consecutive day per 10-15 Brainstorm pass; verified today via parent write-probe with requestId a4ad01d94b7e18f3 for parent issue + a4ad0b66584c1e68 for first sub-issue attempt)",
+  "linear_write_probe_request_ids": [
+    "a4ad01d94b7e18f3 (intended parent 'Brainstorm 2026-10-15 — daily')",
+    "a4ad0b66584c1e68 (intended sub-issue 'Feature 323 — movsarusumov172-crypto-KitchenQ...')"
+  ],
+  "linear_blocker_streak_days": 26,
+  "intended_parent_issue": {
+    "project_id": "P-HMM-1",
+    "project_name": "le31 Research",
+    "title": "Brainstorm 2026-10-15 — daily",
+    "description": "# Brainstorm 2026-10-15 — daily\n\n## Short summary\n\n77th consecutive daily-brainstorm pass. 3 net-new cross-section picks filed (all `defer` parking-lot vocabulary references) — 1 v1 tiny-FastAPI+WebSocket+crossover-restaurant-stack-shape-vocabulary (`movsarusumov172-crypto/KitchenQ`, MIT, 43 KB tiny, Python+FastAPI+SQLite+WebSocket+vanilla-JS, IN-WINDOW BY BOTH FIELDS) + 1 v2-AI TabPFN+local-Gemma+small-motel-no-show-forecasting-vocabulary (`My-CMDhub/no-show-desk`, MIT, 270 KB modest, Python+FastAPI+LangGraph+TabPFN+local-Gemma+Telegram-bot+code-checks-every-fact, IN-WINDOW BY BOTH FIELDS) + 1 v1 QR-code-table-ordering-UX-vocabulary-reference (`AlexisLD-DEV/qramen`, MIT, 267756 KB substantial, OFF-STACK flag — actual impl is n8n+Airtable+vanilla-JS, IN-WINDOW BY BOTH FIELDS).\n\n3 picks are net-new unique (ripgrep-verified against features 1-344) and parent-direct-GitHub-API-GET-verified. 3 picks IN-WINDOW BY BOTH FIELDS for the 1st time in the 77-pass series. 77th consecutive day with 0 LE31-relevant HN titled hit. 17/17 GitHub Search queries HTTP 200 with 7690 total_count across 17 queries = 2nd-strongest brainstorm-pass cluster of the 77-pass series. OpenAlex 3/3 HTTP 200 with 0 LE31-relevant restaurant-tech software papers. ProductHunt 1/2 HTTP 200 (restaurant feed returned HTTP 301 -> 0-byte body, documented failure mode). ScienceDirect blocked on this VPS. Anti-fabrication canary `grep -cF 'LE31' /tmp/le31-brainstorm-2026-10-15/*.{json,rss,atom,xml}` = 0 matches across 33 files = PASS.\n\nAll 3 picks `defer` per the established convention; no v1 build today; no quota-filling.\n\n## File path\n\n`/opt/data/le31-brainstorm-2026-10-15.md`\n\n## Three picks handed off to le31-feature-pipeline\n\n- `movsarusumov172-crypto-KitchenQ`\n- `My-CMDhub-no-show-desk`\n- `AlexisLD-DEV-qramen`\n",
+    "state": "Done",
+    "labels": []
+  },
+  "intended_sub_issues": [
+    {
+      "project_id": "P-HMM-1",
+      "project_name": "le31 Research",
+      "reason": "Per `le31-feature-pipeline/SKILL.md` line 33 — workspace contains only 3 projects (`le31 v1 — Core MVP` P-HMM-3, `le31 Workflow` P-HMM-2, `le31 Research` P-HMM-1); `le31 v1 — Core MVP` does not exist as a separate v1 / v2 / v2-AI bucket — all 3 picks are parking-lot vocabulary references and attach to `le31 Research` as parent of the sub-issue per today's confirmed workspace-state",
+      "title": "Feature 345 — movsarusumov172-crypto-KitchenQ v1 tiny-FastAPI+WebSocket+crossover-restaurant-stack-shape-vocabulary (defer)",
+      "description": "Feature contract placeholder — see `/opt/data/le31_mmm3_research_work/features/345-movsarusumov172-crypto-KitchenQ-...md` (to be created by pipeline step 7).",
+      "parent_id": "<intended_parent_issue_id>",
+      "labels": ["Feature"]
+    },
+    {
+      "project_id": "P-HMM-1",
+      "project_name": "le31 Research",
+      "reason": "Per `le31-feature-pipeline/SKILL.md` line 33 — workspace contains only 3 projects; v2-AI bucket does not exist as a separate project — all 3 picks attach to `le31 Research` as parent of the sub-issue",
+      "title": "Feature 346 — My-CMDhub-no-show-desk v2-AI TabPFN+local-Gemma+small-motel-no-show-forecasting-vocabulary (defer)",
+      "description": "Feature contract placeholder — see `/opt/data/le31_mmm3_research_work/features/346-My-CMDhub-no-show-desk-...md` (to be created by pipeline step 7).",
+      "parent_id": "<intended_parent_issue_id>",
+      "labels": ["Feature"]
+    },
+    {
+      "project_id": "P-HMM-1",
+      "project_name": "le31 Research",
+      "reason": "Per `le31-feature-pipeline/SKILL.md` line 33 — workspace contains only 3 projects; OFF-STACK flag means this is vocabulary-only (n8n+Airtable+vanilla-JS not adopted); still attaches to `le31 Research` as parent of the sub-issue",
+      "title": "Feature 347 — AlexisLD-DEV-qramen v1 QR-code-table-ordering-UX-vocabulary-reference (defer, OFF-STACK)",
+      "description": "Feature contract placeholder — see `/opt/data/le31_mmm3_research_work/features/347-AlexisLD-DEV-qramen-...md` (to be created by pipeline step 7).",
+      "parent_id": "<intended_parent_issue_id>",
+      "labels": ["Feature"]
+    }
+  ],
+  "verification": {
+    "anti_fabrication_canary": "PASS — grep -cF 'LE31' across 33 raw fetch files = 0 matches",
+    "all_three_picks_direct_github_api_get_verified": true,
+    "all_three_picks_ripgrep_unique_vs_features_1_to_344": true,
+    "subagent_13s_pushed_at_discrepancy_caught_on_pick_b": true,
+    "raw_verifies": [
+      "/tmp/le31-brainstorm-2026-10-15/verify/ghverify__parent_movsarusumov172-crypto_KitchenQ.json",
+      "/tmp/le31-brainstorm-2026-10-15/verify/ghverify__parent_My-CMDhub_no-show-desk.json",
+      "/tmp/le31-brainstorm-2026-10-15/verify/ghverify__parent_AlexisLD-DEV_qramen.json"
+    ]
+  },
+  "next_pass_action": "When Linear write endpoint is unblocked (manual workspace upgrade), recreate this parent issue + 3 sub-issues above; the INDEX.md row is the source of truth in the meantime"
+}
