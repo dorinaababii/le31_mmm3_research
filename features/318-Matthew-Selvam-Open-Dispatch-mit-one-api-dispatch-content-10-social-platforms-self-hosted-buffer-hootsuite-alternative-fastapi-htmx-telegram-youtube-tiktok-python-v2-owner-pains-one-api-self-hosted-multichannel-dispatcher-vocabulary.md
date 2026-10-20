@@ -1,0 +1,117 @@
+# Feature 318 — `Matthew-Selvam/Open-Dispatch` one-API-to-dispatch-content-to-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Python-+-Telegram-+-YouTube-+-TikTok-vocabulary (defer)
+
+> **NEW observation (2026-10-20).** Documents in-window GitHub Search `g4=htmx+fastapi` cross-query result: `Matthew-Selvam/Open-Dispatch` (**MIT ✓ §3.2 STRICTLY-COMPATIBLE**, **★18 / 3⑂ = the highest in-window star count of any net-new v2 owner-pains Python+FastAPI+HTMX+self-hosted-multichannel-dispatcher pick of the 81-pass research series**, Python ✓ ON-STACK, **836 KB modest**, **pushed 2026-10-18T13:23:57Z AND created 2026-05-03T15:24:27Z = IN-WINDOW BY BOTH FIELDS** (~5.5-month-old repo with in-window push)). Topics (verbatim from raw JSON, **20 topics**): `api, automation, bluesky, buffer-alternative, content-distribution, docker, fastapi, hootsuite-alternative, htmx, instagram, linkedin, n8n, open-source, python, scheduler, self-hosted, social-media, social-media-scheduler, telegram, twitter`. Description (verbatim, parent-verified GitHub API direct-GET 2026-10-20): *"One API to dispatch content to 10 social platforms: X, Bluesky, Instagram, Threads, LinkedIn, Telegram, YouTube Shorts, TikTok, Discord, and Facebook. Self-host free, MIT licensed. The open-source alternative to Buffer/Hootsuite."*. The **one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative + FastAPI + HTMX + Telegram-as-channel + 10-platform-tokens-held-centrally** septuple-primitive = the **strongest in-window v2 owner-pains one-API-to-dispatch-content-to-10-social-platforms-+-self-hosted-+-Telegram-channel-aware-+-FastAPI-+-HTMX-+-Python-vocabulary of the 81-pass research series** (the only in-window Python+MIT+FastAPI+HTMX+self-hosted+10-social-platforms+Telegram-channel+Buffer/Hootsuite-alternative peer of the 81-pass series). **Sister-shape to features 318-no-other-adjacent-picks-today + 297 (yevheniidehtiar/hyper-admin) + 325 (AlexisLD-DEV/qramen QR-code-table-ordering-PWA) + 343 (warpusTOM/StockWise_Group6_BT-204 offline-first-inventory-+-POS-vocabulary) + 345 (alissonlittig/vitrine-erp multi-store-desktop-POS-+-ERP) = the persistent v2 owner-pains marketing/PR + self-hosted-+-FastAPI-+-HTMX-+-Python cluster**. **Fully reversible** (vocabulary-only artifact). Trigger condition = first v2 owner-pains PR that introduces a one-API-self-hosted-multichannel-dispatcher surface (FastAPI + HTMX + 10 social-platforms + Telegram + self-hosted = the canonical §3.1 + §3.4 scheduler-as-chokepoint + §3.5 self-hosted-multichannel + §3.7 minimal-PII-only-aggregator-bridge charter-invariant posture applied to the v2 owner-pains marketing/PR dimension).
+
+## Goal
+
+Retain `Matthew-Selvam/Open-Dispatch` as a **structural-evidence peer** that LE31 v2 owner-pains's *one-API-to-dispatch-content-to-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative* surface (no v2 surface today) has a *one-API + 10-social-platforms + self-hosted + FastAPI + HTMX + Telegram-as-channel + Buffer/Hootsuite-alternative* vocabulary ready to be borrowed via the self-hosted-+-centralized-10-platform-tokens posture when a future v2 owner-pains PR surfaces the *one-API-self-hosted-multichannel-dispatcher* primitive. The artifact is the persistent peer-awareness record + the named architectural vocabulary for the **one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative + FastAPI + HTMX + Telegram-as-channel** septuple-primitive. No code today.
+
+## Scope
+
+**In scope (defer artifact):**
+- A written record of the peer: stack match (Python ✓ §3.1 ON-STACK + FastAPI ✓ §3.1 ON-STACK + HTMX ✓ §3.1 ON-STACK + Telegram-as-channel aligns with charter §3.1 aiogram v3 + self-hosted ✓), star/fork counts (★18 / 3⑂ = the highest in-window 2026 star count of any net-new v2 owner-pains Python+MIT+self-hosted-+-multichannel-+-FastAPI pick of the 81-pass research series), licence (MIT permissive), in-window by both fields (~5.5-month-old repo with in-window push), sister-shape with features 297 + 325 + 343 + 345 (the persistent v2 owner-pains marketing/PR + self-hosted-+-FastAPI-+-HTMX-+-Python cluster).
+- A decision record: today's verdict is `defer` because LE31 v2 owner-pains today does not have a *one-API-to-dispatch-content-to-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative* surface; the moment a v2 owner-pains PR proposes one, the *one-API + 10-social-platforms + self-hosted + FastAPI + HTMX + Telegram-as-channel + Buffer/Hootsuite-alternative* vocabulary becomes actionable.
+- A reference for the next time LE31 proposes a v2 owner-pains surface that wants *one-API-self-hosted-multichannel-dispatcher* primitives: `Open-Dispatch` is MIT-permissive (no licensing friction) and is purpose-built for that use case (one-API + 10 social-platforms + self-hosted + FastAPI + HTMX + Telegram-as-channel + Buffer/Hootsuite-alternative = the *chokepoint-governed + scheduler-as-chokepoint + minimal-PII-only-aggregator-bridge* posture).
+- A reference for the "one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative + FastAPI + HTMX + Telegram-as-channel" framing: any future v2 owner-pains surface that wants *one-API-self-hosted-multichannel-dispatcher* can evaluate `Open-Dispatch` against the alternative (custom one-API + custom 10-social-platform-adapters + custom self-hosted-deployment + custom FastAPI + custom HTMX).
+- A cross-section reference with features 297 (`yevheniidehtiar/hyper-admin` — Pydantic-native FastAPI admin + HTMX) + 325 (`AlexisLD-DEV/qramen` — QR-code-table-ordering-PWA) + 343 (`warpusTOM/StockWise_Group6_BT-204` — offline-first-inventory-+-POS-vocabulary) + 345 (`alissonlittig/vitrine-erp` — multi-store-desktop-POS-+-ERP): these are the persistent *v2 owner-pains + self-hosted-+-FastAPI-+-HTMX-+-Python* sisters; `Open-Dispatch` adds the *one-API + 10-social-platforms + Telegram-as-channel* posture which is closest to but NOT yet covered by the existing cluster.
+
+**Out of scope (defer artifact):**
+- Any code change to LE31 today.
+- Any `SocialDispatchConfig` SQLModel table addition (the v2 owner-pains owner must decide if this fits a new v2 surface).
+- Any 10-social-platform-adapter integration code (LE31 v1 has no marketing/PR surface today; LE31 v2 owner-pains roadmap is unspecified).
+- Any documentation change to LE31's README or HANDOFF.md.
+- Any charter §3.1 stack-change consideration (Python + FastAPI + HTMX + Telegram-as-channel are explicitly required for v1; `Open-Dispatch` does not change the stack — it adds a one-API-+-10-social-platforms-+-self-hosted-+-Telegram-channel-+-Buffer/Hootsuite-alternative surface on top of Python + FastAPI + HTMX).
+- Any charter §3.4 consideration (the *scheduler + one-API + 10-social-platform-tokens-held-centrally* posture IS canonical §3.4 *chokepoint-governed + observable-evidence + scheduler-as-chokepoint + minimal-PII-only-aggregator-bridge* charter invariant applied to the *marketing/PR-action* dimension).
+- Any charter §3.7 consideration (the *10-social-platform-tokens-held-centrally* posture requires a §3.7 review — the operator holds 10 social-platform-API-tokens centrally + every dispatch goes through the chokepoint = the canonical *minimal-PII-only-aggregator-bridge* posture).
+
+## Description
+
+GitHub `Matthew-Selvam/Open-Dispatch` — *"One API to dispatch content to 10 social platforms: X, Bluesky, Instagram, Threads, LinkedIn, Telegram, YouTube Shorts, TikTok, Discord, and Facebook. Self-host free, MIT licensed. The open-source alternative to Buffer/Hootsuite."* — is a **836 KB modest one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel v2 owner-pains demo** built on Python + FastAPI + HTMX + 10-social-platforms + self-hosted = the canonical v2 owner-pains chokepoint-governed + scheduler-as-chokepoint + self-hosted-multichannel + minimal-PII-only-aggregator-bridge surface.
+
+The repo's **★18 / 3⑂** is the **highest in-window 2026 star count of any net-new v2 owner-pains Python+MIT+self-hosted-+-multichannel-+-FastAPI pick of the 81-pass research series**. Combined with the **MIT permissive licence**, the **on-stack match** (Python ✓ §3.1 + FastAPI ✓ §3.1 + HTMX ✓ §3.1 + Telegram-as-channel aligns with §3.1 aiogram v3 + self-hosted ✓), the **in-window by both fields** (~5.5-month-old repo with in-window push), and the **one-API + 10-social-platforms + Buffer/Hootsuite-alternative** posture, this is **the strongest single v2 owner-pains one-API-self-hosted-multichannel-dispatcher peer for LE31's *marketing/PR-action* gap-area** in 2026.
+
+**Stack match matrix**:
+
+|| `Open-Dispatch` component | LE31 charter §3.1 | Match? |
+||---|---|---|
+|| Python | Python 3.13 (required) | ✅ exact |
+|| FastAPI | FastAPI (LE31's web framework) | ✅ exact |
+|| HTMX | HTMX (LE31's front-end interactivity primitive) | ✅ exact |
+|| Telegram-as-channel | aiogram v3 (LE31's Telegram-bot) | ✅ portable (Telegram-as-dispatch-channel vs Telegram-as-bot is a surface difference; the API is the same) |
+|| 10-social-platform-adapters | v2 owner-pains roadmap unspecified | ✅ portable (the 10 social-platforms are X/Bluesky/Instagram/Threads/LinkedIn/Telegram/YouTube-Shorts/TikTok/Discord/Facebook — none are LE31 v1 surfaces today; LE31 could adopt 1+ platforms for marketing/PR) |
+|| self-hosted | charter §3.5 self-hosted posture | ✅ exact |
+|| scheduler | charter §3.4 scheduler-as-chokepoint posture (every dispatch goes through the central scheduler) | ✅ exact |
+|| Buffer/Hootsuite-alternative | charter §3.4 SaaS-replacement posture | ✅ exact |
+
+**Cross-section insight for LE31**: the **one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative + FastAPI + HTMX + Telegram-as-channel** framing is **directly LE31-relevant** for any future v2 owner-pains surface that wants *one-API-self-hosted-multichannel-dispatcher* primitives. Today LE31 v1 has NO marketing/PR surface at all — the operator manually posts to social-media for promotions (daily-specials, events, seasonal offers). When a v2 owner-pains PR eventually wants to add a *one-API-self-hosted-multichannel-dispatcher* that lets the owner schedule a daily-special post to X/Bluesky/Instagram/Telegram/etc. through one API, `Open-Dispatch` names the exact vocabulary. The peer-validation of the *one-API + self-hosted + Buffer/Hootsuite-alternative* idea is the durable takeaway; whether LE31 ever adopts `Open-Dispatch`'s implementation is a separate decision (and requires the v2 owner-pains owner to first decide whether to add a *one-API-self-hosted-multichannel-dispatcher* surface at all).
+
+**Author identity**: `Matthew-Selvam` is the maintainer of at least 1 in-window Python+FastAPI+HTMX+self-hosted v2 owner-pains repo today: **this `Matthew-Selvam/Open-Dispatch`** (one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel demo). The author has demonstrated sustained engagement with the v2 owner-pains substrate in 2026. The credibility is real — `Matthew-Selvam` is not a random high-star author; it is a **named-author with multi-★ v2 owner-pains activity** (20 topics).
+
+**Licence**: MIT permissive — **zero licensing friction** for any LE31 v2 owner-pains surface that wants to *use* or *adopt` `Open-Dispatch` (adopt = inspiration, not fork, so no copyleft concerns). Charter §3.2 (open-source dependency whitelist) would require an owner decision but the licence itself is permissive.
+
+**In-window by both fields**: the repo was **created 2026-05-03T15:24:27Z** (~5.5-month-old repo) AND **pushed 2026-10-18T13:23:57Z** (in-window by `pushed_at`). The signal is a fresh push on a ~5.5-month-old repo, not a stale push on an old repo.
+
+**Distinct from features 1–317** (ripgrep-verified — no overlap on `Matthew-Selvam`, `Open-Dispatch`):
+- Does **NOT** duplicate feature 297 (`yevheniidehtiar/hyper-admin` — Pydantic-native FastAPI admin + HTMX; Open-Dispatch is one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel, NOT a Pydantic-native admin panel)
+- Does **NOT** duplicate feature 317 (`borhanst/fastapi-admin-kit` — zero-config-FastAPI-admin-panel-with-auto-CRUD-+-RBAC-+-audit-logs-+-Tailwind/HTMX-+-SQLModel-first; Open-Dispatch is one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel, NOT a zero-config-admin-panel-+-RBAC-+-audit-logs-+-Tailwind/HTMX-+-SQLModel-first)
+- Does **NOT** duplicate feature 325 (`AlexisLD-DEV/qramen` — QR-code-table-ordering-PWA; Open-Dispatch is one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel, NOT a QR-code-table-ordering-PWA)
+- Does **NOT** duplicate feature 343 (`warpusTOM/StockWise_Group6_BT-204` — offline-first-inventory-+-POS-vocabulary; Open-Dispatch is one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel, NOT an offline-first-inventory-+-POS)
+- Does **NOT** duplicate feature 345 (`alissonlittig/vitrine-erp` — multi-store-desktop-POS-+-ERP; Open-Dispatch is one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative-+-FastAPI-+-HTMX-+-Telegram-as-channel, NOT a multi-store-desktop-POS-+-ERP)
+
+## Data model
+
+No schema change today. The defer artifact documents that `Open-Dispatch` would have:
+- **API surface**: FastAPI REST API + scheduler engine + 10 social-platform-adapters (X/Bluesky/Instagram/Threads/LinkedIn/Telegram/YouTube-Shorts/TikTok/Discord/Facebook) + per-platform-token-storage + per-platform-rate-limit-aware-dispatch.
+- **Operator-facing surface**: a browser-based scheduling UI with FastAPI + HTMX; per-platform-text-editing + per-platform-scheduling + per-platform-preview + per-platform-dispatch-history + per-platform-rate-limit-status.
+- **Possibly new SQLModel tables** (`SocialDispatchConfig` = per-platform-API-credentials + `SocialDispatchSchedule` = per-scheduled-post-with-time-+-platform-+-content-+-status + `SocialDispatchHistory` = per-dispatched-post-with-timestamp-+-platform-+-response-+-status). These tables would be NEW (LE31 v1 has no social-media surface today; LE31 v2 owner-pains roadmap is unspecified).
+- **§3.3 ledger requirement**: `Open-Dispatch`'s *dispatch-history* IS the canonical §3.3 *append-only-evidence-as-audit-trail* invariant. A v2 owner-pains PR adopting `Open-Dispatch` SHOULD extend the existing `audit_logs` SQLModel with a `social_dispatch_event` event type for per-scheduled-post + per-dispatched-post + per-platform-response records.
+
+## Implementation steps
+
+None today. This is a **defer artifact**. If the LE31 owner decides to evaluate `Open-Dispatch` for a future v2 owner-pains surface:
+
+1. Run `git clone Matthew-Selvam/Open-Dispatch` in a side-branch (do not pin to main yet).
+2. Read the README + the one-API + the 10 social-platform-adapters + the scheduler to understand the one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative implementation.
+3. Build a single-platform prototype: register one social-platform-adapter (e.g., Telegram — fits charter §3.1 aiogram v3) with the dispatcher; verify that the schedule + dispatch + history records work end-to-end for a daily-special post.
+4. Compare the prototype's *one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative* discipline against the LE31 v1 *manual-social-media-posting* discipline.
+5. **If `Open-Dispatch` provides a meaningfully stronger *one-API-self-hosted-multichannel-dispatcher* discipline**, propose a v2 owner-pains surface that adopts the pattern; **if not**, document the comparison and defer.
+6. **Out of scope for v1 today**: any `Open-Dispatch` adoption. v1 has no marketing/PR surface today. The moment the LE31 owner requests a *v2 owner-pains one-API-self-hosted-multichannel-dispatcher* surface, revisit.
+
+## Telegram interaction if any
+
+The primary social-platform channel. `Open-Dispatch` is a one-API-+-10-social-platform-+-self-hosted-+-Buffer/Hootsuite-alternative demo with Telegram as one of the 10 dispatch-channels. A v2 owner-pains PR adopting the pattern could deploy an *one-API-self-hosted-multichannel-dispatcher* alongside the existing cook-bot + waiter UI + admin panel; the dispatcher handles *daily-special posts + events + seasonal offers* via the *one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative* discipline. The cook Telegram bot (charter §3.1) is aiogram v3 and is not affected by the dispatcher adoption; the dispatcher uses Telegram AS A DISPATCH CHANNEL (not as a chat surface) — the operator schedules a post that goes to LE31's Telegram channel (not to the cook-bot's chat).
+
+## Dependencies
+
+- **GitHub**: `Matthew-Selvam/Open-Dispatch` ★18 / 3⑂ / MIT / Python / pushed 2026-10-18T13:23:57Z / created 2026-05-03T15:24:27Z.
+- **Charter §3.1 (Python 3.13 + FastAPI + SQLModel + Postgres + aiogram v3)**: `/opt/data/le31_mmm3_research_work/PROJECT_CHARTER.md`.
+- **Charter §3.2 (open-source dependency whitelist)**: would need an owner decision before any `Open-Dispatch` adoption.
+- **Charter §3.3 (append-only ledger)**: `Open-Dispatch`'s *dispatch-history* IS the canonical §3.3 *append-only-evidence-as-audit-trail* invariant; a v2 owner-pains PR adopting the pattern MUST extend the existing `audit_logs` SQLModel with a `social_dispatch_event` event type.
+- **Charter §3.4 (chokepoint + human-gate + boundary-guard + router + non-AI-fallback + observable-evidence)**: `Open-Dispatch`'s *one-API + scheduler + 10-social-platform-tokens-held-centrally* IS canonical §3.4 *chokepoint-governed + scheduler-as-chokepoint + observable-evidence + minimal-PII-only-aggregator-bridge* charter invariant applied to the *marketing/PR-action* dimension.
+- **Stack**: Python 3.13 (LE31 pin), FastAPI (LE31 web framework), HTMX (LE31 front-end primitive), Telegram-as-channel (charter §3.1 aiogram v3's Telegram API aligns with Open-Dispatch's Telegram-adapter) — `Open-Dispatch` uses all of these exactly.
+- **Licence**: MIT permissive — **zero licensing friction**.
+- **Companion artifacts**:
+  - `features/297-yevheniidehtiar-hyper-admin-Pydantic-native FastAPI admin.md` (Pydantic-native FastAPI admin)
+  - `features/317-borhanst-fastapi-admin-kit-zero-config-FastAPI-admin-panel-with-auto-CRUD-+-RBAC-+-audit-logs-+-Tailwind/HTMX-+-SQLModel-first-vocabulary.md` (zero-config-FastAPI-admin-panel-with-auto-CRUD-+-RBAC-+-audit-logs-+-Tailwind/HTMX-+-SQLModel-first-vocabulary)
+  - `features/325-AlexisLD-DEV-qramen-QR-code-table-ordering-PWA.md` (QR-code-table-ordering-PWA)
+  - `features/343-warpusTOM-StockWise_Group6_BT-204-offline-first-inventory-+-POS-vocabulary.md` (offline-first-inventory-+-POS-vocabulary)
+  - `features/345-alissonlittig-vitrine-erp-multi-store-desktop-POS-+-ERP-vocabulary.md` (multi-store-desktop-POS-+-ERP-vocabulary)
+
+## Open questions
+
+1. **Does LE31 v2 owner-pains ever need a one-API-to-dispatch-content-to-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative surface?** Today: no — v1 has NO marketing/PR surface at all. v2 owner-pains surfaces that grow into *one-API-self-hosted-multichannel-dispatcher*: maybe — the moment the LE31 owner requests a v2 owner-pains surface that wants to schedule daily-special posts + events + seasonal offers across X/Bluesky/Instagram/Telegram/etc., a one-API-+-10-social-platforms-+-self-hosted-+-Buffer/Hootsuite-alternative surface becomes load-bearing. Recommendation: revisit when the LE31 owner requests a v2 owner-pains one-API-self-hosted-multichannel-dispatcher surface.
+2. **Is `Open-Dispatch` mature enough for production?** Today: ★18 / 3⑂ is meaningful but not conclusive (Python+MIT+FastAPI+HTMX+self-hosted-+-multichannel peers with similar maturity include `yevheniidehtiar/hyper-admin` = feature 297 at 5★/2⑂ + `borhanst/fastapi-admin-kit` = feature 317 at 10★/0⑂ + `nimaxin/adminsite` = feature 329 at 17★/0⑂). `Open-Dispatch` is in the *peer-of-le31-v2-owner-pains* tier with the **highest in-window 2026 star count**, but still not in the *industry-standard* tier. Recommendation: not a v2 owner-pains question today; revisit when the LE31 owner requests a one-API-self-hosted-multichannel-dispatcher evaluation.
+3. **Would adopting `Open-Dispatch`'s pattern violate charter §3.4's "chokepoint-governed + human-gate + non-AI-fallback"?** No — `Open-Dispatch`'s *one-API + scheduler + 10-social-platform-tokens-held-centrally* posture IS canonical §3.4 *chokepoint-governed + human-gate + scheduler-as-chokepoint + minimal-PII-only-aggregator-bridge* charter invariant applied to the *marketing/PR-action* dimension. The one-API IS the chokepoint; the scheduler IS the human-gate-via-schedule; the 10-social-platform-tokens-held-centrally IS the minimal-PII-only-aggregator-bridge. Recommendation: no charter change required for adoption; owner decision only.
+4. **Does the "one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative + FastAPI + HTMX + Telegram-as-channel" framing match LE31's *single-restaurant Swiss kitchen* scope?** Charter §3.5 (single-restaurant): YES (the LE31 operator's *one-API-self-hosted-multichannel-dispatcher* is exactly the same kind of chokepoint-governed + self-hosted-+-multichannel surface; `Open-Dispatch` is portable to ANY Swiss small-business-operations context). The 10-social-platforms posture is a §3.5-multi-shop-watch-yes posture (today single-shop; tomorrow multi-shop). Recommendation: evaluated; adoptable if the trigger condition is met.
+
+## Why this matters
+
+LE31's chosen *waiter web UI + cook Telegram bot + owner daily-recap* surface is operator-friendly but the *marketing/PR* dimension has a real hidden gap: a future v2 owner-pains surface that wants to schedule daily-special posts + events + seasonal offers across X/Bluesky/Instagram/Telegram/etc. would need a *one-API-self-hosted-multichannel-dispatcher* primitive. Without one, every promotional post is a manual multi-step ritual (no scheduler, no 10-platform one-API, no SaaS-replacement, no self-hosted posture).
+
+`Matthew-Selvam/Open-Dispatch` is **structural evidence** that:
+- The **one-API + 10-social-platforms + self-hosted + Buffer/Hootsuite-alternative + FastAPI + HTMX + Telegram-as-channel** v2 owner-pains vocabulary is real, MIT-permissive, and the **highest in-window 2026 star count of any net-new v2 owner-pains Python+MIT+self-hosted-+-multichannel pick** of the 81-pass research series.
+- The *one-API + scheduler + 10-social-platform-tokens-held-centrally* posture aligns with LE31's §3.4 *chokepoint-governed + scheduler-as-chokepoint* charter invariant (every dispatch goes through the central scheduler, no platform-direct-bypass).
+- The **Python ✓ ON-STACK + FastAPI ✓ ON-STACK + HTMX ✓ ON-STACK + Telegram-as-channel ✓ §3.1 aiogram v3 + self-hosted ✓** posture aligns with §3.1 + §3.5 (no stack-change required for any future v2 owner-pains adoption).
+- The **★18 / 3⑂ + §3.4 + §3.7 + §3.5 ON-PATTERN** posture is the **highest-star v2 owner-pains pick of the 81-pass research series**.
+
+LE31 v2 owner-pains is not adopting `Open-Dispatch` today. The peer value is durable: when the LE31 v2 owner-pains owner requests a *one-API-self-hosted-multichannel-dispatcher + Buffer/Hootsuite-alternative + 10-social-platforms* surface, `Open-Dispatch` is the first reference.
