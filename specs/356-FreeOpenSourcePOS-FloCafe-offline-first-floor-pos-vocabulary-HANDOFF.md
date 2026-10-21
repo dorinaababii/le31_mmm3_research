@@ -1,5 +1,7 @@
 # HANDOFF — Feature 353: `FreeOpenSourcePOS-FloCafe-offline-first-floor-pos-vocabulary`
 
+**Upstream source repo: [`FreeOpenSourcePOS/FloCafe`](https://github.com/FreeOpenSourcePOS/FloCafe)** — see `features/353-FreeOpenSourcePOS-FloCafe-offline-first-floor-pos-vocabulary.md` for the full evidence record.
+
 **Slice contract for the coding agent. This is a `defer` (parking-lot) feature — no code change today. The HANDOFF is documentation only.**
 
 ## Active feature path

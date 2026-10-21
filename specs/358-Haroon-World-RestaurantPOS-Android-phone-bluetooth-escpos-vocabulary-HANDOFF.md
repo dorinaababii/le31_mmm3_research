@@ -1,5 +1,7 @@
 # HANDOFF — Feature 355: `Haroon-World-RestaurantPOS-Android-phone-bluetooth-escpos-vocabulary`
 
+**Upstream source repo: [`Haroon-World/RestaurantPOS_Android`](https://github.com/Haroon-World/RestaurantPOS_Android)** — see `features/355-Haroon-World-RestaurantPOS-Android-phone-bluetooth-escpos-vocabulary.md` for the full evidence record.
+
 **Slice contract for the coding agent. This is a `defer` (parking-lot) feature — no code change today. The HANDOFF is documentation only.**
 
 ## Active feature path

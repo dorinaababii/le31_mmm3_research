@@ -1,5 +1,7 @@
 # HANDOFF — Feature 354: `AIDAChip-Inc-mem-plus-plus-append-only-zero-llm-ingest-memory-vocabulary`
 
+**Upstream source repo: [`AIDAChip-Inc/mem-plus-plus`](https://github.com/AIDAChip-Inc/mem-plus-plus)** — see `features/354-AIDAChip-Inc-mem-plus-plus-append-only-zero-llm-ingest-memory-vocabulary.md` for the full evidence record.
+
 **Slice contract for the coding agent. This is a `defer` (parking-lot) feature — no code change today. The HANDOFF is documentation only.**
 
 ## Active feature path
