@@ -129,12 +129,23 @@ for slug in fb["picks"]:
 chk("ChainWarden" in rep and "X.509" in rep, "report records demotion + reason")
 chk("BLOCKED" in rep or "linear: blocked" in rep, "report states Linear block plainly")
 
-# 7. committed content matches the claim
+# 7. committed AND reachable from origin/main (not merely in the tip commit —
+#    a rebase can leave the tip commit holding a peer's files instead)
 head = subprocess.run(["git", "-C", REPO, "show", "--name-only", "--format=", "HEAD"],
                       capture_output=True, text=True)
 committed = {l.strip() for l in head.stdout.splitlines() if l.strip()}
 for f in ("INDEX.md",) + LIVE:
-    chk(f in committed, f"in HEAD: {f}")
+    r = subprocess.run(["git", "-C", REPO, "cat-file", "-e", f"origin/main:{f}"],
+                       capture_output=True)
+    chk(r.returncode == 0, f"present on origin/main: {f}")
+# and the working tree matches origin/main for exactly these paths
+drift = subprocess.run(["git", "-C", REPO, "diff", "--name-only", "origin/main", "--"] +
+                       ["INDEX.md", "_rerun_verification.py", "scripts/",
+                        "features/367-*", "features/368-*", "features/369-*",
+                        "specs/367-*", "specs/368-*", "specs/369-*"],
+                       capture_output=True, text=True)
+chk(not drift.stdout.strip(), "worktree matches origin/main for this pass's artifacts",
+    drift.stdout.strip()[:200])
 dirty = subprocess.run(["git", "-C", REPO, "status", "--porcelain"] +
                        ["_rerun_verification.py", "scripts/", "INDEX.md",
                         "features/367-*", "features/368-*", "features/369-*",

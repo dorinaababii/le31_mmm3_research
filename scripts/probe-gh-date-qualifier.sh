@@ -29,10 +29,16 @@ printf '  topic:%-22s pushed_at:>=   -> %s   <-- dead qualifier\n' "$TOPIC" "$B"
 printf '  topic:%-22s pushed:>=      -> %s   <-- CORRECT spelling\n' "$TOPIC" "$C"
 printf '  topic:%-22s created:>=     -> %s\n' "$TOPIC" "$D"
 
-# Fallback justified only if the CORRECT spelling also returns zero.
-if [ "$C" = "0" ]; then
-  echo "RESULT: pushed:>= also zero -> fallback to gh_nodate/ is justified"
-  exit 1
-fi
-echo "RESULT: pushed:>= returns data -> topic is NOT quiet; do NOT run the no-date fallback"
+# Exit 0 = do NOT fall back. Exit 1 = fall back justified. Exit 2 = INCONCLUSIVE.
+# An auth/rate-limit/parse failure is NOT evidence the topic is quiet: treating
+# it as data silently permits the fallback skip on a broken credential.
+case "$C" in
+  0) echo "RESULT: pushed:>= also zero -> fallback to gh_nodate/ is justified"; exit 1 ;;
+  AUTH_ERR:*|PARSE_ERROR|?)
+    echo "RESULT: INCONCLUSIVE for pushed:>= ($C) — auth/rate-limit or parse failure."
+    echo "        This is NOT evidence the topic is quiet. Fix credentials or wait"
+    echo "        for the rate limit; do NOT read this as 'no fallback needed'."
+    exit 2 ;;
+  *) echo "RESULT: pushed:>= returns data -> topic is NOT quiet; do NOT run the no-date fallback" ;;
+esac
 exit 0
