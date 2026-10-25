@@ -281,10 +281,22 @@ chk([p[3] for p in PICKS] == fb["picks"], "fallback: picks match the report")
 chk(git("log", "-1", "--pretty=%s") == "Daily research 2026-10-25", "HEAD message")
 chk(git("branch", "--show-current") == "main", "HEAD is on main")
 chk(git("rev-parse", "origin/main") == git("rev-parse", "HEAD"), "origin/main == HEAD")
-msgs = [m for m in git("log", "--pretty=%s", "-3").split("\n") if m]
-chk(all(m == "Daily research 2026-10-25" for m in msgs),
-    "all commits from this pass use the required message", str(msgs))
-committed = set(git("log", "--name-only", "--pretty=format:", "-3").split("\n"))
+# this pass's commits are identified by MESSAGE, not by a fixed -N window: the
+# pass may span several commits (artefacts, then verifier, then verifier fix),
+# and a fixed window silently drops the earliest ones.
+_pass = git("log", "--pretty=%H %s", "-20")
+pass_shas, pass_msgs = [], []
+for line in _pass.splitlines():
+    sha, _, msg = line.partition(" ")
+    if msg == "Daily research 2026-10-25":
+        pass_shas.append(sha)
+        pass_msgs.append(msg)
+committed = set()
+for sha in pass_shas:
+    committed |= set(git("show", "--name-only", "--pretty=format:", sha).split("\n"))
+chk(len(pass_shas) >= 1, "this pass's commits located by message", f"{len(pass_shas)} commits")
+chk(all(m == "Daily research 2026-10-25" for m in pass_msgs),
+    "all commits from this pass use the required message", str(pass_msgs))
 for _, _, num, slug in PICKS:
     chk(f"features/{num}-{slug}.md" in committed, f"features/{num} committed")
     chk(f"specs/{slug}-HANDOFF.md" in committed, f"handoff {num} committed")
