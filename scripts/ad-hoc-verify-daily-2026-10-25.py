@@ -281,10 +281,10 @@ chk([p[3] for p in PICKS] == fb["picks"], "fallback: picks match the report")
 chk(git("log", "-1", "--pretty=%s") == "Daily research 2026-10-25", "HEAD message")
 chk(git("branch", "--show-current") == "main", "HEAD is on main")
 chk(git("rev-parse", "origin/main") == git("rev-parse", "HEAD"), "origin/main == HEAD")
-msgs = [m for m in git("log", "--pretty=%s", "-2").split("\n") if m]
+msgs = [m for m in git("log", "--pretty=%s", "-3").split("\n") if m]
 chk(all(m == "Daily research 2026-10-25" for m in msgs),
-    "both commits from this pass use the required message", str(msgs))
-committed = set(git("log", "--name-only", "--pretty=format:", "-2").split("\n"))
+    "all commits from this pass use the required message", str(msgs))
+committed = set(git("log", "--name-only", "--pretty=format:", "-3").split("\n"))
 for _, _, num, slug in PICKS:
     chk(f"features/{num}-{slug}.md" in committed, f"features/{num} committed")
     chk(f"specs/{slug}-HANDOFF.md" in committed, f"handoff {num} committed")
