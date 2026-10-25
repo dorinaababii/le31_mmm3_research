@@ -19,14 +19,13 @@ Record **"a small operator-facing dashboard does not need a dependency tree"** a
 - **One proposed acceptance criterion** for LE31's *own* existing `index.html` mock-up discipline, stated in a form a test could check:
   > *When an owner-facing view is added to LE31, it must render with no build step and no client-side framework dependency — server-rendered HTML plus hand-written CSS, with charts drawn as inline SVG.*
 
-**Out of scope (defer artifact):**
+## Out of scope
 
 - **Any UI, template, CSS, chart, or component change.** This is a criteria document, not a redesign.
 - **Adopting `mesa-lite`'s code, template, or chart implementations.** MIT makes it legally adoptable, but it is a **static HTML template with no backend**, and LE31's surfaces are server-rendered by FastAPI with data from Postgres. The transferable content is the *principle*, not the markup.
 - **A new owner-facing analytics surface.** LE31 has two surfaces (§3.1: waiter web UI, cook Telegram bot). An owner dashboard is not one of them, and this pick does not propose one.
 - **Any stack change.** §3.2 fixes the stack (Python 3.13, FastAPI, SQLModel, aiogram v3, Postgres). LE31's waiter UI is already server-rendered HTML; the *absence of a client-side framework* is arguably already true. **This criterion mostly describes a decision LE31 has already made — the pick's job is to notice that and say so.**
 - **Any charting library decision.** If LE31 ever needs a chart, the criterion is "hand-written SVG or a server-side path", not "adopt this repo's SVG code".
-
 ## Description
 
 `mesa-lite` is a **restaurant analytics dashboard template** — the kind of artifact a small restaurant's owner or a freelance developer would paste into a static host and point at an export. Its pitch is unusually explicit, and the explicit part is what matters here:

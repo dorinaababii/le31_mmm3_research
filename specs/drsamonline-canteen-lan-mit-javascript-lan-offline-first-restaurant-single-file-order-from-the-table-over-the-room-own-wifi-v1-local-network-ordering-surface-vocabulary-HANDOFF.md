@@ -17,7 +17,7 @@
 - Bucket: **v1 (connectivity-boundary vocabulary)** — defer
 - Linear parent: **not created — Linear MCP write endpoint blocked (38th consecutive day), requestId `a4ff44223faad34e`**
 - Linear sub-issue: **not created — same blocker**. Intended payload at `/opt/data/le31-daily-research-2026-10-25.linear-fallback.json`
-- Source repo: GitHub `drsamonline/canteen-lan` (MIT), ★0/⑂0, 39 KB, JavaScript, created 2026-10-23T01:29:25Z, pushed 2026-10-24T15:09:22Z
+- Source repo: GitHub `drsamonline/canteen-lan` (MIT), ★1/⑂0, 39 KB, JavaScript, created 2026-10-23T01:29:25Z, pushed 2026-10-24T15:09:22Z
 - Raw fetch: `/tmp/le31-daily-2026-10-25/pv/drsamonline__canteen-lan.json`
 - Report: `/opt/data/le31-daily-research-2026-10-25.md`
 

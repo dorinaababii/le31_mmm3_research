@@ -1,6 +1,6 @@
 # Feature 376 — LAN-only ordering surface vocabulary: `drsamonline/canteen-lan` (defer)
 
-> **NEW observation (2026-10-25).** A **39 KB, single-file, LAN-only** ordering board for small venues. GitHub repo `drsamonline/canteen-lan` (**MIT ✓ §3.2 STRICTLY-COMPATIBLE — code-shape IS adoptable**), **★0/⑂0**, **39 KB — the smallest pick of the 87-pass daily-research series** (prior record: `johnohhh1/gfs-invoice-breakdown` at 18 KB on 2026-10-20; 36 KB `kinv` on 2026-10-24), **JavaScript ✗ OFF-STACK**, created **2026-10-23T01:29:25Z AND pushed 2026-10-24T15:09:22Z = IN-WINDOW BY BOTH FIELDS** (window 2026-10-18..2026-10-24), 4 topics `['lan','offline-first','restaurant','single-file']`, `default_branch=main`, `archived=false`, `fork=false`, 0 open issues. All field values read from a **direct `/repos/` GET** by the parent on 2026-10-25 (`/tmp/le31-daily-2026-10-25/pv/drsamonline__canteen-lan.json`), not from search-result numbers. Description (verbatim from GitHub API): *"Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge"*.
+> **NEW observation (2026-10-25).** A **39 KB, single-file, LAN-only** ordering board for small venues. GitHub repo `drsamonline/canteen-lan` (**MIT ✓ §3.2 STRICTLY-COMPATIBLE — code-shape IS adoptable**), **★1/⑂0**, **39 KB — the smallest pick of the 87-pass daily-research series** (prior record: `johnohhh1/gfs-invoice-breakdown` at 18 KB on 2026-10-20; 36 KB `kinv` on 2026-10-24), **JavaScript ✗ OFF-STACK**, created **2026-10-23T01:29:25Z AND pushed 2026-10-24T15:09:22Z = IN-WINDOW BY BOTH FIELDS** (window 2026-10-18..2026-10-24), 4 topics `['lan','offline-first','restaurant','single-file']`, `default_branch=main`, `archived=false`, `fork=false`, 0 open issues. All field values read from a **direct `/repos/` GET** by the parent on 2026-10-25 (`/tmp/le31-daily-2026-10-25/pv/drsamonline__canteen-lan.json`), not from search-result numbers. Description (verbatim from GitHub API): *"Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge"*.
 >
 > **The convergence this pick documents.** Two independent arrivals in **two consecutive windows**, from **two different sides of the same question**:
 > (1) **The operator side** — HN story *"Keeping restaurant iPads in sync without a router"* (2026-10-19T14:26:33Z, https://tablelink.app/blog/ipads-in-sync-router-unplugged) — appeared in the 2026-10-24 pass and reappeared in this window.
@@ -24,7 +24,7 @@ Turn **"a venue whose only network is its own Wi-Fi"** from an *unconsidered* ca
   > *LE31 v1 requires a server reachable over the internet. A venue whose only network is its own LAN is out of scope for v1.*
 - A **trigger condition** naming the moment the boundary should be revisited.
 
-**Out of scope (defer artifact):**
+## Out of scope
 
 - **Any LAN server, any offline mode, any client-side cache, any local-network discovery, any mDNS/Bonjour, any self-hosted appliance.** LE31 v1 is a single server-authoritative VPS reached over the internet (§3.2). This pick does not propose changing that.
 - **Any offline-sync, outbox, or idempotency design.** Feature 373 (`ramaraihan12/warung-pos`) already filed the offline-first POS vocabulary; this pick must not re-litigate it.

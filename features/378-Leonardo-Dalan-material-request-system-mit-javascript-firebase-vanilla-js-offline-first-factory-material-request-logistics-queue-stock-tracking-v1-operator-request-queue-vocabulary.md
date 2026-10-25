@@ -20,13 +20,12 @@ Record the **operator → queue → stock** triad as vocabulary that maps onto L
 - **One proposed documentation question** for LE31's own design docs, stated as a question and not an answer:
   > *Does LE31 have an explicit notion of an order's queue state (received → acknowledged → prepared → served), separate from the order's own status? If not, is that a gap or a deliberate simplification?*
 
-**Out of scope (defer artifact):**
+## Out of scope
 
 - **Any new model, column, enum, or endpoint.** No `OrderState` enum, no queue table, no `Request` table, no migration.
 - **Any Firebase dependency, any client-side framework, any offline-sync machinery.** LE31 is server-authoritative (§3.2); the reference's offline-first posture is explicitly *not* being proposed.
 - **Any "material request" feature.** The domain (factory materials) is a hard mismatch for a restaurant. The *flow shape* is what transfers.
 - **Any change to how orders or stock work today.** LE31's §3.1/§3.3/§3.4 behaviour is untouched by this pick.
-
 ## Description
 
 `material-request-system`'s description is a **complete three-step flow in one sentence**: *"Factory material request system: operator requests, logistics queue, stock tracking and reports."*
