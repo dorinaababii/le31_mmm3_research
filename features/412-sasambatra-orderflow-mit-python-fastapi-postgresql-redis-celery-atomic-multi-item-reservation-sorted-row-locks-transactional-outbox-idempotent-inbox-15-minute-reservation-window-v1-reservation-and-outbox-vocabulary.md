@@ -34,7 +34,7 @@
 - **The failure modes each mechanism exists to prevent**, recorded verbatim from the artifact and mapped onto LE31's own surfaces.
 - **A recorded statement of why each is *not* being built now** — so the next reader does not re-derive it.
 
-**Out of scope (v1):**
+## Out of scope
 
 - **Any model, column, table, endpoint or bot command.** This feature **adds nothing to `backend/`**. It is a **document**.
 - **Any change to `Batch`, `StockEntry`, `OrderItem`, `Table` or `TableStatus`.** Specifically:
@@ -145,6 +145,18 @@ the ledger exists to prevent.
 3. **What is the expiry window?** The artifact's 15 minutes is **not** a transferable number — it is a *warehouse* default for an *order basket*, and LE31's flow is a seated party ordering over time. **Recorded default: undecided.** Note that **any** window introduces a background job, and **LE31 has no job runner** — which is itself a larger decision than the window.
 4. **What happens to an order confirmed after its hold expired?** The artifact's row is *"report success after a reservation has expired"*. LE31's answer must be chosen deliberately, and **`le31-conventions` §*Common Pitfalls* #3 applies**: *"Calling an automatic transition 'convenient.' Explicit operational state is a deliberate safety principle."* **An auto-releasing hold that nobody asked for is a silent transition.**
 5. **Is an outbox needed at all?** LE31 has **no** broker, **no** Celery, **no** Redis, and **no** second service. The outbox exists to make *"the broker can fail after the database commits"* safe — a failure mode LE31 **does not have**, because LE31 does not commit across a broker boundary. **Recorded default: the outbox pattern is not needed until LE31 has an external side effect to make safe.** **Its other use — a reliable local event feed for the cook bot — may be the real need, and that is a separate question.**
+
+## Sources
+
+- GitHub repository (instrument): https://github.com/Sasambatra/orderflow
+- Direct repo GET (parent-verified, HTTP 200, 2026-10-31): https://api.github.com/repos/Sasambatra/orderflow
+- README raw (fetched by the parent, 2026-10-31): https://raw.githubusercontent.com/Sasambatra/orderflow/main/README.md
+- Licence probe (2026-10-31): https://api.github.com/licenses/mit
+- LE31 first-party source: https://github.com/dorinaababii/le31_mmm3_research/blob/main/backend/app/models.py (lines 27-32 TableStatus, 54-59 StockReason, 105-106 Batch, 113-126 StockEntry — the absence of any reservation field)
+- LE31 first-party source: https://github.com/dorinaababii/le31_mmm3_research/blob/main/backend/app/bot/cook_bot.py (lines 9-14, 67-76, 82-83 — the six advertised commands, two registered)
+- LE31 source of truth: https://github.com/dorinaababii/le31_mmm3_research/blob/main/PROJECT_CHARTER.md
+- Parent report: /opt/data/le31-daily-research-2026-10-31.md
+- Raw fetches: /tmp/le31-daily-2026-10-31/gh/repos/Sasambatra__orderflow.json, /tmp/le31-daily-2026-10-31/gh/readmes/Sasambatra__orderflow.md
 
 ## Why this matters
 

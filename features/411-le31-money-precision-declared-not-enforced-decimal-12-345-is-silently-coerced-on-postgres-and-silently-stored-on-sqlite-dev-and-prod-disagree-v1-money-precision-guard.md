@@ -58,7 +58,7 @@ Two concrete outcomes:
 - **A regression test** that proves an over-precise value is **rejected** (not rounded) on **both** database backends.
 - **A record of the owner decision** on the boundary (see *Open questions*) — **recorded, not guessed.**
 
-**Out of scope (v1):**
+## Out of scope
 
 - **Any change from `Decimal` to integer cents.** `le31-conventions` §*Known conflicts* lists *"integer-cents versus `Decimal`"* as an unresolved charter conflict, and `le31-data` §40 says *"Follow the resolved explicit project decision."* **That conflict is not resolved.** This feature **works with the `Decimal` representation LE31 already has** and must not silently pre-empt the decision. **If the owner later chooses integer cents, this guard is replaced by a different guard — not by nothing.**
 - **Any change to the *values* money should have.** The tax rate (feature 408) and the charter-vs-checklist money rules (feature 410) own that. **Do not merge.**
@@ -248,6 +248,18 @@ def assert_exact_money(value: Decimal, places: int = MONEY_PLACES) -> Decimal:
 2. **What happens to a legitimately over-precise *computation*?** A 3-way split of a euro cent, or a percentage of a total, produces a third decimal place. **Recorded default: the guard rejects it, and the caller must decide what to do** — no rounding policy is invented here. **If the owner wants a rounding rule, that is a separate, separately-gated change** (and it interacts with feature 410's money-rule reconciliation).
 3. **Is a DB-level `CHECK` constraint added?** **Recorded default: yes, as a second layer, on Postgres only** — with the application guard remaining primary and remaining the one that fails on SQLite. **Adding it must not be described as the fix**, because on SQLite it is not.
 4. **Does the integer-cents-vs-`Decimal` charter conflict get resolved by this slice?** **Recorded default: no.** This feature is deliberately orthogonal to it. **If the owner resolves that conflict toward integer cents, this guard is replaced, not removed.**
+
+## Sources
+
+- GitHub repository (instrument): https://github.com/rahulkumar96t/double-entry-ledger
+- Direct repo GET (parent-verified, HTTP 200, 2026-10-31): https://api.github.com/repos/rahulkumar96t/double-entry-ledger
+- README raw (fetched by the parent, 2026-10-31): https://raw.githubusercontent.com/rahulkumar96t/double-entry-ledger/main/README.md
+- Permissive-licence probe (2026-10-31): https://api.github.com/licenses/mit
+- LE31 first-party source: https://github.com/dorinaababii/le31_mmm3_research/blob/main/backend/app/models.py (lines 90, 149, 163-166, 177, 188-190 — the ten money fields)
+- LE31 first-party source: https://github.com/dorinaababii/le31_mmm3_research/blob/main/backend/app/config.py (line 20 — the SQLite dev default)
+- LE31 source of truth: https://github.com/dorinaababii/le31_mmm3_research/blob/main/PROJECT_CHARTER.md
+- Parent report: /opt/data/le31-daily-research-2026-10-31.md
+- Raw fetches: /tmp/le31-daily-2026-10-31/gh/repos/rahulkumar96t__double-entry-ledger.json, /tmp/le31-daily-2026-10-31/gh/readmes/rahulkumar96t__double-entry-ledger.md
 
 ## Why this matters
 

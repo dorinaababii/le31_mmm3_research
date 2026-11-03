@@ -36,7 +36,7 @@
 - **An explicit statement of what each would cost in LE31**, including the **SQLite/Postgres divergence** that makes the trigger mechanism a production-only guarantee.
 - **A mapping onto LE31's own `StockEntry`**, with the vocabulary of "ledger event" kept distinct from "audit event".
 
-**Out of scope (v1):**
+## Out of scope
 
 - **Any migration, trigger, table, column, endpoint or bot command.** This feature **adds nothing to `backend/`**. It is a **document**.
 - **Any `AuditLog` model.** LE31 has none — `grep -rn "audit_log\|class Audit" backend/app/models.py` → **no output**.
@@ -151,6 +151,18 @@ None of these exist today, and no table should be created for them yet.
 3. **If yes, would LE31 write an `attempted` event before a write?** **Recorded default: only once LE31 has a write that can half-fail** (an external call). **Before that, an `attempted` event is a record of nothing.**
 4. **Would the audit content be *"field names, not values"*?** **Recorded default: undecided.** It is a **privacy** decision and it belongs to the owner. If adopted, it is a policy about a surface that does not exist yet.
 5. **Is the *audit log* subject to the same privacy rule as guest data?** `le31-conventions`: *"v1 guest demographics are counts, not identity or contact data."* An audit log records **actor identity** and **action** — **which is operational data LE31 legitimately needs** (`AppUser` exists), but the two rules must be stated together so the audit surface does not become a back door around the privacy invariant. **Recorded default: an audit log is operational data, not guest data — but this is the owner's call.**
+
+## Sources
+
+- GitHub repository (instrument): https://github.com/sergeonito/odoo-gateway
+- Direct repo GET (parent-verified, HTTP 200, 2026-10-31): https://api.github.com/repos/sergeonito/odoo-gateway
+- README raw (fetched by the parent, 2026-10-31): https://raw.githubusercontent.com/sergeonito/odoo-gateway/main/README.md
+- Licence probe (2026-10-31): https://api.github.com/licenses/mit
+- LE31 first-party source: https://github.com/dorinaababii/le31_mmm3_research/blob/main/backend/app/models.py (lines 75-81 AppUser, 113-126 StockEntry — the ledger that is never written)
+- LE31 first-party source: https://github.com/dorinaababii/le31_mmm3_research/blob/main/backend/app/config.py (line 20 — the SQLite dev default that makes a trigger guarantee production-only)
+- LE31 source of truth: https://github.com/dorinaababii/le31_mmm3_research/blob/main/PROJECT_CHARTER.md
+- Parent report: /opt/data/le31-daily-research-2026-10-31.md
+- Raw fetches: /tmp/le31-daily-2026-10-31/gh/repos/sergeonito__odoo-gateway.json, /tmp/le31-daily-2026-10-31/gh/readmes/sergeonito__odoo-gateway.md
 
 ## Why this matters
 
