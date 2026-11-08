@@ -94,7 +94,7 @@ The concrete outcome: **every `datetime` column in LE31 stores and returns a tim
 - **A regression test** that fails on today's code and passes on the fixed code, covering: (a) a value written by `utcnow()` and read back is tz-aware; (b) a Paris-local value is stored as its UTC instant; (c) a read-back value is comparable with `now()`; (d) feature 405's guard accepts a value read from the database.
 - **One line in the coding-agent checklist** (`coding-agent/checklist.md`), whose *"Every timestamp is `TIMESTAMPTZ`"* line is already known to be wrong for SQLite (feature 410, Open Question 4), corrected to name the real behaviour.
 
-**Explicitly NOT in scope:**
+## Out of scope (v1)
 
 - **The business-date / service-day column and its semantics.** That is **feature 405** — filed. This slice does not add a column, does not name a day, and does not decide when a service day starts. **405 depends on this slice; this slice does not depend on 405.**
 - **Any change to `Batch.expires_at`'s nullability or to the active-batch predicate.** That is **feature 404** — filed. This slice does not touch the predicate's *meaning*.

@@ -69,7 +69,7 @@ The concrete outcome: **`Visit.closed_at` may only be written when the visit has
 - **A regression test** that fails on today's code and passes on the fixed code: close a visit with lines and no bill → **refused**; close it with a recorded void → **accepted**.
 - **One line in feature 415's Open questions**, answering what it records as *undecided*: *"what closes a walk-out's visit"*.
 
-**Explicitly NOT in scope:**
+## Out of scope (v1)
 
 - **The bill → visit edge, the bill route, the tip derivation and the refusal rules.** That is **feature 415** — filed. This slice does not create `bills.py` and does not re-implement any of 415's rules. **This slice is 415's complement**, and the two are siblings.
 - **`Table.status` and the double-seating guard.** That is **feature 388** — filed. This slice does not add a status column and does not add a release endpoint. **This slice supplies the rule that the release path must obey.**

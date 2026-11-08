@@ -57,7 +57,7 @@ The concrete outcome: **the database refuses a second table with an existing lab
 - **A rule for what happens when a table is renamed** — whether the old label is released or kept as a tombstone. *Recorded default: the old label is released.* **This is the implementer's call to record**, per the corpus's established precedent.
 - **One line in `features/01-table-management.md`**, whose data model line reads `Table (id, label, section, seats, x, y)`, so the contract and the schema agree on the constraint.
 
-**Explicitly NOT in scope:**
+## Out of scope (v1)
 
 - **`Table.status`, the double-seating guard, and the release path.** That is **feature 388** — filed, `build`. This slice does not add a status column and does not add or modify a route.
 - **The table-capacity rule** (`party_size` vs `seats`). That is **feature 414** — filed. This slice does not compare a party to a table.
