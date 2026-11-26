@@ -209,7 +209,7 @@ The boundary is already in the schema: `Visit.opened_at` is set at the seat and 
 
 **Why this is a `build` and not a `defer`.** The change is one table and one guard. The demand is not evidenced by an operator complaint — **the honest framing is that this is a schema-integrity defect on the charter's own P0 row 42, not a reported incident.** But the charter names `party_size` as a **captured** fact, and two filed features already police the other two rules about that captured fact — one for *validity* (423) and one for *fit* (414). **The third rule, that a captured fact cannot be quietly replaced, is the one the corpus has not filed, and it is the rule that makes the other two durable.**
 
-## Out of scope (v1)
+## Out of scope
 
 - **The capacity comparison** — **feature 414**, filed. **The composition comparison** — **feature 423**, filed. **The peak-count / growth question** — **feature 416**, filed as `defer`, and it **stays** `defer`.
 - **`Table.seats`' lower bound** — **feature 501**, filed. **The browser-side capacity check** — **feature 486**, filed. **A second seat on an occupied table** — **feature 388**, filed. **The table-state machine** — **feature 388**, filed.

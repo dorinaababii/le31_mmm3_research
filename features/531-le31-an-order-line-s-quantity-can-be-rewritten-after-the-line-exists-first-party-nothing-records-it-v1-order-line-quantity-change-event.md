@@ -212,7 +212,7 @@ The `StockEntry` docstring says, verbatim: *"Append-only ledger. Never UPDATE or
 
 **Why this is a `build` and not a `defer`.** The change is small (one table, one helper, one guard) and the schema it lands on is LE31's own. The demand is not evidenced by an operator complaint — **the honest framing is that this is a schema-integrity defect, not a reported incident** — but it is the same class of defect the corpus has filed seven times in this family, and the charter's **P0** row 43 (*"Waiter can browse today's menu and add items to the active visit"*) and row 45 (*"Selling a prepared item decrements its active batch's `qty_remaining` and writes a `StockEntry(-1, reason='sale')` row"*) both assume that an order line's quantity and the ledger's record of it **agree**. **Today nothing makes them agree, and nothing notices when they stop.**
 
-## Out of scope (v1)
+## Out of scope
 
 - **The sign and size of a quantity** — **feature 456**, filed. This slice owns *when* a quantity may change, not *what* it may be.
 - **The unit price's mutability and history** — **feature 444**, filed. Same table, adjacent column, separate slice.

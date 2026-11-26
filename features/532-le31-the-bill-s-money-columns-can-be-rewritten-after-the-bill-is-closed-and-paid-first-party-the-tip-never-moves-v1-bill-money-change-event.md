@@ -211,7 +211,7 @@ Feature **450** put the observation in the corpus's own words: *"the ledger is a
 
 **Why this is a `build` and not a `defer`.** The change is one table and one guard, on LE31's own schema, and it makes the charter's central money fact — *"the tip is derived from the bill"* — actually hold. **The honest framing: this is a schema-integrity defect, not a reported incident**; no operator has complained about a wrong bill. **But the bill is where the business's money lives, and the defect is that the business's own record of money can be replaced without saying so.** The corpus has filed this family seven times in eight days — 444, 456, 470, 471, 522, 523, 524 — and each of those closed one door on this same schema. **This closes the bill's.**
 
-## Out of scope (v1)
+## Out of scope
 
 - **The tip formula, `formula_version` and the tip's enforcement** — **features 05, 457**, filed.
 - **`Bill → order_item` and the derivation of `subtotal_items`** — **features 435, 415**, filed.
